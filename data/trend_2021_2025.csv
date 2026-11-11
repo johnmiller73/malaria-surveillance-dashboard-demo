@@ -1,0 +1,2281 @@
+row_id,geo_id,year,system,system_label,metric,est,rep,cap
+CX_2021_public_c,CX,2021,public,Public facilities (HMIS),cases,23223736,14657423,63.1
+CX_2021_private_c,CX,2021,private,Private facilities (HMIS),cases,12465033,3046753,24.4
+CX_2021_emr_c,CX,2021,emr,EMR exchange,cases,2195134,0,0.0
+CX_2021_community_c,CX,2021,community,Community (cHMIS),cases,8276173,1288456,15.6
+CX_2021_reportable_c,CX,2021,reportable,All reporting systems,cases,46160076,18992632,41.1
+CX_2021_total_c,CX,2021,total,WHO estimate,cases,64732500,18992632,29.3
+CX_2022_public_c,CX,2022,public,Public facilities (HMIS),cases,23594327,15856809,67.2
+CX_2022_private_c,CX,2022,private,Private facilities (HMIS),cases,12663943,3535956,27.9
+CX_2022_emr_c,CX,2022,emr,EMR exchange,cases,2230163,0,0.0
+CX_2022_community_c,CX,2022,community,Community (cHMIS),cases,8408239,1792335,21.3
+CX_2022_reportable_c,CX,2022,reportable,All reporting systems,cases,46896672,21185100,45.2
+CX_2022_total_c,CX,2022,total,WHO estimate,cases,65674375,21185100,32.3
+CX_2023_public_c,CX,2023,public,Public facilities (HMIS),cases,23964919,17010127,71.0
+CX_2023_private_c,CX,2023,private,Private facilities (HMIS),cases,12862853,4197876,32.6
+CX_2023_emr_c,CX,2023,emr,EMR exchange,cases,2265192,0,0.0
+CX_2023_community_c,CX,2023,community,Community (cHMIS),cases,8540306,2187370,25.6
+CX_2023_reportable_c,CX,2023,reportable,All reporting systems,cases,47633270,23395373,49.1
+CX_2023_total_c,CX,2023,total,WHO estimate,cases,66616250,23395373,35.1
+CX_2024_public_c,CX,2024,public,Public facilities (HMIS),cases,24335510,18140371,74.5
+CX_2024_private_c,CX,2024,private,Private facilities (HMIS),cases,13061763,4663916,35.7
+CX_2024_emr_c,CX,2024,emr,EMR exchange,cases,2300220,319694,13.9
+CX_2024_community_c,CX,2024,community,Community (cHMIS),cases,8672372,2620863,30.2
+CX_2024_reportable_c,CX,2024,reportable,All reporting systems,cases,48369865,25744844,53.2
+CX_2024_total_c,CX,2024,total,WHO estimate,cases,67558125,25744844,38.1
+CX_2025_public_c,CX,2025,public,Public facilities (HMIS),cases,24706102,19076102,77.2
+CX_2025_private_c,CX,2025,private,Private facilities (HMIS),cases,13260673,5195937,39.2
+CX_2025_emr_c,CX,2025,emr,EMR exchange,cases,2335249,721250,30.9
+CX_2025_community_c,CX,2025,community,Community (cHMIS),cases,8804439,3025320,34.4
+CX_2025_reportable_c,CX,2025,reportable,All reporting systems,cases,49106463,28018609,57.1
+CX_2025_total_c,CX,2025,total,WHO estimate,cases,68500000,28018609,40.9
+CX_2021_public_d,CX,2021,public,Public facilities (HMIS),deaths,45550,18494,40.6
+CX_2021_private_d,CX,2021,private,Private facilities (HMIS),deaths,20215,1830,9.1
+CX_2021_emr_d,CX,2021,emr,EMR exchange,deaths,4154,0,0.0
+CX_2021_community_d,CX,2021,community,Community (cHMIS),deaths,20480,405,2.0
+CX_2021_reportable_d,CX,2021,reportable,All reporting systems,deaths,90399,20729,22.9
+CX_2021_total_d,CX,2021,total,WHO estimate,deaths,174825,20729,11.9
+CX_2022_public_d,CX,2022,public,Public facilities (HMIS),deaths,46149,20012,43.4
+CX_2022_private_d,CX,2022,private,Private facilities (HMIS),deaths,20481,2299,11.2
+CX_2022_emr_d,CX,2022,emr,EMR exchange,deaths,4209,0,0.0
+CX_2022_community_d,CX,2022,community,Community (cHMIS),deaths,20750,1013,4.9
+CX_2022_reportable_d,CX,2022,reportable,All reporting systems,deaths,91589,23324,25.5
+CX_2022_total_d,CX,2022,total,WHO estimate,deaths,177369,23324,13.1
+CX_2023_public_d,CX,2023,public,Public facilities (HMIS),deaths,46748,21443,45.9
+CX_2023_private_d,CX,2023,private,Private facilities (HMIS),deaths,20747,2662,12.8
+CX_2023_emr_d,CX,2023,emr,EMR exchange,deaths,4264,0,0.0
+CX_2023_community_d,CX,2023,community,Community (cHMIS),deaths,21019,1327,6.3
+CX_2023_reportable_d,CX,2023,reportable,All reporting systems,deaths,92778,25432,27.4
+CX_2023_total_d,CX,2023,total,WHO estimate,deaths,179912,25432,14.1
+CX_2024_public_d,CX,2024,public,Public facilities (HMIS),deaths,47348,22131,46.7
+CX_2024_private_d,CX,2024,private,Private facilities (HMIS),deaths,21013,3038,14.5
+CX_2024_emr_d,CX,2024,emr,EMR exchange,deaths,4318,300,6.9
+CX_2024_community_d,CX,2024,community,Community (cHMIS),deaths,21289,1646,7.7
+CX_2024_reportable_d,CX,2024,reportable,All reporting systems,deaths,93968,27115,28.9
+CX_2024_total_d,CX,2024,total,WHO estimate,deaths,182456,27115,14.9
+CX_2025_public_d,CX,2025,public,Public facilities (HMIS),deaths,47947,23511,49.0
+CX_2025_private_d,CX,2025,private,Private facilities (HMIS),deaths,21279,3780,17.8
+CX_2025_emr_d,CX,2025,emr,EMR exchange,deaths,4373,676,15.5
+CX_2025_community_d,CX,2025,community,Community (cHMIS),deaths,21558,2205,10.2
+CX_2025_reportable_d,CX,2025,reportable,All reporting systems,deaths,95157,30172,31.7
+CX_2025_total_d,CX,2025,total,WHO estimate,deaths,185000,30172,16.3
+CX-S01_2021_public_c,CX-S01,2021,public,Public facilities (HMIS),cases,239442,127332,53.2
+CX-S01_2021_private_c,CX-S01,2021,private,Private facilities (HMIS),cases,127915,33735,26.4
+CX-S01_2021_emr_c,CX-S01,2021,emr,EMR exchange,cases,17309,0,0.0
+CX-S01_2021_community_c,CX-S01,2021,community,Community (cHMIS),cases,99390,28214,28.4
+CX-S01_2021_reportable_c,CX-S01,2021,reportable,All reporting systems,cases,484056,189281,39.1
+CX-S01_2021_total_c,CX-S01,2021,total,WHO estimate,cases,697375,189281,27.1
+CX-S01_2022_public_c,CX-S01,2022,public,Public facilities (HMIS),cases,243263,140168,57.6
+CX-S01_2022_private_c,CX-S01,2022,private,Private facilities (HMIS),cases,129956,39791,30.6
+CX-S01_2022_emr_c,CX-S01,2022,emr,EMR exchange,cases,17585,0,0.0
+CX-S01_2022_community_c,CX-S01,2022,community,Community (cHMIS),cases,100976,36567,36.2
+CX-S01_2022_reportable_c,CX-S01,2022,reportable,All reporting systems,cases,491780,216526,44.0
+CX-S01_2022_total_c,CX-S01,2022,total,WHO estimate,cases,707522,216526,30.6
+CX-S01_2023_public_c,CX-S01,2023,public,Public facilities (HMIS),cases,247084,152311,61.6
+CX-S01_2023_private_c,CX-S01,2023,private,Private facilities (HMIS),cases,131998,45551,34.5
+CX-S01_2023_emr_c,CX-S01,2023,emr,EMR exchange,cases,17862,0,0.0
+CX-S01_2023_community_c,CX-S01,2023,community,Community (cHMIS),cases,102562,44859,43.7
+CX-S01_2023_reportable_c,CX-S01,2023,reportable,All reporting systems,cases,499506,242721,48.6
+CX-S01_2023_total_c,CX-S01,2023,total,WHO estimate,cases,717669,242721,33.8
+CX-S01_2024_public_c,CX-S01,2024,public,Public facilities (HMIS),cases,250905,158098,63.0
+CX-S01_2024_private_c,CX-S01,2024,private,Private facilities (HMIS),cases,134039,50181,37.4
+CX-S01_2024_emr_c,CX-S01,2024,emr,EMR exchange,cases,18138,405,2.2
+CX-S01_2024_community_c,CX-S01,2024,community,Community (cHMIS),cases,104148,51992,49.9
+CX-S01_2024_reportable_c,CX-S01,2024,reportable,All reporting systems,cases,507230,260676,51.4
+CX-S01_2024_total_c,CX-S01,2024,total,WHO estimate,cases,727816,260676,35.8
+CX-S01_2025_public_c,CX-S01,2025,public,Public facilities (HMIS),cases,254726,172615,67.8
+CX-S01_2025_private_c,CX-S01,2025,private,Private facilities (HMIS),cases,136080,55257,40.6
+CX-S01_2025_emr_c,CX-S01,2025,emr,EMR exchange,cases,18414,914,5.0
+CX-S01_2025_community_c,CX-S01,2025,community,Community (cHMIS),cases,105734,59728,56.5
+CX-S01_2025_reportable_c,CX-S01,2025,reportable,All reporting systems,cases,514954,288514,56.0
+CX-S01_2025_total_c,CX-S01,2025,total,WHO estimate,cases,737963,288514,39.1
+CX-S01_2021_public_d,CX-S01,2021,public,Public facilities (HMIS),deaths,493,200,40.6
+CX-S01_2021_private_d,CX-S01,2021,private,Private facilities (HMIS),deaths,268,22,8.2
+CX-S01_2021_emr_d,CX-S01,2021,emr,EMR exchange,deaths,43,0,0.0
+CX-S01_2021_community_d,CX-S01,2021,community,Community (cHMIS),deaths,265,1,0.4
+CX-S01_2021_reportable_d,CX-S01,2021,reportable,All reporting systems,deaths,1069,223,20.9
+CX-S01_2021_total_d,CX-S01,2021,total,WHO estimate,deaths,1850,223,12.1
+CX-S01_2022_public_d,CX-S01,2022,public,Public facilities (HMIS),deaths,500,219,43.8
+CX-S01_2022_private_d,CX-S01,2022,private,Private facilities (HMIS),deaths,271,31,11.4
+CX-S01_2022_emr_d,CX-S01,2022,emr,EMR exchange,deaths,43,0,0.0
+CX-S01_2022_community_d,CX-S01,2022,community,Community (cHMIS),deaths,269,9,3.3
+CX-S01_2022_reportable_d,CX-S01,2022,reportable,All reporting systems,deaths,1083,259,23.9
+CX-S01_2022_total_d,CX-S01,2022,total,WHO estimate,deaths,1877,259,13.8
+CX-S01_2023_public_d,CX-S01,2023,public,Public facilities (HMIS),deaths,506,224,44.3
+CX-S01_2023_private_d,CX-S01,2023,private,Private facilities (HMIS),deaths,275,36,13.1
+CX-S01_2023_emr_d,CX-S01,2023,emr,EMR exchange,deaths,44,0,0.0
+CX-S01_2023_community_d,CX-S01,2023,community,Community (cHMIS),deaths,272,13,4.8
+CX-S01_2023_reportable_d,CX-S01,2023,reportable,All reporting systems,deaths,1097,273,24.9
+CX-S01_2023_total_d,CX-S01,2023,total,WHO estimate,deaths,1904,273,14.3
+CX-S01_2024_public_d,CX-S01,2024,public,Public facilities (HMIS),deaths,513,239,46.6
+CX-S01_2024_private_d,CX-S01,2024,private,Private facilities (HMIS),deaths,278,43,15.5
+CX-S01_2024_emr_d,CX-S01,2024,emr,EMR exchange,deaths,44,0,0.0
+CX-S01_2024_community_d,CX-S01,2024,community,Community (cHMIS),deaths,276,16,5.8
+CX-S01_2024_reportable_d,CX-S01,2024,reportable,All reporting systems,deaths,1111,298,26.8
+CX-S01_2024_total_d,CX-S01,2024,total,WHO estimate,deaths,1931,298,15.4
+CX-S01_2025_public_d,CX-S01,2025,public,Public facilities (HMIS),deaths,519,256,49.3
+CX-S01_2025_private_d,CX-S01,2025,private,Private facilities (HMIS),deaths,282,48,17.0
+CX-S01_2025_emr_d,CX-S01,2025,emr,EMR exchange,deaths,45,1,2.2
+CX-S01_2025_community_d,CX-S01,2025,community,Community (cHMIS),deaths,279,21,7.5
+CX-S01_2025_reportable_d,CX-S01,2025,reportable,All reporting systems,deaths,1125,326,29.0
+CX-S01_2025_total_d,CX-S01,2025,total,WHO estimate,deaths,1958,326,16.6
+CX-S02_2021_public_c,CX-S02,2021,public,Public facilities (HMIS),cases,1904868,1273759,66.9
+CX-S02_2021_private_c,CX-S02,2021,private,Private facilities (HMIS),cases,1199166,300492,25.1
+CX-S02_2021_emr_c,CX-S02,2021,emr,EMR exchange,cases,243545,0,0.0
+CX-S02_2021_community_c,CX-S02,2021,community,Community (cHMIS),cases,591612,114605,19.4
+CX-S02_2021_reportable_c,CX-S02,2021,reportable,All reporting systems,cases,3939191,1688856,42.9
+CX-S02_2021_total_c,CX-S02,2021,total,WHO estimate,cases,5404657,1688856,31.2
+CX-S02_2022_public_c,CX-S02,2022,public,Public facilities (HMIS),cases,1935265,1362915,70.4
+CX-S02_2022_private_c,CX-S02,2022,private,Private facilities (HMIS),cases,1218302,353903,29.0
+CX-S02_2022_emr_c,CX-S02,2022,emr,EMR exchange,cases,247431,0,0.0
+CX-S02_2022_community_c,CX-S02,2022,community,Community (cHMIS),cases,601053,142229,23.7
+CX-S02_2022_reportable_c,CX-S02,2022,reportable,All reporting systems,cases,4002051,1859047,46.5
+CX-S02_2022_total_c,CX-S02,2022,total,WHO estimate,cases,5483296,1859047,33.9
+CX-S02_2023_public_c,CX-S02,2023,public,Public facilities (HMIS),cases,1965661,1469726,74.8
+CX-S02_2023_private_c,CX-S02,2023,private,Private facilities (HMIS),cases,1237438,420748,34.0
+CX-S02_2023_emr_c,CX-S02,2023,emr,EMR exchange,cases,251317,0,0.0
+CX-S02_2023_community_c,CX-S02,2023,community,Community (cHMIS),cases,610494,168556,27.6
+CX-S02_2023_reportable_c,CX-S02,2023,reportable,All reporting systems,cases,4064910,2059030,50.7
+CX-S02_2023_total_c,CX-S02,2023,total,WHO estimate,cases,5561935,2059030,37.0
+CX-S02_2024_public_c,CX-S02,2024,public,Public facilities (HMIS),cases,1996058,1544823,77.4
+CX-S02_2024_private_c,CX-S02,2024,private,Private facilities (HMIS),cases,1256573,461350,36.7
+CX-S02_2024_emr_c,CX-S02,2024,emr,EMR exchange,cases,255204,62144,24.4
+CX-S02_2024_community_c,CX-S02,2024,community,Community (cHMIS),cases,619934,196035,31.6
+CX-S02_2024_reportable_c,CX-S02,2024,reportable,All reporting systems,cases,4127769,2264352,54.9
+CX-S02_2024_total_c,CX-S02,2024,total,WHO estimate,cases,5640574,2264352,40.1
+CX-S02_2025_public_c,CX-S02,2025,public,Public facilities (HMIS),cases,2026455,1625282,80.2
+CX-S02_2025_private_c,CX-S02,2025,private,Private facilities (HMIS),cases,1275709,511433,40.1
+CX-S02_2025_emr_c,CX-S02,2025,emr,EMR exchange,cases,259090,140201,54.1
+CX-S02_2025_community_c,CX-S02,2025,community,Community (cHMIS),cases,629375,225450,35.8
+CX-S02_2025_reportable_c,CX-S02,2025,reportable,All reporting systems,cases,4190629,2502366,59.7
+CX-S02_2025_total_c,CX-S02,2025,total,WHO estimate,cases,5719214,2502366,43.8
+CX-S02_2021_public_d,CX-S02,2021,public,Public facilities (HMIS),deaths,3875,1658,42.8
+CX-S02_2021_private_d,CX-S02,2021,private,Private facilities (HMIS),deaths,1950,187,9.6
+CX-S02_2021_emr_d,CX-S02,2021,emr,EMR exchange,deaths,446,0,0.0
+CX-S02_2021_community_d,CX-S02,2021,community,Community (cHMIS),deaths,1597,36,2.3
+CX-S02_2021_reportable_d,CX-S02,2021,reportable,All reporting systems,deaths,7868,1881,23.9
+CX-S02_2021_total_d,CX-S02,2021,total,WHO estimate,deaths,14912,1881,12.6
+CX-S02_2022_public_d,CX-S02,2022,public,Public facilities (HMIS),deaths,3926,1778,45.3
+CX-S02_2022_private_d,CX-S02,2022,private,Private facilities (HMIS),deaths,1976,229,11.6
+CX-S02_2022_emr_d,CX-S02,2022,emr,EMR exchange,deaths,452,0,0.0
+CX-S02_2022_community_d,CX-S02,2022,community,Community (cHMIS),deaths,1618,67,4.1
+CX-S02_2022_reportable_d,CX-S02,2022,reportable,All reporting systems,deaths,7972,2074,26.0
+CX-S02_2022_total_d,CX-S02,2022,total,WHO estimate,deaths,15129,2074,13.7
+CX-S02_2023_public_d,CX-S02,2023,public,Public facilities (HMIS),deaths,3977,1872,47.1
+CX-S02_2023_private_d,CX-S02,2023,private,Private facilities (HMIS),deaths,2002,272,13.6
+CX-S02_2023_emr_d,CX-S02,2023,emr,EMR exchange,deaths,458,0,0.0
+CX-S02_2023_community_d,CX-S02,2023,community,Community (cHMIS),deaths,1639,114,7.0
+CX-S02_2023_reportable_d,CX-S02,2023,reportable,All reporting systems,deaths,8076,2258,28.0
+CX-S02_2023_total_d,CX-S02,2023,total,WHO estimate,deaths,15346,2258,14.7
+CX-S02_2024_public_d,CX-S02,2024,public,Public facilities (HMIS),deaths,4028,1949,48.4
+CX-S02_2024_private_d,CX-S02,2024,private,Private facilities (HMIS),deaths,2027,346,17.1
+CX-S02_2024_emr_d,CX-S02,2024,emr,EMR exchange,deaths,464,60,12.9
+CX-S02_2024_community_d,CX-S02,2024,community,Community (cHMIS),deaths,1660,143,8.6
+CX-S02_2024_reportable_d,CX-S02,2024,reportable,All reporting systems,deaths,8179,2498,30.5
+CX-S02_2024_total_d,CX-S02,2024,total,WHO estimate,deaths,15563,2498,16.1
+CX-S02_2025_public_d,CX-S02,2025,public,Public facilities (HMIS),deaths,4079,2071,50.8
+CX-S02_2025_private_d,CX-S02,2025,private,Private facilities (HMIS),deaths,2053,378,18.4
+CX-S02_2025_emr_d,CX-S02,2025,emr,EMR exchange,deaths,470,136,28.9
+CX-S02_2025_community_d,CX-S02,2025,community,Community (cHMIS),deaths,1681,164,9.8
+CX-S02_2025_reportable_d,CX-S02,2025,reportable,All reporting systems,deaths,8283,2749,33.2
+CX-S02_2025_total_d,CX-S02,2025,total,WHO estimate,deaths,15780,2749,17.4
+CX-S03_2021_public_c,CX-S03,2021,public,Public facilities (HMIS),cases,222481,141671,63.7
+CX-S03_2021_private_c,CX-S03,2021,private,Private facilities (HMIS),cases,216261,56295,26.0
+CX-S03_2021_emr_c,CX-S03,2021,emr,EMR exchange,cases,51679,0,0.0
+CX-S03_2021_community_c,CX-S03,2021,community,Community (cHMIS),cases,53509,4739,8.9
+CX-S03_2021_reportable_c,CX-S03,2021,reportable,All reporting systems,cases,543930,202705,37.3
+CX-S03_2021_total_c,CX-S03,2021,total,WHO estimate,cases,751019,202705,27.0
+CX-S03_2022_public_c,CX-S03,2022,public,Public facilities (HMIS),cases,226031,153874,68.1
+CX-S03_2022_private_c,CX-S03,2022,private,Private facilities (HMIS),cases,219712,65054,29.6
+CX-S03_2022_emr_c,CX-S03,2022,emr,EMR exchange,cases,52504,0,0.0
+CX-S03_2022_community_c,CX-S03,2022,community,Community (cHMIS),cases,54363,7896,14.5
+CX-S03_2022_reportable_c,CX-S03,2022,reportable,All reporting systems,cases,552610,226824,41.0
+CX-S03_2022_total_c,CX-S03,2022,total,WHO estimate,cases,761947,226824,29.8
+CX-S03_2023_public_c,CX-S03,2023,public,Public facilities (HMIS),cases,229582,161987,70.6
+CX-S03_2023_private_c,CX-S03,2023,private,Private facilities (HMIS),cases,223163,73266,32.8
+CX-S03_2023_emr_c,CX-S03,2023,emr,EMR exchange,cases,53329,0,0.0
+CX-S03_2023_community_c,CX-S03,2023,community,Community (cHMIS),cases,55217,10211,18.5
+CX-S03_2023_reportable_c,CX-S03,2023,reportable,All reporting systems,cases,561291,245464,43.7
+CX-S03_2023_total_c,CX-S03,2023,total,WHO estimate,cases,772874,245464,31.8
+CX-S03_2024_public_c,CX-S03,2024,public,Public facilities (HMIS),cases,233132,171727,73.7
+CX-S03_2024_private_c,CX-S03,2024,private,Private facilities (HMIS),cases,226614,84553,37.3
+CX-S03_2024_emr_c,CX-S03,2024,emr,EMR exchange,cases,54153,17195,31.8
+CX-S03_2024_community_c,CX-S03,2024,community,Community (cHMIS),cases,56071,12721,22.7
+CX-S03_2024_reportable_c,CX-S03,2024,reportable,All reporting systems,cases,569970,286196,50.2
+CX-S03_2024_total_c,CX-S03,2024,total,WHO estimate,cases,783802,286196,36.5
+CX-S03_2025_public_c,CX-S03,2025,public,Public facilities (HMIS),cases,236682,180225,76.1
+CX-S03_2025_private_c,CX-S03,2025,private,Private facilities (HMIS),cases,230065,91601,39.8
+CX-S03_2025_emr_c,CX-S03,2025,emr,EMR exchange,cases,54978,38793,70.6
+CX-S03_2025_community_c,CX-S03,2025,community,Community (cHMIS),cases,56925,15871,27.9
+CX-S03_2025_reportable_c,CX-S03,2025,reportable,All reporting systems,cases,578650,326490,56.4
+CX-S03_2025_total_c,CX-S03,2025,total,WHO estimate,cases,794729,326490,41.1
+CX-S03_2021_public_d,CX-S03,2021,public,Public facilities (HMIS),deaths,423,164,38.8
+CX-S03_2021_private_d,CX-S03,2021,private,Private facilities (HMIS),deaths,329,39,11.9
+CX-S03_2021_emr_d,CX-S03,2021,emr,EMR exchange,deaths,88,0,0.0
+CX-S03_2021_community_d,CX-S03,2021,community,Community (cHMIS),deaths,180,1,0.6
+CX-S03_2021_reportable_d,CX-S03,2021,reportable,All reporting systems,deaths,1020,204,20.0
+CX-S03_2021_total_d,CX-S03,2021,total,WHO estimate,deaths,1888,204,10.8
+CX-S03_2022_public_d,CX-S03,2022,public,Public facilities (HMIS),deaths,428,174,40.7
+CX-S03_2022_private_d,CX-S03,2022,private,Private facilities (HMIS),deaths,333,48,14.4
+CX-S03_2022_emr_d,CX-S03,2022,emr,EMR exchange,deaths,90,0,0.0
+CX-S03_2022_community_d,CX-S03,2022,community,Community (cHMIS),deaths,183,4,2.2
+CX-S03_2022_reportable_d,CX-S03,2022,reportable,All reporting systems,deaths,1034,226,21.9
+CX-S03_2022_total_d,CX-S03,2022,total,WHO estimate,deaths,1916,226,11.8
+CX-S03_2023_public_d,CX-S03,2023,public,Public facilities (HMIS),deaths,434,185,42.6
+CX-S03_2023_private_d,CX-S03,2023,private,Private facilities (HMIS),deaths,337,57,16.9
+CX-S03_2023_emr_d,CX-S03,2023,emr,EMR exchange,deaths,91,0,0.0
+CX-S03_2023_community_d,CX-S03,2023,community,Community (cHMIS),deaths,185,4,2.2
+CX-S03_2023_reportable_d,CX-S03,2023,reportable,All reporting systems,deaths,1047,246,23.5
+CX-S03_2023_total_d,CX-S03,2023,total,WHO estimate,deaths,1943,246,12.7
+CX-S03_2024_public_d,CX-S03,2024,public,Public facilities (HMIS),deaths,439,197,44.9
+CX-S03_2024_private_d,CX-S03,2024,private,Private facilities (HMIS),deaths,342,64,18.7
+CX-S03_2024_emr_d,CX-S03,2024,emr,EMR exchange,deaths,92,15,16.3
+CX-S03_2024_community_d,CX-S03,2024,community,Community (cHMIS),deaths,188,10,5.3
+CX-S03_2024_reportable_d,CX-S03,2024,reportable,All reporting systems,deaths,1061,286,27.0
+CX-S03_2024_total_d,CX-S03,2024,total,WHO estimate,deaths,1971,286,14.5
+CX-S03_2025_public_d,CX-S03,2025,public,Public facilities (HMIS),deaths,445,205,46.1
+CX-S03_2025_private_d,CX-S03,2025,private,Private facilities (HMIS),deaths,346,70,20.2
+CX-S03_2025_emr_d,CX-S03,2025,emr,EMR exchange,deaths,93,33,35.5
+CX-S03_2025_community_d,CX-S03,2025,community,Community (cHMIS),deaths,190,12,6.3
+CX-S03_2025_reportable_d,CX-S03,2025,reportable,All reporting systems,deaths,1074,320,29.8
+CX-S03_2025_total_d,CX-S03,2025,total,WHO estimate,deaths,1998,320,16.0
+CX-S04_2021_public_c,CX-S04,2021,public,Public facilities (HMIS),cases,443134,253703,57.3
+CX-S04_2021_private_c,CX-S04,2021,private,Private facilities (HMIS),cases,215422,53439,24.8
+CX-S04_2021_emr_c,CX-S04,2021,emr,EMR exchange,cases,36653,0,0.0
+CX-S04_2021_community_c,CX-S04,2021,community,Community (cHMIS),cases,143570,8808,6.1
+CX-S04_2021_reportable_c,CX-S04,2021,reportable,All reporting systems,cases,838779,315950,37.7
+CX-S04_2021_total_c,CX-S04,2021,total,WHO estimate,cases,1260640,315950,25.1
+CX-S04_2022_public_c,CX-S04,2022,public,Public facilities (HMIS),cases,450205,273133,60.7
+CX-S04_2022_private_c,CX-S04,2022,private,Private facilities (HMIS),cases,218859,60314,27.6
+CX-S04_2022_emr_c,CX-S04,2022,emr,EMR exchange,cases,37238,0,0.0
+CX-S04_2022_community_c,CX-S04,2022,community,Community (cHMIS),cases,145861,16152,11.1
+CX-S04_2022_reportable_c,CX-S04,2022,reportable,All reporting systems,cases,852163,349599,41.0
+CX-S04_2022_total_c,CX-S04,2022,total,WHO estimate,cases,1278982,349599,27.3
+CX-S04_2023_public_c,CX-S04,2023,public,Public facilities (HMIS),cases,457276,289199,63.2
+CX-S04_2023_private_c,CX-S04,2023,private,Private facilities (HMIS),cases,222297,61055,27.5
+CX-S04_2023_emr_c,CX-S04,2023,emr,EMR exchange,cases,37823,0,0.0
+CX-S04_2023_community_c,CX-S04,2023,community,Community (cHMIS),cases,148152,21939,14.8
+CX-S04_2023_reportable_c,CX-S04,2023,reportable,All reporting systems,cases,865548,372193,43.0
+CX-S04_2023_total_c,CX-S04,2023,total,WHO estimate,cases,1297325,372193,28.7
+CX-S04_2024_public_c,CX-S04,2024,public,Public facilities (HMIS),cases,464348,308446,66.4
+CX-S04_2024_private_c,CX-S04,2024,private,Private facilities (HMIS),cases,225734,65553,29.0
+CX-S04_2024_emr_c,CX-S04,2024,emr,EMR exchange,cases,38408,520,1.4
+CX-S04_2024_community_c,CX-S04,2024,community,Community (cHMIS),cases,150443,26608,17.7
+CX-S04_2024_reportable_c,CX-S04,2024,reportable,All reporting systems,cases,878933,401127,45.6
+CX-S04_2024_total_c,CX-S04,2024,total,WHO estimate,cases,1315667,401127,30.5
+CX-S04_2025_public_c,CX-S04,2025,public,Public facilities (HMIS),cases,471419,326650,69.3
+CX-S04_2025_private_c,CX-S04,2025,private,Private facilities (HMIS),cases,229172,71325,31.1
+CX-S04_2025_emr_c,CX-S04,2025,emr,EMR exchange,cases,38993,1173,3.0
+CX-S04_2025_community_c,CX-S04,2025,community,Community (cHMIS),cases,152734,33608,22.0
+CX-S04_2025_reportable_c,CX-S04,2025,reportable,All reporting systems,cases,892318,432756,48.5
+CX-S04_2025_total_c,CX-S04,2025,total,WHO estimate,cases,1334010,432756,32.4
+CX-S04_2021_public_d,CX-S04,2021,public,Public facilities (HMIS),deaths,786,309,39.3
+CX-S04_2021_private_d,CX-S04,2021,private,Private facilities (HMIS),deaths,334,38,11.4
+CX-S04_2021_emr_d,CX-S04,2021,emr,EMR exchange,deaths,59,0,0.0
+CX-S04_2021_community_d,CX-S04,2021,community,Community (cHMIS),deaths,325,2,0.6
+CX-S04_2021_reportable_d,CX-S04,2021,reportable,All reporting systems,deaths,1504,349,23.2
+CX-S04_2021_total_d,CX-S04,2021,total,WHO estimate,deaths,3344,349,10.4
+CX-S04_2022_public_d,CX-S04,2022,public,Public facilities (HMIS),deaths,796,327,41.1
+CX-S04_2022_private_d,CX-S04,2022,private,Private facilities (HMIS),deaths,339,40,11.8
+CX-S04_2022_emr_d,CX-S04,2022,emr,EMR exchange,deaths,60,0,0.0
+CX-S04_2022_community_d,CX-S04,2022,community,Community (cHMIS),deaths,329,2,0.6
+CX-S04_2022_reportable_d,CX-S04,2022,reportable,All reporting systems,deaths,1524,369,24.2
+CX-S04_2022_total_d,CX-S04,2022,total,WHO estimate,deaths,3393,369,10.9
+CX-S04_2023_public_d,CX-S04,2023,public,Public facilities (HMIS),deaths,806,353,43.8
+CX-S04_2023_private_d,CX-S04,2023,private,Private facilities (HMIS),deaths,343,45,13.1
+CX-S04_2023_emr_d,CX-S04,2023,emr,EMR exchange,deaths,60,0,0.0
+CX-S04_2023_community_d,CX-S04,2023,community,Community (cHMIS),deaths,333,1,0.3
+CX-S04_2023_reportable_d,CX-S04,2023,reportable,All reporting systems,deaths,1542,399,25.9
+CX-S04_2023_total_d,CX-S04,2023,total,WHO estimate,deaths,3441,399,11.6
+CX-S04_2024_public_d,CX-S04,2024,public,Public facilities (HMIS),deaths,817,364,44.6
+CX-S04_2024_private_d,CX-S04,2024,private,Private facilities (HMIS),deaths,348,53,15.2
+CX-S04_2024_emr_d,CX-S04,2024,emr,EMR exchange,deaths,61,0,0.0
+CX-S04_2024_community_d,CX-S04,2024,community,Community (cHMIS),deaths,338,4,1.2
+CX-S04_2024_reportable_d,CX-S04,2024,reportable,All reporting systems,deaths,1564,421,26.9
+CX-S04_2024_total_d,CX-S04,2024,total,WHO estimate,deaths,3490,421,12.1
+CX-S04_2025_public_d,CX-S04,2025,public,Public facilities (HMIS),deaths,827,385,46.6
+CX-S04_2025_private_d,CX-S04,2025,private,Private facilities (HMIS),deaths,352,53,15.1
+CX-S04_2025_emr_d,CX-S04,2025,emr,EMR exchange,deaths,62,1,1.6
+CX-S04_2025_community_d,CX-S04,2025,community,Community (cHMIS),deaths,342,4,1.2
+CX-S04_2025_reportable_d,CX-S04,2025,reportable,All reporting systems,deaths,1583,443,28.0
+CX-S04_2025_total_d,CX-S04,2025,total,WHO estimate,deaths,3539,443,12.5
+CX-S05_2021_public_c,CX-S05,2021,public,Public facilities (HMIS),cases,603677,413105,68.4
+CX-S05_2021_private_c,CX-S05,2021,private,Private facilities (HMIS),cases,465577,145433,31.2
+CX-S05_2021_emr_c,CX-S05,2021,emr,EMR exchange,cases,100847,0,0.0
+CX-S05_2021_community_c,CX-S05,2021,community,Community (cHMIS),cases,155593,24585,15.8
+CX-S05_2021_reportable_c,CX-S05,2021,reportable,All reporting systems,cases,1325694,583123,44.0
+CX-S05_2021_total_c,CX-S05,2021,total,WHO estimate,cases,1801105,583123,32.4
+CX-S05_2022_public_c,CX-S05,2022,public,Public facilities (HMIS),cases,613311,443369,72.3
+CX-S05_2022_private_c,CX-S05,2022,private,Private facilities (HMIS),cases,473007,168630,35.7
+CX-S05_2022_emr_c,CX-S05,2022,emr,EMR exchange,cases,102456,0,0.0
+CX-S05_2022_community_c,CX-S05,2022,community,Community (cHMIS),cases,158075,33990,21.5
+CX-S05_2022_reportable_c,CX-S05,2022,reportable,All reporting systems,cases,1346849,645989,48.0
+CX-S05_2022_total_c,CX-S05,2022,total,WHO estimate,cases,1827312,645989,35.4
+CX-S05_2023_public_c,CX-S05,2023,public,Public facilities (HMIS),cases,622944,476721,76.5
+CX-S05_2023_private_c,CX-S05,2023,private,Private facilities (HMIS),cases,480436,188724,39.3
+CX-S05_2023_emr_c,CX-S05,2023,emr,EMR exchange,cases,104065,0,0.0
+CX-S05_2023_community_c,CX-S05,2023,community,Community (cHMIS),cases,160558,39673,24.7
+CX-S05_2023_reportable_c,CX-S05,2023,reportable,All reporting systems,cases,1368003,705118,51.5
+CX-S05_2023_total_c,CX-S05,2023,total,WHO estimate,cases,1853518,705118,38.0
+CX-S05_2024_public_c,CX-S05,2024,public,Public facilities (HMIS),cases,632577,500051,79.0
+CX-S05_2024_private_c,CX-S05,2024,private,Private facilities (HMIS),cases,487866,207106,42.5
+CX-S05_2024_emr_c,CX-S05,2024,emr,EMR exchange,cases,105675,32629,30.9
+CX-S05_2024_community_c,CX-S05,2024,community,Community (cHMIS),cases,163041,47108,28.9
+CX-S05_2024_reportable_c,CX-S05,2024,reportable,All reporting systems,cases,1389159,786894,56.6
+CX-S05_2024_total_c,CX-S05,2024,total,WHO estimate,cases,1879725,786894,41.9
+CX-S05_2025_public_c,CX-S05,2025,public,Public facilities (HMIS),cases,642210,526696,82.0
+CX-S05_2025_private_c,CX-S05,2025,private,Private facilities (HMIS),cases,495295,233196,47.1
+CX-S05_2025_emr_c,CX-S05,2025,emr,EMR exchange,cases,107284,73612,68.6
+CX-S05_2025_community_c,CX-S05,2025,community,Community (cHMIS),cases,165524,54855,33.1
+CX-S05_2025_reportable_c,CX-S05,2025,reportable,All reporting systems,cases,1410313,888359,63.0
+CX-S05_2025_total_c,CX-S05,2025,total,WHO estimate,cases,1905931,888359,46.6
+CX-S05_2021_public_d,CX-S05,2021,public,Public facilities (HMIS),deaths,1133,516,45.5
+CX-S05_2021_private_d,CX-S05,2021,private,Private facilities (HMIS),deaths,710,85,12.0
+CX-S05_2021_emr_d,CX-S05,2021,emr,EMR exchange,deaths,178,0,0.0
+CX-S05_2021_community_d,CX-S05,2021,community,Community (cHMIS),deaths,455,7,1.5
+CX-S05_2021_reportable_d,CX-S05,2021,reportable,All reporting systems,deaths,2476,608,24.6
+CX-S05_2021_total_d,CX-S05,2021,total,WHO estimate,deaths,4663,608,13.0
+CX-S05_2022_public_d,CX-S05,2022,public,Public facilities (HMIS),deaths,1148,543,47.3
+CX-S05_2022_private_d,CX-S05,2022,private,Private facilities (HMIS),deaths,719,101,14.0
+CX-S05_2022_emr_d,CX-S05,2022,emr,EMR exchange,deaths,180,0,0.0
+CX-S05_2022_community_d,CX-S05,2022,community,Community (cHMIS),deaths,461,21,4.6
+CX-S05_2022_reportable_d,CX-S05,2022,reportable,All reporting systems,deaths,2508,665,26.5
+CX-S05_2022_total_d,CX-S05,2022,total,WHO estimate,deaths,4730,665,14.1
+CX-S05_2023_public_d,CX-S05,2023,public,Public facilities (HMIS),deaths,1163,572,49.2
+CX-S05_2023_private_d,CX-S05,2023,private,Private facilities (HMIS),deaths,728,123,16.9
+CX-S05_2023_emr_d,CX-S05,2023,emr,EMR exchange,deaths,182,0,0.0
+CX-S05_2023_community_d,CX-S05,2023,community,Community (cHMIS),deaths,467,27,5.8
+CX-S05_2023_reportable_d,CX-S05,2023,reportable,All reporting systems,deaths,2540,722,28.4
+CX-S05_2023_total_d,CX-S05,2023,total,WHO estimate,deaths,4798,722,15.0
+CX-S05_2024_public_d,CX-S05,2024,public,Public facilities (HMIS),deaths,1178,609,51.7
+CX-S05_2024_private_d,CX-S05,2024,private,Private facilities (HMIS),deaths,738,146,19.8
+CX-S05_2024_emr_d,CX-S05,2024,emr,EMR exchange,deaths,185,29,15.7
+CX-S05_2024_community_d,CX-S05,2024,community,Community (cHMIS),deaths,473,32,6.8
+CX-S05_2024_reportable_d,CX-S05,2024,reportable,All reporting systems,deaths,2574,816,31.7
+CX-S05_2024_total_d,CX-S05,2024,total,WHO estimate,deaths,4866,816,16.8
+CX-S05_2025_public_d,CX-S05,2025,public,Public facilities (HMIS),deaths,1193,639,53.6
+CX-S05_2025_private_d,CX-S05,2025,private,Private facilities (HMIS),deaths,747,163,21.8
+CX-S05_2025_emr_d,CX-S05,2025,emr,EMR exchange,deaths,187,65,34.8
+CX-S05_2025_community_d,CX-S05,2025,community,Community (cHMIS),deaths,479,43,9.0
+CX-S05_2025_reportable_d,CX-S05,2025,reportable,All reporting systems,deaths,2606,910,34.9
+CX-S05_2025_total_d,CX-S05,2025,total,WHO estimate,deaths,4934,910,18.4
+CX-S06_2021_public_c,CX-S06,2021,public,Public facilities (HMIS),cases,866229,492360,56.8
+CX-S06_2021_private_c,CX-S06,2021,private,Private facilities (HMIS),cases,253407,72786,28.7
+CX-S06_2021_emr_c,CX-S06,2021,emr,EMR exchange,cases,53485,0,0.0
+CX-S06_2021_community_c,CX-S06,2021,community,Community (cHMIS),cases,279811,40134,14.3
+CX-S06_2021_reportable_c,CX-S06,2021,reportable,All reporting systems,cases,1452932,605280,41.7
+CX-S06_2021_total_c,CX-S06,2021,total,WHO estimate,cases,2203437,605280,27.5
+CX-S06_2022_public_c,CX-S06,2022,public,Public facilities (HMIS),cases,880052,550480,62.6
+CX-S06_2022_private_c,CX-S06,2022,private,Private facilities (HMIS),cases,257451,79453,30.9
+CX-S06_2022_emr_c,CX-S06,2022,emr,EMR exchange,cases,54339,0,0.0
+CX-S06_2022_community_c,CX-S06,2022,community,Community (cHMIS),cases,284276,56037,19.7
+CX-S06_2022_reportable_c,CX-S06,2022,reportable,All reporting systems,cases,1476118,685970,46.5
+CX-S06_2022_total_c,CX-S06,2022,total,WHO estimate,cases,2235498,685970,30.7
+CX-S06_2023_public_c,CX-S06,2023,public,Public facilities (HMIS),cases,893874,593849,66.4
+CX-S06_2023_private_c,CX-S06,2023,private,Private facilities (HMIS),cases,261495,85575,32.7
+CX-S06_2023_emr_c,CX-S06,2023,emr,EMR exchange,cases,55192,0,0.0
+CX-S06_2023_community_c,CX-S06,2023,community,Community (cHMIS),cases,288741,73849,25.6
+CX-S06_2023_reportable_c,CX-S06,2023,reportable,All reporting systems,cases,1499302,753273,50.2
+CX-S06_2023_total_c,CX-S06,2023,total,WHO estimate,cases,2267558,753273,33.2
+CX-S06_2024_public_c,CX-S06,2024,public,Public facilities (HMIS),cases,907697,638788,70.4
+CX-S06_2024_private_c,CX-S06,2024,private,Private facilities (HMIS),cases,265538,89017,33.5
+CX-S06_2024_emr_c,CX-S06,2024,emr,EMR exchange,cases,56046,1437,2.6
+CX-S06_2024_community_c,CX-S06,2024,community,Community (cHMIS),cases,293206,86420,29.5
+CX-S06_2024_reportable_c,CX-S06,2024,reportable,All reporting systems,cases,1522487,815662,53.6
+CX-S06_2024_total_c,CX-S06,2024,total,WHO estimate,cases,2299619,815662,35.5
+CX-S06_2025_public_c,CX-S06,2025,public,Public facilities (HMIS),cases,921520,680379,73.8
+CX-S06_2025_private_c,CX-S06,2025,private,Private facilities (HMIS),cases,269582,97690,36.2
+CX-S06_2025_emr_c,CX-S06,2025,emr,EMR exchange,cases,56899,3241,5.7
+CX-S06_2025_community_c,CX-S06,2025,community,Community (cHMIS),cases,297671,101567,34.1
+CX-S06_2025_reportable_c,CX-S06,2025,reportable,All reporting systems,cases,1545672,882877,57.1
+CX-S06_2025_total_c,CX-S06,2025,total,WHO estimate,cases,2331679,882877,37.9
+CX-S06_2021_public_d,CX-S06,2021,public,Public facilities (HMIS),deaths,1667,630,37.8
+CX-S06_2021_private_d,CX-S06,2021,private,Private facilities (HMIS),deaths,750,97,12.9
+CX-S06_2021_emr_d,CX-S06,2021,emr,EMR exchange,deaths,94,0,0.0
+CX-S06_2021_community_d,CX-S06,2021,community,Community (cHMIS),deaths,779,4,0.5
+CX-S06_2021_reportable_d,CX-S06,2021,reportable,All reporting systems,deaths,3290,731,22.2
+CX-S06_2021_total_d,CX-S06,2021,total,WHO estimate,deaths,6242,731,11.7
+CX-S06_2022_public_d,CX-S06,2022,public,Public facilities (HMIS),deaths,1689,689,40.8
+CX-S06_2022_private_d,CX-S06,2022,private,Private facilities (HMIS),deaths,759,109,14.4
+CX-S06_2022_emr_d,CX-S06,2022,emr,EMR exchange,deaths,95,0,0.0
+CX-S06_2022_community_d,CX-S06,2022,community,Community (cHMIS),deaths,789,29,3.7
+CX-S06_2022_reportable_d,CX-S06,2022,reportable,All reporting systems,deaths,3332,827,24.8
+CX-S06_2022_total_d,CX-S06,2022,total,WHO estimate,deaths,6333,827,13.1
+CX-S06_2023_public_d,CX-S06,2023,public,Public facilities (HMIS),deaths,1711,727,42.5
+CX-S06_2023_private_d,CX-S06,2023,private,Private facilities (HMIS),deaths,769,119,15.5
+CX-S06_2023_emr_d,CX-S06,2023,emr,EMR exchange,deaths,97,0,0.0
+CX-S06_2023_community_d,CX-S06,2023,community,Community (cHMIS),deaths,800,57,7.1
+CX-S06_2023_reportable_d,CX-S06,2023,reportable,All reporting systems,deaths,3377,903,26.7
+CX-S06_2023_total_d,CX-S06,2023,total,WHO estimate,deaths,6424,903,14.1
+CX-S06_2024_public_d,CX-S06,2024,public,Public facilities (HMIS),deaths,1733,787,45.4
+CX-S06_2024_private_d,CX-S06,2024,private,Private facilities (HMIS),deaths,779,115,14.8
+CX-S06_2024_emr_d,CX-S06,2024,emr,EMR exchange,deaths,98,1,1.0
+CX-S06_2024_community_d,CX-S06,2024,community,Community (cHMIS),deaths,810,70,8.6
+CX-S06_2024_reportable_d,CX-S06,2024,reportable,All reporting systems,deaths,3420,973,28.5
+CX-S06_2024_total_d,CX-S06,2024,total,WHO estimate,deaths,6515,973,14.9
+CX-S06_2025_public_d,CX-S06,2025,public,Public facilities (HMIS),deaths,1755,842,48.0
+CX-S06_2025_private_d,CX-S06,2025,private,Private facilities (HMIS),deaths,789,138,17.5
+CX-S06_2025_emr_d,CX-S06,2025,emr,EMR exchange,deaths,99,3,3.0
+CX-S06_2025_community_d,CX-S06,2025,community,Community (cHMIS),deaths,820,89,10.9
+CX-S06_2025_reportable_d,CX-S06,2025,reportable,All reporting systems,deaths,3463,1072,31.0
+CX-S06_2025_total_d,CX-S06,2025,total,WHO estimate,deaths,6605,1072,16.2
+CX-S07_2021_public_c,CX-S07,2021,public,Public facilities (HMIS),cases,478559,314804,65.8
+CX-S07_2021_private_c,CX-S07,2021,private,Private facilities (HMIS),cases,363265,80886,22.3
+CX-S07_2021_emr_c,CX-S07,2021,emr,EMR exchange,cases,63555,0,0.0
+CX-S07_2021_community_c,CX-S07,2021,community,Community (cHMIS),cases,191840,24594,12.8
+CX-S07_2021_reportable_c,CX-S07,2021,reportable,All reporting systems,cases,1097219,420284,38.3
+CX-S07_2021_total_c,CX-S07,2021,total,WHO estimate,cases,1436324,420284,29.3
+CX-S07_2022_public_c,CX-S07,2022,public,Public facilities (HMIS),cases,486195,339379,69.8
+CX-S07_2022_private_c,CX-S07,2022,private,Private facilities (HMIS),cases,369062,99011,26.8
+CX-S07_2022_emr_c,CX-S07,2022,emr,EMR exchange,cases,64569,0,0.0
+CX-S07_2022_community_c,CX-S07,2022,community,Community (cHMIS),cases,194901,39714,20.4
+CX-S07_2022_reportable_c,CX-S07,2022,reportable,All reporting systems,cases,1114727,478104,42.9
+CX-S07_2022_total_c,CX-S07,2022,total,WHO estimate,cases,1457223,478104,32.8
+CX-S07_2023_public_c,CX-S07,2023,public,Public facilities (HMIS),cases,493832,360100,72.9
+CX-S07_2023_private_c,CX-S07,2023,private,Private facilities (HMIS),cases,374858,120047,32.0
+CX-S07_2023_emr_c,CX-S07,2023,emr,EMR exchange,cases,65584,0,0.0
+CX-S07_2023_community_c,CX-S07,2023,community,Community (cHMIS),cases,197962,50707,25.6
+CX-S07_2023_reportable_c,CX-S07,2023,reportable,All reporting systems,cases,1132236,530854,46.9
+CX-S07_2023_total_c,CX-S07,2023,total,WHO estimate,cases,1478122,530854,35.9
+CX-S07_2024_public_c,CX-S07,2024,public,Public facilities (HMIS),cases,501468,380997,76.0
+CX-S07_2024_private_c,CX-S07,2024,private,Private facilities (HMIS),cases,380655,136340,35.8
+CX-S07_2024_emr_c,CX-S07,2024,emr,EMR exchange,cases,66598,18413,27.6
+CX-S07_2024_community_c,CX-S07,2024,community,Community (cHMIS),cases,201024,65224,32.4
+CX-S07_2024_reportable_c,CX-S07,2024,reportable,All reporting systems,cases,1149745,600974,52.3
+CX-S07_2024_total_c,CX-S07,2024,total,WHO estimate,cases,1499021,600974,40.1
+CX-S07_2025_public_c,CX-S07,2025,public,Public facilities (HMIS),cases,509105,403797,79.3
+CX-S07_2025_private_c,CX-S07,2025,private,Private facilities (HMIS),cases,386452,155349,40.2
+CX-S07_2025_emr_c,CX-S07,2025,emr,EMR exchange,cases,67612,41540,61.4
+CX-S07_2025_community_c,CX-S07,2025,community,Community (cHMIS),cases,204085,75578,37.0
+CX-S07_2025_reportable_c,CX-S07,2025,reportable,All reporting systems,cases,1167254,676264,57.9
+CX-S07_2025_total_c,CX-S07,2025,total,WHO estimate,cases,1519920,676264,44.5
+CX-S07_2021_public_d,CX-S07,2021,public,Public facilities (HMIS),deaths,922,310,33.6
+CX-S07_2021_private_d,CX-S07,2021,private,Private facilities (HMIS),deaths,538,55,10.2
+CX-S07_2021_emr_d,CX-S07,2021,emr,EMR exchange,deaths,118,0,0.0
+CX-S07_2021_community_d,CX-S07,2021,community,Community (cHMIS),deaths,448,3,0.7
+CX-S07_2021_reportable_d,CX-S07,2021,reportable,All reporting systems,deaths,2026,368,18.2
+CX-S07_2021_total_d,CX-S07,2021,total,WHO estimate,deaths,3718,368,9.9
+CX-S07_2022_public_d,CX-S07,2022,public,Public facilities (HMIS),deaths,935,321,34.3
+CX-S07_2022_private_d,CX-S07,2022,private,Private facilities (HMIS),deaths,545,75,13.8
+CX-S07_2022_emr_d,CX-S07,2022,emr,EMR exchange,deaths,119,0,0.0
+CX-S07_2022_community_d,CX-S07,2022,community,Community (cHMIS),deaths,454,25,5.5
+CX-S07_2022_reportable_d,CX-S07,2022,reportable,All reporting systems,deaths,2053,421,20.5
+CX-S07_2022_total_d,CX-S07,2022,total,WHO estimate,deaths,3772,421,11.2
+CX-S07_2023_public_d,CX-S07,2023,public,Public facilities (HMIS),deaths,947,343,36.2
+CX-S07_2023_private_d,CX-S07,2023,private,Private facilities (HMIS),deaths,552,81,14.7
+CX-S07_2023_emr_d,CX-S07,2023,emr,EMR exchange,deaths,121,0,0.0
+CX-S07_2023_community_d,CX-S07,2023,community,Community (cHMIS),deaths,460,37,8.0
+CX-S07_2023_reportable_d,CX-S07,2023,reportable,All reporting systems,deaths,2080,461,22.2
+CX-S07_2023_total_d,CX-S07,2023,total,WHO estimate,deaths,3827,461,12.0
+CX-S07_2024_public_d,CX-S07,2024,public,Public facilities (HMIS),deaths,959,377,39.3
+CX-S07_2024_private_d,CX-S07,2024,private,Private facilities (HMIS),deaths,559,100,17.9
+CX-S07_2024_emr_d,CX-S07,2024,emr,EMR exchange,deaths,122,22,18.0
+CX-S07_2024_community_d,CX-S07,2024,community,Community (cHMIS),deaths,466,53,11.4
+CX-S07_2024_reportable_d,CX-S07,2024,reportable,All reporting systems,deaths,2106,552,26.2
+CX-S07_2024_total_d,CX-S07,2024,total,WHO estimate,deaths,3881,552,14.2
+CX-S07_2025_public_d,CX-S07,2025,public,Public facilities (HMIS),deaths,971,405,41.7
+CX-S07_2025_private_d,CX-S07,2025,private,Private facilities (HMIS),deaths,566,118,20.8
+CX-S07_2025_emr_d,CX-S07,2025,emr,EMR exchange,deaths,124,49,39.5
+CX-S07_2025_community_d,CX-S07,2025,community,Community (cHMIS),deaths,472,72,15.3
+CX-S07_2025_reportable_d,CX-S07,2025,reportable,All reporting systems,deaths,2133,644,30.2
+CX-S07_2025_total_d,CX-S07,2025,total,WHO estimate,deaths,3935,644,16.4
+CX-S08_2021_public_c,CX-S08,2021,public,Public facilities (HMIS),cases,294378,170362,57.9
+CX-S08_2021_private_c,CX-S08,2021,private,Private facilities (HMIS),cases,161299,41691,25.8
+CX-S08_2021_emr_c,CX-S08,2021,emr,EMR exchange,cases,29308,0,0.0
+CX-S08_2021_community_c,CX-S08,2021,community,Community (cHMIS),cases,110275,32272,29.3
+CX-S08_2021_reportable_c,CX-S08,2021,reportable,All reporting systems,cases,595260,244325,41.0
+CX-S08_2021_total_c,CX-S08,2021,total,WHO estimate,cases,869037,244325,28.1
+CX-S08_2022_public_c,CX-S08,2022,public,Public facilities (HMIS),cases,299075,185759,62.1
+CX-S08_2022_private_c,CX-S08,2022,private,Private facilities (HMIS),cases,163873,48816,29.8
+CX-S08_2022_emr_c,CX-S08,2022,emr,EMR exchange,cases,29776,0,0.0
+CX-S08_2022_community_c,CX-S08,2022,community,Community (cHMIS),cases,112035,39418,35.2
+CX-S08_2022_reportable_c,CX-S08,2022,reportable,All reporting systems,cases,604759,273993,45.3
+CX-S08_2022_total_c,CX-S08,2022,total,WHO estimate,cases,881681,273993,31.1
+CX-S08_2023_public_c,CX-S08,2023,public,Public facilities (HMIS),cases,303773,201017,66.2
+CX-S08_2023_private_c,CX-S08,2023,private,Private facilities (HMIS),cases,166447,54512,32.8
+CX-S08_2023_emr_c,CX-S08,2023,emr,EMR exchange,cases,30244,0,0.0
+CX-S08_2023_community_c,CX-S08,2023,community,Community (cHMIS),cases,113795,43505,38.2
+CX-S08_2023_reportable_c,CX-S08,2023,reportable,All reporting systems,cases,614259,299034,48.7
+CX-S08_2023_total_c,CX-S08,2023,total,WHO estimate,cases,894326,299034,33.4
+CX-S08_2024_public_c,CX-S08,2024,public,Public facilities (HMIS),cases,308470,214090,69.4
+CX-S08_2024_private_c,CX-S08,2024,private,Private facilities (HMIS),cases,169021,62637,37.1
+CX-S08_2024_emr_c,CX-S08,2024,emr,EMR exchange,cases,30711,821,2.7
+CX-S08_2024_community_c,CX-S08,2024,community,Community (cHMIS),cases,115554,49626,42.9
+CX-S08_2024_reportable_c,CX-S08,2024,reportable,All reporting systems,cases,623756,327174,52.5
+CX-S08_2024_total_c,CX-S08,2024,total,WHO estimate,cases,906971,327174,36.1
+CX-S08_2025_public_c,CX-S08,2025,public,Public facilities (HMIS),cases,313168,230898,73.7
+CX-S08_2025_private_c,CX-S08,2025,private,Private facilities (HMIS),cases,171595,69259,40.4
+CX-S08_2025_emr_c,CX-S08,2025,emr,EMR exchange,cases,31179,1852,5.9
+CX-S08_2025_community_c,CX-S08,2025,community,Community (cHMIS),cases,117314,54312,46.3
+CX-S08_2025_reportable_c,CX-S08,2025,reportable,All reporting systems,cases,633256,356321,56.3
+CX-S08_2025_total_c,CX-S08,2025,total,WHO estimate,cases,919615,356321,38.7
+CX-S08_2021_public_d,CX-S08,2021,public,Public facilities (HMIS),deaths,565,188,33.3
+CX-S08_2021_private_d,CX-S08,2021,private,Private facilities (HMIS),deaths,294,25,8.5
+CX-S08_2021_emr_d,CX-S08,2021,emr,EMR exchange,deaths,63,0,0.0
+CX-S08_2021_community_d,CX-S08,2021,community,Community (cHMIS),deaths,324,2,0.6
+CX-S08_2021_reportable_d,CX-S08,2021,reportable,All reporting systems,deaths,1246,215,17.3
+CX-S08_2021_total_d,CX-S08,2021,total,WHO estimate,deaths,2269,215,9.5
+CX-S08_2022_public_d,CX-S08,2022,public,Public facilities (HMIS),deaths,573,201,35.1
+CX-S08_2022_private_d,CX-S08,2022,private,Private facilities (HMIS),deaths,297,31,10.4
+CX-S08_2022_emr_d,CX-S08,2022,emr,EMR exchange,deaths,64,0,0.0
+CX-S08_2022_community_d,CX-S08,2022,community,Community (cHMIS),deaths,328,10,3.0
+CX-S08_2022_reportable_d,CX-S08,2022,reportable,All reporting systems,deaths,1262,242,19.2
+CX-S08_2022_total_d,CX-S08,2022,total,WHO estimate,deaths,2302,242,10.5
+CX-S08_2023_public_d,CX-S08,2023,public,Public facilities (HMIS),deaths,580,224,38.6
+CX-S08_2023_private_d,CX-S08,2023,private,Private facilities (HMIS),deaths,301,39,13.0
+CX-S08_2023_emr_d,CX-S08,2023,emr,EMR exchange,deaths,64,0,0.0
+CX-S08_2023_community_d,CX-S08,2023,community,Community (cHMIS),deaths,332,15,4.5
+CX-S08_2023_reportable_d,CX-S08,2023,reportable,All reporting systems,deaths,1277,278,21.8
+CX-S08_2023_total_d,CX-S08,2023,total,WHO estimate,deaths,2335,278,11.9
+CX-S08_2024_public_d,CX-S08,2024,public,Public facilities (HMIS),deaths,588,240,40.8
+CX-S08_2024_private_d,CX-S08,2024,private,Private facilities (HMIS),deaths,305,47,15.4
+CX-S08_2024_emr_d,CX-S08,2024,emr,EMR exchange,deaths,65,1,1.5
+CX-S08_2024_community_d,CX-S08,2024,community,Community (cHMIS),deaths,337,29,8.6
+CX-S08_2024_reportable_d,CX-S08,2024,reportable,All reporting systems,deaths,1295,317,24.5
+CX-S08_2024_total_d,CX-S08,2024,total,WHO estimate,deaths,2368,317,13.4
+CX-S08_2025_public_d,CX-S08,2025,public,Public facilities (HMIS),deaths,595,255,42.9
+CX-S08_2025_private_d,CX-S08,2025,private,Private facilities (HMIS),deaths,309,53,17.2
+CX-S08_2025_emr_d,CX-S08,2025,emr,EMR exchange,deaths,66,2,3.0
+CX-S08_2025_community_d,CX-S08,2025,community,Community (cHMIS),deaths,341,35,10.3
+CX-S08_2025_reportable_d,CX-S08,2025,reportable,All reporting systems,deaths,1311,345,26.3
+CX-S08_2025_total_d,CX-S08,2025,total,WHO estimate,deaths,2401,345,14.4
+CX-S09_2021_public_c,CX-S09,2021,public,Public facilities (HMIS),cases,1015472,565467,55.7
+CX-S09_2021_private_c,CX-S09,2021,private,Private facilities (HMIS),cases,426634,68292,16.0
+CX-S09_2021_emr_c,CX-S09,2021,emr,EMR exchange,cases,69721,0,0.0
+CX-S09_2021_community_c,CX-S09,2021,community,Community (cHMIS),cases,350860,41808,11.9
+CX-S09_2021_reportable_c,CX-S09,2021,reportable,All reporting systems,cases,1862687,675567,36.3
+CX-S09_2021_total_c,CX-S09,2021,total,WHO estimate,cases,2644661,675567,25.5
+CX-S09_2022_public_c,CX-S09,2022,public,Public facilities (HMIS),cases,1031676,610542,59.2
+CX-S09_2022_private_c,CX-S09,2022,private,Private facilities (HMIS),cases,433442,86825,20.0
+CX-S09_2022_emr_c,CX-S09,2022,emr,EMR exchange,cases,70833,0,0.0
+CX-S09_2022_community_c,CX-S09,2022,community,Community (cHMIS),cases,356459,61071,17.1
+CX-S09_2022_reportable_c,CX-S09,2022,reportable,All reporting systems,cases,1892410,758438,40.1
+CX-S09_2022_total_c,CX-S09,2022,total,WHO estimate,cases,2683141,758438,28.3
+CX-S09_2023_public_c,CX-S09,2023,public,Public facilities (HMIS),cases,1047880,652186,62.2
+CX-S09_2023_private_c,CX-S09,2023,private,Private facilities (HMIS),cases,440250,107420,24.4
+CX-S09_2023_emr_c,CX-S09,2023,emr,EMR exchange,cases,71946,0,0.0
+CX-S09_2023_community_c,CX-S09,2023,community,Community (cHMIS),cases,362057,74934,20.7
+CX-S09_2023_reportable_c,CX-S09,2023,reportable,All reporting systems,cases,1922133,834540,43.4
+CX-S09_2023_total_c,CX-S09,2023,total,WHO estimate,cases,2721622,834540,30.7
+CX-S09_2024_public_c,CX-S09,2024,public,Public facilities (HMIS),cases,1064085,704307,66.2
+CX-S09_2024_private_c,CX-S09,2024,private,Private facilities (HMIS),cases,447058,126179,28.2
+CX-S09_2024_emr_c,CX-S09,2024,emr,EMR exchange,cases,73058,1346,1.8
+CX-S09_2024_community_c,CX-S09,2024,community,Community (cHMIS),cases,367656,96056,26.1
+CX-S09_2024_reportable_c,CX-S09,2024,reportable,All reporting systems,cases,1951857,927888,47.5
+CX-S09_2024_total_c,CX-S09,2024,total,WHO estimate,cases,2760102,927888,33.6
+CX-S09_2025_public_c,CX-S09,2025,public,Public facilities (HMIS),cases,1080289,749565,69.4
+CX-S09_2025_private_c,CX-S09,2025,private,Private facilities (HMIS),cases,453866,144843,31.9
+CX-S09_2025_emr_c,CX-S09,2025,emr,EMR exchange,cases,74171,3037,4.1
+CX-S09_2025_community_c,CX-S09,2025,community,Community (cHMIS),cases,373255,109796,29.4
+CX-S09_2025_reportable_c,CX-S09,2025,reportable,All reporting systems,cases,1981581,1007241,50.8
+CX-S09_2025_total_c,CX-S09,2025,total,WHO estimate,cases,2798583,1007241,36.0
+CX-S09_2021_public_d,CX-S09,2021,public,Public facilities (HMIS),deaths,1960,601,30.7
+CX-S09_2021_private_d,CX-S09,2021,private,Private facilities (HMIS),deaths,760,36,4.7
+CX-S09_2021_emr_d,CX-S09,2021,emr,EMR exchange,deaths,156,0,0.0
+CX-S09_2021_community_d,CX-S09,2021,community,Community (cHMIS),deaths,945,8,0.8
+CX-S09_2021_reportable_d,CX-S09,2021,reportable,All reporting systems,deaths,3821,645,16.9
+CX-S09_2021_total_d,CX-S09,2021,total,WHO estimate,deaths,7417,645,8.7
+CX-S09_2022_public_d,CX-S09,2022,public,Public facilities (HMIS),deaths,1986,645,32.5
+CX-S09_2022_private_d,CX-S09,2022,private,Private facilities (HMIS),deaths,770,60,7.8
+CX-S09_2022_emr_d,CX-S09,2022,emr,EMR exchange,deaths,158,0,0.0
+CX-S09_2022_community_d,CX-S09,2022,community,Community (cHMIS),deaths,958,32,3.3
+CX-S09_2022_reportable_d,CX-S09,2022,reportable,All reporting systems,deaths,3872,737,19.0
+CX-S09_2022_total_d,CX-S09,2022,total,WHO estimate,deaths,7525,737,9.8
+CX-S09_2023_public_d,CX-S09,2023,public,Public facilities (HMIS),deaths,2011,700,34.8
+CX-S09_2023_private_d,CX-S09,2023,private,Private facilities (HMIS),deaths,780,84,10.8
+CX-S09_2023_emr_d,CX-S09,2023,emr,EMR exchange,deaths,160,0,0.0
+CX-S09_2023_community_d,CX-S09,2023,community,Community (cHMIS),deaths,970,41,4.2
+CX-S09_2023_reportable_d,CX-S09,2023,reportable,All reporting systems,deaths,3921,825,21.0
+CX-S09_2023_total_d,CX-S09,2023,total,WHO estimate,deaths,7633,825,10.8
+CX-S09_2024_public_d,CX-S09,2024,public,Public facilities (HMIS),deaths,2037,759,37.3
+CX-S09_2024_private_d,CX-S09,2024,private,Private facilities (HMIS),deaths,790,96,12.2
+CX-S09_2024_emr_d,CX-S09,2024,emr,EMR exchange,deaths,162,0,0.0
+CX-S09_2024_community_d,CX-S09,2024,community,Community (cHMIS),deaths,983,58,5.9
+CX-S09_2024_reportable_d,CX-S09,2024,reportable,All reporting systems,deaths,3972,913,23.0
+CX-S09_2024_total_d,CX-S09,2024,total,WHO estimate,deaths,7741,913,11.8
+CX-S09_2025_public_d,CX-S09,2025,public,Public facilities (HMIS),deaths,2063,804,39.0
+CX-S09_2025_private_d,CX-S09,2025,private,Private facilities (HMIS),deaths,800,112,14.0
+CX-S09_2025_emr_d,CX-S09,2025,emr,EMR exchange,deaths,164,0,0.0
+CX-S09_2025_community_d,CX-S09,2025,community,Community (cHMIS),deaths,995,74,7.4
+CX-S09_2025_reportable_d,CX-S09,2025,reportable,All reporting systems,deaths,4022,990,24.6
+CX-S09_2025_total_d,CX-S09,2025,total,WHO estimate,deaths,7849,990,12.6
+CX-S10_2021_public_c,CX-S10,2021,public,Public facilities (HMIS),cases,683129,388208,56.8
+CX-S10_2021_private_c,CX-S10,2021,private,Private facilities (HMIS),cases,499665,108758,21.8
+CX-S10_2021_emr_c,CX-S10,2021,emr,EMR exchange,cases,108825,0,0.0
+CX-S10_2021_community_c,CX-S10,2021,community,Community (cHMIS),cases,192756,18311,9.5
+CX-S10_2021_reportable_c,CX-S10,2021,reportable,All reporting systems,cases,1484375,515277,34.7
+CX-S10_2021_total_c,CX-S10,2021,total,WHO estimate,cases,2038481,515277,25.3
+CX-S10_2022_public_c,CX-S10,2022,public,Public facilities (HMIS),cases,694030,419321,60.4
+CX-S10_2022_private_c,CX-S10,2022,private,Private facilities (HMIS),cases,507639,129065,25.4
+CX-S10_2022_emr_c,CX-S10,2022,emr,EMR exchange,cases,110561,0,0.0
+CX-S10_2022_community_c,CX-S10,2022,community,Community (cHMIS),cases,195832,26569,13.6
+CX-S10_2022_reportable_c,CX-S10,2022,reportable,All reporting systems,cases,1508062,574955,38.1
+CX-S10_2022_total_c,CX-S10,2022,total,WHO estimate,cases,2068141,574955,27.8
+CX-S10_2023_public_c,CX-S10,2023,public,Public facilities (HMIS),cases,704931,454016,64.4
+CX-S10_2023_private_c,CX-S10,2023,private,Private facilities (HMIS),cases,515612,152119,29.5
+CX-S10_2023_emr_c,CX-S10,2023,emr,EMR exchange,cases,112298,0,0.0
+CX-S10_2023_community_c,CX-S10,2023,community,Community (cHMIS),cases,198908,36307,18.3
+CX-S10_2023_reportable_c,CX-S10,2023,reportable,All reporting systems,cases,1531749,642442,41.9
+CX-S10_2023_total_c,CX-S10,2023,total,WHO estimate,cases,2097802,642442,30.6
+CX-S10_2024_public_c,CX-S10,2024,public,Public facilities (HMIS),cases,715832,482958,67.5
+CX-S10_2024_private_c,CX-S10,2024,private,Private facilities (HMIS),cases,523586,173029,33.0
+CX-S10_2024_emr_c,CX-S10,2024,emr,EMR exchange,cases,114034,31462,27.6
+CX-S10_2024_community_c,CX-S10,2024,community,Community (cHMIS),cases,201984,47106,23.3
+CX-S10_2024_reportable_c,CX-S10,2024,reportable,All reporting systems,cases,1555436,734555,47.2
+CX-S10_2024_total_c,CX-S10,2024,total,WHO estimate,cases,2127462,734555,34.5
+CX-S10_2025_public_c,CX-S10,2025,public,Public facilities (HMIS),cases,726733,511604,70.4
+CX-S10_2025_private_c,CX-S10,2025,private,Private facilities (HMIS),cases,531559,189659,35.7
+CX-S10_2025_emr_c,CX-S10,2025,emr,EMR exchange,cases,115771,70980,61.3
+CX-S10_2025_community_c,CX-S10,2025,community,Community (cHMIS),cases,205060,56726,27.7
+CX-S10_2025_reportable_c,CX-S10,2025,reportable,All reporting systems,cases,1579123,828969,52.5
+CX-S10_2025_total_c,CX-S10,2025,total,WHO estimate,cases,2157123,828969,38.4
+CX-S10_2021_public_d,CX-S10,2021,public,Public facilities (HMIS),deaths,1340,373,27.8
+CX-S10_2021_private_d,CX-S10,2021,private,Private facilities (HMIS),deaths,778,61,7.8
+CX-S10_2021_emr_d,CX-S10,2021,emr,EMR exchange,deaths,182,0,0.0
+CX-S10_2021_community_d,CX-S10,2021,community,Community (cHMIS),deaths,539,8,1.5
+CX-S10_2021_reportable_d,CX-S10,2021,reportable,All reporting systems,deaths,2839,442,15.6
+CX-S10_2021_total_d,CX-S10,2021,total,WHO estimate,deaths,5366,442,8.2
+CX-S10_2022_public_d,CX-S10,2022,public,Public facilities (HMIS),deaths,1357,420,31.0
+CX-S10_2022_private_d,CX-S10,2022,private,Private facilities (HMIS),deaths,788,79,10.0
+CX-S10_2022_emr_d,CX-S10,2022,emr,EMR exchange,deaths,185,0,0.0
+CX-S10_2022_community_d,CX-S10,2022,community,Community (cHMIS),deaths,546,18,3.3
+CX-S10_2022_reportable_d,CX-S10,2022,reportable,All reporting systems,deaths,2876,517,18.0
+CX-S10_2022_total_d,CX-S10,2022,total,WHO estimate,deaths,5444,517,9.5
+CX-S10_2023_public_d,CX-S10,2023,public,Public facilities (HMIS),deaths,1375,445,32.4
+CX-S10_2023_private_d,CX-S10,2023,private,Private facilities (HMIS),deaths,799,97,12.1
+CX-S10_2023_emr_d,CX-S10,2023,emr,EMR exchange,deaths,187,0,0.0
+CX-S10_2023_community_d,CX-S10,2023,community,Community (cHMIS),deaths,553,30,5.4
+CX-S10_2023_reportable_d,CX-S10,2023,reportable,All reporting systems,deaths,2914,572,19.6
+CX-S10_2023_total_d,CX-S10,2023,total,WHO estimate,deaths,5522,572,10.4
+CX-S10_2024_public_d,CX-S10,2024,public,Public facilities (HMIS),deaths,1392,479,34.4
+CX-S10_2024_private_d,CX-S10,2024,private,Private facilities (HMIS),deaths,809,120,14.8
+CX-S10_2024_emr_d,CX-S10,2024,emr,EMR exchange,deaths,190,28,14.7
+CX-S10_2024_community_d,CX-S10,2024,community,Community (cHMIS),deaths,560,44,7.9
+CX-S10_2024_reportable_d,CX-S10,2024,reportable,All reporting systems,deaths,2951,671,22.7
+CX-S10_2024_total_d,CX-S10,2024,total,WHO estimate,deaths,5600,671,12.0
+CX-S10_2025_public_d,CX-S10,2025,public,Public facilities (HMIS),deaths,1410,507,36.0
+CX-S10_2025_private_d,CX-S10,2025,private,Private facilities (HMIS),deaths,819,133,16.2
+CX-S10_2025_emr_d,CX-S10,2025,emr,EMR exchange,deaths,192,63,32.8
+CX-S10_2025_community_d,CX-S10,2025,community,Community (cHMIS),deaths,567,51,9.0
+CX-S10_2025_reportable_d,CX-S10,2025,reportable,All reporting systems,deaths,2988,754,25.2
+CX-S10_2025_total_d,CX-S10,2025,total,WHO estimate,deaths,5678,754,13.3
+CX-S11_2021_public_c,CX-S11,2021,public,Public facilities (HMIS),cases,376699,255319,67.8
+CX-S11_2021_private_c,CX-S11,2021,private,Private facilities (HMIS),cases,208955,44918,21.5
+CX-S11_2021_emr_c,CX-S11,2021,emr,EMR exchange,cases,43857,0,0.0
+CX-S11_2021_community_c,CX-S11,2021,community,Community (cHMIS),cases,124762,23304,18.7
+CX-S11_2021_reportable_c,CX-S11,2021,reportable,All reporting systems,cases,754273,323541,42.9
+CX-S11_2021_total_c,CX-S11,2021,total,WHO estimate,cases,1062156,323541,30.5
+CX-S11_2022_public_c,CX-S11,2022,public,Public facilities (HMIS),cases,382711,269878,70.5
+CX-S11_2022_private_c,CX-S11,2022,private,Private facilities (HMIS),cases,212290,51773,24.4
+CX-S11_2022_emr_c,CX-S11,2022,emr,EMR exchange,cases,44556,0,0.0
+CX-S11_2022_community_c,CX-S11,2022,community,Community (cHMIS),cases,126753,31239,24.6
+CX-S11_2022_reportable_c,CX-S11,2022,reportable,All reporting systems,cases,766310,352890,46.1
+CX-S11_2022_total_c,CX-S11,2022,total,WHO estimate,cases,1077611,352890,32.7
+CX-S11_2023_public_c,CX-S11,2023,public,Public facilities (HMIS),cases,388722,285500,73.4
+CX-S11_2023_private_c,CX-S11,2023,private,Private facilities (HMIS),cases,215624,63586,29.5
+CX-S11_2023_emr_c,CX-S11,2023,emr,EMR exchange,cases,45256,0,0.0
+CX-S11_2023_community_c,CX-S11,2023,community,Community (cHMIS),cases,128744,39719,30.9
+CX-S11_2023_reportable_c,CX-S11,2023,reportable,All reporting systems,cases,778346,388805,50.0
+CX-S11_2023_total_c,CX-S11,2023,total,WHO estimate,cases,1093065,388805,35.6
+CX-S11_2024_public_c,CX-S11,2024,public,Public facilities (HMIS),cases,394733,298424,75.6
+CX-S11_2024_private_c,CX-S11,2024,private,Private facilities (HMIS),cases,218959,71012,32.4
+CX-S11_2024_emr_c,CX-S11,2024,emr,EMR exchange,cases,45956,1211,2.6
+CX-S11_2024_community_c,CX-S11,2024,community,Community (cHMIS),cases,130735,44707,34.2
+CX-S11_2024_reportable_c,CX-S11,2024,reportable,All reporting systems,cases,790383,415354,52.6
+CX-S11_2024_total_c,CX-S11,2024,total,WHO estimate,cases,1108520,415354,37.5
+CX-S11_2025_public_c,CX-S11,2025,public,Public facilities (HMIS),cases,400744,310246,77.4
+CX-S11_2025_private_c,CX-S11,2025,private,Private facilities (HMIS),cases,222293,78353,35.2
+CX-S11_2025_emr_c,CX-S11,2025,emr,EMR exchange,cases,46656,2732,5.9
+CX-S11_2025_community_c,CX-S11,2025,community,Community (cHMIS),cases,132726,51936,39.1
+CX-S11_2025_reportable_c,CX-S11,2025,reportable,All reporting systems,cases,802419,443267,55.2
+CX-S11_2025_total_c,CX-S11,2025,total,WHO estimate,cases,1123974,443267,39.4
+CX-S11_2021_public_d,CX-S11,2021,public,Public facilities (HMIS),deaths,641,310,48.4
+CX-S11_2021_private_d,CX-S11,2021,private,Private facilities (HMIS),deaths,349,33,9.5
+CX-S11_2021_emr_d,CX-S11,2021,emr,EMR exchange,deaths,69,0,0.0
+CX-S11_2021_community_d,CX-S11,2021,community,Community (cHMIS),deaths,314,2,0.6
+CX-S11_2021_reportable_d,CX-S11,2021,reportable,All reporting systems,deaths,1373,345,25.1
+CX-S11_2021_total_d,CX-S11,2021,total,WHO estimate,deaths,2773,345,12.4
+CX-S11_2022_public_d,CX-S11,2022,public,Public facilities (HMIS),deaths,650,327,50.3
+CX-S11_2022_private_d,CX-S11,2022,private,Private facilities (HMIS),deaths,353,40,11.3
+CX-S11_2022_emr_d,CX-S11,2022,emr,EMR exchange,deaths,70,0,0.0
+CX-S11_2022_community_d,CX-S11,2022,community,Community (cHMIS),deaths,319,15,4.7
+CX-S11_2022_reportable_d,CX-S11,2022,reportable,All reporting systems,deaths,1392,382,27.4
+CX-S11_2022_total_d,CX-S11,2022,total,WHO estimate,deaths,2814,382,13.6
+CX-S11_2023_public_d,CX-S11,2023,public,Public facilities (HMIS),deaths,658,342,52.0
+CX-S11_2023_private_d,CX-S11,2023,private,Private facilities (HMIS),deaths,358,51,14.2
+CX-S11_2023_emr_d,CX-S11,2023,emr,EMR exchange,deaths,71,0,0.0
+CX-S11_2023_community_d,CX-S11,2023,community,Community (cHMIS),deaths,323,22,6.8
+CX-S11_2023_reportable_d,CX-S11,2023,reportable,All reporting systems,deaths,1410,415,29.4
+CX-S11_2023_total_d,CX-S11,2023,total,WHO estimate,deaths,2854,415,14.5
+CX-S11_2024_public_d,CX-S11,2024,public,Public facilities (HMIS),deaths,667,348,52.2
+CX-S11_2024_private_d,CX-S11,2024,private,Private facilities (HMIS),deaths,362,56,15.5
+CX-S11_2024_emr_d,CX-S11,2024,emr,EMR exchange,deaths,72,1,1.4
+CX-S11_2024_community_d,CX-S11,2024,community,Community (cHMIS),deaths,327,36,11.0
+CX-S11_2024_reportable_d,CX-S11,2024,reportable,All reporting systems,deaths,1428,441,30.9
+CX-S11_2024_total_d,CX-S11,2024,total,WHO estimate,deaths,2894,441,15.2
+CX-S11_2025_public_d,CX-S11,2025,public,Public facilities (HMIS),deaths,675,366,54.2
+CX-S11_2025_private_d,CX-S11,2025,private,Private facilities (HMIS),deaths,367,65,17.7
+CX-S11_2025_emr_d,CX-S11,2025,emr,EMR exchange,deaths,73,2,2.7
+CX-S11_2025_community_d,CX-S11,2025,community,Community (cHMIS),deaths,331,43,13.0
+CX-S11_2025_reportable_d,CX-S11,2025,reportable,All reporting systems,deaths,1446,476,32.9
+CX-S11_2025_total_d,CX-S11,2025,total,WHO estimate,deaths,2935,476,16.2
+CX-S12_2021_public_c,CX-S12,2021,public,Public facilities (HMIS),cases,468864,311029,66.3
+CX-S12_2021_private_c,CX-S12,2021,private,Private facilities (HMIS),cases,206956,57696,27.9
+CX-S12_2021_emr_c,CX-S12,2021,emr,EMR exchange,cases,11142,0,0.0
+CX-S12_2021_community_c,CX-S12,2021,community,Community (cHMIS),cases,187571,36723,19.6
+CX-S12_2021_reportable_c,CX-S12,2021,reportable,All reporting systems,cases,874533,405448,46.4
+CX-S12_2021_total_c,CX-S12,2021,total,WHO estimate,cases,1290144,405448,31.4
+CX-S12_2022_public_c,CX-S12,2022,public,Public facilities (HMIS),cases,476345,339740,71.3
+CX-S12_2022_private_c,CX-S12,2022,private,Private facilities (HMIS),cases,210259,64543,30.7
+CX-S12_2022_emr_c,CX-S12,2022,emr,EMR exchange,cases,11320,0,0.0
+CX-S12_2022_community_c,CX-S12,2022,community,Community (cHMIS),cases,190565,45372,23.8
+CX-S12_2022_reportable_c,CX-S12,2022,reportable,All reporting systems,cases,888489,449655,50.6
+CX-S12_2022_total_c,CX-S12,2022,total,WHO estimate,cases,1308916,449655,34.4
+CX-S12_2023_public_c,CX-S12,2023,public,Public facilities (HMIS),cases,483827,367632,76.0
+CX-S12_2023_private_c,CX-S12,2023,private,Private facilities (HMIS),cases,213561,73201,34.3
+CX-S12_2023_emr_c,CX-S12,2023,emr,EMR exchange,cases,11497,0,0.0
+CX-S12_2023_community_c,CX-S12,2023,community,Community (cHMIS),cases,193558,51351,26.5
+CX-S12_2023_reportable_c,CX-S12,2023,reportable,All reporting systems,cases,902443,492184,54.5
+CX-S12_2023_total_c,CX-S12,2023,total,WHO estimate,cases,1327688,492184,37.1
+CX-S12_2024_public_c,CX-S12,2024,public,Public facilities (HMIS),cases,491309,399759,81.4
+CX-S12_2024_private_c,CX-S12,2024,private,Private facilities (HMIS),cases,216864,81050,37.4
+CX-S12_2024_emr_c,CX-S12,2024,emr,EMR exchange,cases,11675,210,1.8
+CX-S12_2024_community_c,CX-S12,2024,community,Community (cHMIS),cases,196551,60449,30.8
+CX-S12_2024_reportable_c,CX-S12,2024,reportable,All reporting systems,cases,916399,541468,59.1
+CX-S12_2024_total_c,CX-S12,2024,total,WHO estimate,cases,1346460,541468,40.2
+CX-S12_2025_public_c,CX-S12,2025,public,Public facilities (HMIS),cases,498791,428129,85.8
+CX-S12_2025_private_c,CX-S12,2025,private,Private facilities (HMIS),cases,220166,90239,41.0
+CX-S12_2025_emr_c,CX-S12,2025,emr,EMR exchange,cases,11853,473,4.0
+CX-S12_2025_community_c,CX-S12,2025,community,Community (cHMIS),cases,199544,67436,33.8
+CX-S12_2025_reportable_c,CX-S12,2025,reportable,All reporting systems,cases,930354,586277,63.0
+CX-S12_2025_total_c,CX-S12,2025,total,WHO estimate,cases,1365232,586277,42.9
+CX-S12_2021_public_d,CX-S12,2021,public,Public facilities (HMIS),deaths,912,380,41.7
+CX-S12_2021_private_d,CX-S12,2021,private,Private facilities (HMIS),deaths,408,41,10.0
+CX-S12_2021_emr_d,CX-S12,2021,emr,EMR exchange,deaths,69,0,0.0
+CX-S12_2021_community_d,CX-S12,2021,community,Community (cHMIS),deaths,475,46,9.7
+CX-S12_2021_reportable_d,CX-S12,2021,reportable,All reporting systems,deaths,1864,467,25.1
+CX-S12_2021_total_d,CX-S12,2021,total,WHO estimate,deaths,3560,467,13.1
+CX-S12_2022_public_d,CX-S12,2022,public,Public facilities (HMIS),deaths,924,419,45.3
+CX-S12_2022_private_d,CX-S12,2022,private,Private facilities (HMIS),deaths,414,49,11.8
+CX-S12_2022_emr_d,CX-S12,2022,emr,EMR exchange,deaths,70,0,0.0
+CX-S12_2022_community_d,CX-S12,2022,community,Community (cHMIS),deaths,481,59,12.3
+CX-S12_2022_reportable_d,CX-S12,2022,reportable,All reporting systems,deaths,1889,527,27.9
+CX-S12_2022_total_d,CX-S12,2022,total,WHO estimate,deaths,3611,527,14.6
+CX-S12_2023_public_d,CX-S12,2023,public,Public facilities (HMIS),deaths,936,441,47.1
+CX-S12_2023_private_d,CX-S12,2023,private,Private facilities (HMIS),deaths,419,58,13.8
+CX-S12_2023_emr_d,CX-S12,2023,emr,EMR exchange,deaths,71,0,0.0
+CX-S12_2023_community_d,CX-S12,2023,community,Community (cHMIS),deaths,488,71,14.5
+CX-S12_2023_reportable_d,CX-S12,2023,reportable,All reporting systems,deaths,1914,570,29.8
+CX-S12_2023_total_d,CX-S12,2023,total,WHO estimate,deaths,3663,570,15.6
+CX-S12_2024_public_d,CX-S12,2024,public,Public facilities (HMIS),deaths,948,475,50.1
+CX-S12_2024_private_d,CX-S12,2024,private,Private facilities (HMIS),deaths,425,70,16.5
+CX-S12_2024_emr_d,CX-S12,2024,emr,EMR exchange,deaths,72,1,1.4
+CX-S12_2024_community_d,CX-S12,2024,community,Community (cHMIS),deaths,494,86,17.4
+CX-S12_2024_reportable_d,CX-S12,2024,reportable,All reporting systems,deaths,1939,632,32.6
+CX-S12_2024_total_d,CX-S12,2024,total,WHO estimate,deaths,3715,632,17.0
+CX-S12_2025_public_d,CX-S12,2025,public,Public facilities (HMIS),deaths,960,512,53.3
+CX-S12_2025_private_d,CX-S12,2025,private,Private facilities (HMIS),deaths,430,77,17.9
+CX-S12_2025_emr_d,CX-S12,2025,emr,EMR exchange,deaths,73,2,2.7
+CX-S12_2025_community_d,CX-S12,2025,community,Community (cHMIS),deaths,500,91,18.2
+CX-S12_2025_reportable_d,CX-S12,2025,reportable,All reporting systems,deaths,1963,682,34.7
+CX-S12_2025_total_d,CX-S12,2025,total,WHO estimate,deaths,3767,682,18.1
+CX-S13_2021_public_c,CX-S13,2021,public,Public facilities (HMIS),cases,455844,336736,73.9
+CX-S13_2021_private_c,CX-S13,2021,private,Private facilities (HMIS),cases,227074,36110,15.9
+CX-S13_2021_emr_c,CX-S13,2021,emr,EMR exchange,cases,36858,0,0.0
+CX-S13_2021_community_c,CX-S13,2021,community,Community (cHMIS),cases,151608,8346,5.5
+CX-S13_2021_reportable_c,CX-S13,2021,reportable,All reporting systems,cases,871384,381192,43.7
+CX-S13_2021_total_c,CX-S13,2021,total,WHO estimate,cases,1206995,381192,31.6
+CX-S13_2022_public_c,CX-S13,2022,public,Public facilities (HMIS),cases,463118,356839,77.1
+CX-S13_2022_private_c,CX-S13,2022,private,Private facilities (HMIS),cases,230697,46839,20.3
+CX-S13_2022_emr_c,CX-S13,2022,emr,EMR exchange,cases,37447,0,0.0
+CX-S13_2022_community_c,CX-S13,2022,community,Community (cHMIS),cases,154027,15454,10.0
+CX-S13_2022_reportable_c,CX-S13,2022,reportable,All reporting systems,cases,885289,419132,47.3
+CX-S13_2022_total_c,CX-S13,2022,total,WHO estimate,cases,1224557,419132,34.2
+CX-S13_2023_public_c,CX-S13,2023,public,Public facilities (HMIS),cases,470392,381227,81.0
+CX-S13_2023_private_c,CX-S13,2023,private,Private facilities (HMIS),cases,234321,55195,23.6
+CX-S13_2023_emr_c,CX-S13,2023,emr,EMR exchange,cases,38035,0,0.0
+CX-S13_2023_community_c,CX-S13,2023,community,Community (cHMIS),cases,156446,22840,14.6
+CX-S13_2023_reportable_c,CX-S13,2023,reportable,All reporting systems,cases,899194,459262,51.1
+CX-S13_2023_total_c,CX-S13,2023,total,WHO estimate,cases,1242120,459262,37.0
+CX-S13_2024_public_c,CX-S13,2024,public,Public facilities (HMIS),cases,477666,395671,82.8
+CX-S13_2024_private_c,CX-S13,2024,private,Private facilities (HMIS),cases,237944,65988,27.7
+CX-S13_2024_emr_c,CX-S13,2024,emr,EMR exchange,cases,38623,1019,2.6
+CX-S13_2024_community_c,CX-S13,2024,community,Community (cHMIS),cases,158866,30579,19.2
+CX-S13_2024_reportable_c,CX-S13,2024,reportable,All reporting systems,cases,913099,493257,54.0
+CX-S13_2024_total_c,CX-S13,2024,total,WHO estimate,cases,1259682,493257,39.2
+CX-S13_2025_public_c,CX-S13,2025,public,Public facilities (HMIS),cases,484940,417480,86.1
+CX-S13_2025_private_c,CX-S13,2025,private,Private facilities (HMIS),cases,241568,76076,31.5
+CX-S13_2025_emr_c,CX-S13,2025,emr,EMR exchange,cases,39211,2300,5.9
+CX-S13_2025_community_c,CX-S13,2025,community,Community (cHMIS),cases,161285,39146,24.3
+CX-S13_2025_reportable_c,CX-S13,2025,reportable,All reporting systems,cases,927004,535002,57.7
+CX-S13_2025_total_c,CX-S13,2025,total,WHO estimate,cases,1277244,535002,41.9
+CX-S13_2021_public_d,CX-S13,2021,public,Public facilities (HMIS),deaths,807,425,52.7
+CX-S13_2021_private_d,CX-S13,2021,private,Private facilities (HMIS),deaths,329,27,8.2
+CX-S13_2021_emr_d,CX-S13,2021,emr,EMR exchange,deaths,84,0,0.0
+CX-S13_2021_community_d,CX-S13,2021,community,Community (cHMIS),deaths,401,2,0.5
+CX-S13_2021_reportable_d,CX-S13,2021,reportable,All reporting systems,deaths,1621,454,28.0
+CX-S13_2021_total_d,CX-S13,2021,total,WHO estimate,deaths,3152,454,14.4
+CX-S13_2022_public_d,CX-S13,2022,public,Public facilities (HMIS),deaths,817,452,55.3
+CX-S13_2022_private_d,CX-S13,2022,private,Private facilities (HMIS),deaths,333,38,11.4
+CX-S13_2022_emr_d,CX-S13,2022,emr,EMR exchange,deaths,85,0,0.0
+CX-S13_2022_community_d,CX-S13,2022,community,Community (cHMIS),deaths,406,15,3.7
+CX-S13_2022_reportable_d,CX-S13,2022,reportable,All reporting systems,deaths,1641,505,30.8
+CX-S13_2022_total_d,CX-S13,2022,total,WHO estimate,deaths,3197,505,15.8
+CX-S13_2023_public_d,CX-S13,2023,public,Public facilities (HMIS),deaths,828,475,57.4
+CX-S13_2023_private_d,CX-S13,2023,private,Private facilities (HMIS),deaths,337,43,12.8
+CX-S13_2023_emr_d,CX-S13,2023,emr,EMR exchange,deaths,86,0,0.0
+CX-S13_2023_community_d,CX-S13,2023,community,Community (cHMIS),deaths,411,25,6.1
+CX-S13_2023_reportable_d,CX-S13,2023,reportable,All reporting systems,deaths,1662,543,32.7
+CX-S13_2023_total_d,CX-S13,2023,total,WHO estimate,deaths,3243,543,16.7
+CX-S13_2024_public_d,CX-S13,2024,public,Public facilities (HMIS),deaths,838,486,58.0
+CX-S13_2024_private_d,CX-S13,2024,private,Private facilities (HMIS),deaths,342,52,15.2
+CX-S13_2024_emr_d,CX-S13,2024,emr,EMR exchange,deaths,87,1,1.1
+CX-S13_2024_community_d,CX-S13,2024,community,Community (cHMIS),deaths,417,30,7.2
+CX-S13_2024_reportable_d,CX-S13,2024,reportable,All reporting systems,deaths,1684,569,33.8
+CX-S13_2024_total_d,CX-S13,2024,total,WHO estimate,deaths,3289,569,17.3
+CX-S13_2025_public_d,CX-S13,2025,public,Public facilities (HMIS),deaths,849,509,60.0
+CX-S13_2025_private_d,CX-S13,2025,private,Private facilities (HMIS),deaths,346,60,17.3
+CX-S13_2025_emr_d,CX-S13,2025,emr,EMR exchange,deaths,88,2,2.3
+CX-S13_2025_community_d,CX-S13,2025,community,Community (cHMIS),deaths,422,46,10.9
+CX-S13_2025_reportable_d,CX-S13,2025,reportable,All reporting systems,deaths,1705,617,36.2
+CX-S13_2025_total_d,CX-S13,2025,total,WHO estimate,deaths,3335,617,18.5
+CX-S14_2021_public_c,CX-S14,2021,public,Public facilities (HMIS),cases,297935,212920,71.5
+CX-S14_2021_private_c,CX-S14,2021,private,Private facilities (HMIS),cases,162566,68918,42.4
+CX-S14_2021_emr_c,CX-S14,2021,emr,EMR exchange,cases,26711,0,0.0
+CX-S14_2021_community_c,CX-S14,2021,community,Community (cHMIS),cases,148601,34045,22.9
+CX-S14_2021_reportable_c,CX-S14,2021,reportable,All reporting systems,cases,635813,315883,49.7
+CX-S14_2021_total_c,CX-S14,2021,total,WHO estimate,cases,901223,315883,35.1
+CX-S14_2022_public_c,CX-S14,2022,public,Public facilities (HMIS),cases,302689,231231,76.4
+CX-S14_2022_private_c,CX-S14,2022,private,Private facilities (HMIS),cases,165161,77326,46.8
+CX-S14_2022_emr_c,CX-S14,2022,emr,EMR exchange,cases,27137,0,0.0
+CX-S14_2022_community_c,CX-S14,2022,community,Community (cHMIS),cases,150972,40712,27.0
+CX-S14_2022_reportable_c,CX-S14,2022,reportable,All reporting systems,cases,645959,349269,54.1
+CX-S14_2022_total_c,CX-S14,2022,total,WHO estimate,cases,914336,349269,38.2
+CX-S14_2023_public_c,CX-S14,2023,public,Public facilities (HMIS),cases,307443,247026,80.3
+CX-S14_2023_private_c,CX-S14,2023,private,Private facilities (HMIS),cases,167755,81940,48.8
+CX-S14_2023_emr_c,CX-S14,2023,emr,EMR exchange,cases,27564,0,0.0
+CX-S14_2023_community_c,CX-S14,2023,community,Community (cHMIS),cases,153343,44134,28.8
+CX-S14_2023_reportable_c,CX-S14,2023,reportable,All reporting systems,cases,656105,373100,56.9
+CX-S14_2023_total_c,CX-S14,2023,total,WHO estimate,cases,927449,373100,40.2
+CX-S14_2024_public_c,CX-S14,2024,public,Public facilities (HMIS),cases,312198,261467,83.8
+CX-S14_2024_private_c,CX-S14,2024,private,Private facilities (HMIS),cases,170349,87198,51.2
+CX-S14_2024_emr_c,CX-S14,2024,emr,EMR exchange,cases,27990,129,0.5
+CX-S14_2024_community_c,CX-S14,2024,community,Community (cHMIS),cases,155715,46734,30.0
+CX-S14_2024_reportable_c,CX-S14,2024,reportable,All reporting systems,cases,666252,395528,59.4
+CX-S14_2024_total_c,CX-S14,2024,total,WHO estimate,cases,940562,395528,42.1
+CX-S14_2025_public_c,CX-S14,2025,public,Public facilities (HMIS),cases,316952,278755,87.9
+CX-S14_2025_private_c,CX-S14,2025,private,Private facilities (HMIS),cases,172943,93794,54.2
+CX-S14_2025_emr_c,CX-S14,2025,emr,EMR exchange,cases,28416,290,1.0
+CX-S14_2025_community_c,CX-S14,2025,community,Community (cHMIS),cases,158086,53234,33.7
+CX-S14_2025_reportable_c,CX-S14,2025,reportable,All reporting systems,cases,676397,426073,63.0
+CX-S14_2025_total_c,CX-S14,2025,total,WHO estimate,cases,953675,426073,44.7
+CX-S14_2021_public_d,CX-S14,2021,public,Public facilities (HMIS),deaths,663,363,54.8
+CX-S14_2021_private_d,CX-S14,2021,private,Private facilities (HMIS),deaths,180,39,21.7
+CX-S14_2021_emr_d,CX-S14,2021,emr,EMR exchange,deaths,40,0,0.0
+CX-S14_2021_community_d,CX-S14,2021,community,Community (cHMIS),deaths,305,20,6.6
+CX-S14_2021_reportable_d,CX-S14,2021,reportable,All reporting systems,deaths,1188,422,35.5
+CX-S14_2021_total_d,CX-S14,2021,total,WHO estimate,deaths,2408,422,17.5
+CX-S14_2022_public_d,CX-S14,2022,public,Public facilities (HMIS),deaths,672,380,56.5
+CX-S14_2022_private_d,CX-S14,2022,private,Private facilities (HMIS),deaths,182,44,24.2
+CX-S14_2022_emr_d,CX-S14,2022,emr,EMR exchange,deaths,40,0,0.0
+CX-S14_2022_community_d,CX-S14,2022,community,Community (cHMIS),deaths,309,24,7.8
+CX-S14_2022_reportable_d,CX-S14,2022,reportable,All reporting systems,deaths,1203,448,37.2
+CX-S14_2022_total_d,CX-S14,2022,total,WHO estimate,deaths,2443,448,18.3
+CX-S14_2023_public_d,CX-S14,2023,public,Public facilities (HMIS),deaths,681,406,59.6
+CX-S14_2023_private_d,CX-S14,2023,private,Private facilities (HMIS),deaths,184,49,26.6
+CX-S14_2023_emr_d,CX-S14,2023,emr,EMR exchange,deaths,41,0,0.0
+CX-S14_2023_community_d,CX-S14,2023,community,Community (cHMIS),deaths,313,32,10.2
+CX-S14_2023_reportable_d,CX-S14,2023,reportable,All reporting systems,deaths,1219,487,40.0
+CX-S14_2023_total_d,CX-S14,2023,total,WHO estimate,deaths,2478,487,19.7
+CX-S14_2024_public_d,CX-S14,2024,public,Public facilities (HMIS),deaths,689,434,63.0
+CX-S14_2024_private_d,CX-S14,2024,private,Private facilities (HMIS),deaths,187,52,27.8
+CX-S14_2024_emr_d,CX-S14,2024,emr,EMR exchange,deaths,41,0,0.0
+CX-S14_2024_community_d,CX-S14,2024,community,Community (cHMIS),deaths,317,33,10.4
+CX-S14_2024_reportable_d,CX-S14,2024,reportable,All reporting systems,deaths,1234,519,42.1
+CX-S14_2024_total_d,CX-S14,2024,total,WHO estimate,deaths,2513,519,20.7
+CX-S14_2025_public_d,CX-S14,2025,public,Public facilities (HMIS),deaths,698,451,64.6
+CX-S14_2025_private_d,CX-S14,2025,private,Private facilities (HMIS),deaths,189,55,29.1
+CX-S14_2025_emr_d,CX-S14,2025,emr,EMR exchange,deaths,42,0,0.0
+CX-S14_2025_community_d,CX-S14,2025,community,Community (cHMIS),deaths,321,42,13.1
+CX-S14_2025_reportable_d,CX-S14,2025,reportable,All reporting systems,deaths,1250,548,43.8
+CX-S14_2025_total_d,CX-S14,2025,total,WHO estimate,deaths,2548,548,21.5
+CX-S15_2021_public_c,CX-S15,2021,public,Public facilities (HMIS),cases,488975,242549,49.6
+CX-S15_2021_private_c,CX-S15,2021,private,Private facilities (HMIS),cases,177189,22834,12.9
+CX-S15_2021_emr_c,CX-S15,2021,emr,EMR exchange,cases,21753,0,0.0
+CX-S15_2021_community_c,CX-S15,2021,community,Community (cHMIS),cases,189571,23708,12.5
+CX-S15_2021_reportable_c,CX-S15,2021,reportable,All reporting systems,cases,877488,289091,32.9
+CX-S15_2021_total_c,CX-S15,2021,total,WHO estimate,cases,1307578,289091,22.1
+CX-S15_2022_public_c,CX-S15,2022,public,Public facilities (HMIS),cases,496778,276980,55.8
+CX-S15_2022_private_c,CX-S15,2022,private,Private facilities (HMIS),cases,180017,32527,18.1
+CX-S15_2022_emr_c,CX-S15,2022,emr,EMR exchange,cases,22100,0,0.0
+CX-S15_2022_community_c,CX-S15,2022,community,Community (cHMIS),cases,192596,37202,19.3
+CX-S15_2022_reportable_c,CX-S15,2022,reportable,All reporting systems,cases,891491,346709,38.9
+CX-S15_2022_total_c,CX-S15,2022,total,WHO estimate,cases,1326604,346709,26.1
+CX-S15_2023_public_c,CX-S15,2023,public,Public facilities (HMIS),cases,504580,303550,60.2
+CX-S15_2023_private_c,CX-S15,2023,private,Private facilities (HMIS),cases,182844,42223,23.1
+CX-S15_2023_emr_c,CX-S15,2023,emr,EMR exchange,cases,22447,0,0.0
+CX-S15_2023_community_c,CX-S15,2023,community,Community (cHMIS),cases,195621,48106,24.6
+CX-S15_2023_reportable_c,CX-S15,2023,reportable,All reporting systems,cases,905492,393879,43.5
+CX-S15_2023_total_c,CX-S15,2023,total,WHO estimate,cases,1345629,393879,29.3
+CX-S15_2024_public_c,CX-S15,2024,public,Public facilities (HMIS),cases,512383,332033,64.8
+CX-S15_2024_private_c,CX-S15,2024,private,Private facilities (HMIS),cases,185672,50720,27.3
+CX-S15_2024_emr_c,CX-S15,2024,emr,EMR exchange,cases,22794,647,2.8
+CX-S15_2024_community_c,CX-S15,2024,community,Community (cHMIS),cases,198646,59467,29.9
+CX-S15_2024_reportable_c,CX-S15,2024,reportable,All reporting systems,cases,919495,442867,48.2
+CX-S15_2024_total_c,CX-S15,2024,total,WHO estimate,cases,1364655,442867,32.5
+CX-S15_2025_public_c,CX-S15,2025,public,Public facilities (HMIS),cases,520186,358490,68.9
+CX-S15_2025_private_c,CX-S15,2025,private,Private facilities (HMIS),cases,188499,59553,31.6
+CX-S15_2025_emr_c,CX-S15,2025,emr,EMR exchange,cases,23141,1460,6.3
+CX-S15_2025_community_c,CX-S15,2025,community,Community (cHMIS),cases,201671,70082,34.8
+CX-S15_2025_reportable_c,CX-S15,2025,reportable,All reporting systems,cases,933497,489585,52.4
+CX-S15_2025_total_c,CX-S15,2025,total,WHO estimate,cases,1383681,489585,35.4
+CX-S15_2021_public_d,CX-S15,2021,public,Public facilities (HMIS),deaths,870,204,23.4
+CX-S15_2021_private_d,CX-S15,2021,private,Private facilities (HMIS),deaths,349,18,5.2
+CX-S15_2021_emr_d,CX-S15,2021,emr,EMR exchange,deaths,51,0,0.0
+CX-S15_2021_community_d,CX-S15,2021,community,Community (cHMIS),deaths,374,2,0.5
+CX-S15_2021_reportable_d,CX-S15,2021,reportable,All reporting systems,deaths,1644,224,13.6
+CX-S15_2021_total_d,CX-S15,2021,total,WHO estimate,deaths,3587,224,6.2
+CX-S15_2022_public_d,CX-S15,2022,public,Public facilities (HMIS),deaths,882,234,26.5
+CX-S15_2022_private_d,CX-S15,2022,private,Private facilities (HMIS),deaths,353,31,8.8
+CX-S15_2022_emr_d,CX-S15,2022,emr,EMR exchange,deaths,52,0,0.0
+CX-S15_2022_community_d,CX-S15,2022,community,Community (cHMIS),deaths,379,15,4.0
+CX-S15_2022_reportable_d,CX-S15,2022,reportable,All reporting systems,deaths,1666,280,16.8
+CX-S15_2022_total_d,CX-S15,2022,total,WHO estimate,deaths,3639,280,7.7
+CX-S15_2023_public_d,CX-S15,2023,public,Public facilities (HMIS),deaths,893,271,30.3
+CX-S15_2023_private_d,CX-S15,2023,private,Private facilities (HMIS),deaths,358,39,10.9
+CX-S15_2023_emr_d,CX-S15,2023,emr,EMR exchange,deaths,53,0,0.0
+CX-S15_2023_community_d,CX-S15,2023,community,Community (cHMIS),deaths,384,25,6.5
+CX-S15_2023_reportable_d,CX-S15,2023,reportable,All reporting systems,deaths,1688,335,19.8
+CX-S15_2023_total_d,CX-S15,2023,total,WHO estimate,deaths,3691,335,9.1
+CX-S15_2024_public_d,CX-S15,2024,public,Public facilities (HMIS),deaths,905,298,32.9
+CX-S15_2024_private_d,CX-S15,2024,private,Private facilities (HMIS),deaths,362,51,14.1
+CX-S15_2024_emr_d,CX-S15,2024,emr,EMR exchange,deaths,53,1,1.9
+CX-S15_2024_community_d,CX-S15,2024,community,Community (cHMIS),deaths,389,34,8.7
+CX-S15_2024_reportable_d,CX-S15,2024,reportable,All reporting systems,deaths,1709,384,22.5
+CX-S15_2024_total_d,CX-S15,2024,total,WHO estimate,deaths,3743,384,10.3
+CX-S15_2025_public_d,CX-S15,2025,public,Public facilities (HMIS),deaths,916,321,35.0
+CX-S15_2025_private_d,CX-S15,2025,private,Private facilities (HMIS),deaths,367,60,16.3
+CX-S15_2025_emr_d,CX-S15,2025,emr,EMR exchange,deaths,54,2,3.7
+CX-S15_2025_community_d,CX-S15,2025,community,Community (cHMIS),deaths,394,45,11.4
+CX-S15_2025_reportable_d,CX-S15,2025,reportable,All reporting systems,deaths,1731,428,24.7
+CX-S15_2025_total_d,CX-S15,2025,total,WHO estimate,deaths,3795,428,11.3
+CX-S16_2021_public_c,CX-S16,2021,public,Public facilities (HMIS),cases,980287,523760,53.4
+CX-S16_2021_private_c,CX-S16,2021,private,Private facilities (HMIS),cases,415736,79438,19.1
+CX-S16_2021_emr_c,CX-S16,2021,emr,EMR exchange,cases,86387,0,0.0
+CX-S16_2021_community_c,CX-S16,2021,community,Community (cHMIS),cases,344576,68911,20.0
+CX-S16_2021_reportable_c,CX-S16,2021,reportable,All reporting systems,cases,1826986,672109,36.8
+CX-S16_2021_total_c,CX-S16,2021,total,WHO estimate,cases,2574923,672109,26.1
+CX-S16_2022_public_c,CX-S16,2022,public,Public facilities (HMIS),cases,995929,584982,58.7
+CX-S16_2022_private_c,CX-S16,2022,private,Private facilities (HMIS),cases,422370,92830,22.0
+CX-S16_2022_emr_c,CX-S16,2022,emr,EMR exchange,cases,87765,0,0.0
+CX-S16_2022_community_c,CX-S16,2022,community,Community (cHMIS),cases,350074,91891,26.2
+CX-S16_2022_reportable_c,CX-S16,2022,reportable,All reporting systems,cases,1856138,769703,41.5
+CX-S16_2022_total_c,CX-S16,2022,total,WHO estimate,cases,2612389,769703,29.5
+CX-S16_2023_public_c,CX-S16,2023,public,Public facilities (HMIS),cases,1011572,631546,62.4
+CX-S16_2023_private_c,CX-S16,2023,private,Private facilities (HMIS),cases,429004,105894,24.7
+CX-S16_2023_emr_c,CX-S16,2023,emr,EMR exchange,cases,89144,0,0.0
+CX-S16_2023_community_c,CX-S16,2023,community,Community (cHMIS),cases,355573,110178,31.0
+CX-S16_2023_reportable_c,CX-S16,2023,reportable,All reporting systems,cases,1885293,847618,45.0
+CX-S16_2023_total_c,CX-S16,2023,total,WHO estimate,cases,2649855,847618,32.0
+CX-S16_2024_public_c,CX-S16,2024,public,Public facilities (HMIS),cases,1027215,689764,67.1
+CX-S16_2024_private_c,CX-S16,2024,private,Private facilities (HMIS),cases,435638,117305,26.9
+CX-S16_2024_emr_c,CX-S16,2024,emr,EMR exchange,cases,90522,2012,2.2
+CX-S16_2024_community_c,CX-S16,2024,community,Community (cHMIS),cases,361071,126523,35.0
+CX-S16_2024_reportable_c,CX-S16,2024,reportable,All reporting systems,cases,1914446,935604,48.9
+CX-S16_2024_total_c,CX-S16,2024,total,WHO estimate,cases,2687321,935604,34.8
+CX-S16_2025_public_c,CX-S16,2025,public,Public facilities (HMIS),cases,1042858,729608,70.0
+CX-S16_2025_private_c,CX-S16,2025,private,Private facilities (HMIS),cases,442272,132747,30.0
+CX-S16_2025_emr_c,CX-S16,2025,emr,EMR exchange,cases,91901,4539,4.9
+CX-S16_2025_community_c,CX-S16,2025,community,Community (cHMIS),cases,366570,146454,40.0
+CX-S16_2025_reportable_c,CX-S16,2025,reportable,All reporting systems,cases,1943601,1013348,52.1
+CX-S16_2025_total_c,CX-S16,2025,total,WHO estimate,cases,2724787,1013348,37.2
+CX-S16_2021_public_d,CX-S16,2021,public,Public facilities (HMIS),deaths,2024,825,40.8
+CX-S16_2021_private_d,CX-S16,2021,private,Private facilities (HMIS),deaths,883,93,10.5
+CX-S16_2021_emr_d,CX-S16,2021,emr,EMR exchange,deaths,113,0,0.0
+CX-S16_2021_community_d,CX-S16,2021,community,Community (cHMIS),deaths,840,4,0.5
+CX-S16_2021_reportable_d,CX-S16,2021,reportable,All reporting systems,deaths,3860,922,23.9
+CX-S16_2021_total_d,CX-S16,2021,total,WHO estimate,deaths,7259,922,12.7
+CX-S16_2022_public_d,CX-S16,2022,public,Public facilities (HMIS),deaths,2050,894,43.6
+CX-S16_2022_private_d,CX-S16,2022,private,Private facilities (HMIS),deaths,894,105,11.7
+CX-S16_2022_emr_d,CX-S16,2022,emr,EMR exchange,deaths,115,0,0.0
+CX-S16_2022_community_d,CX-S16,2022,community,Community (cHMIS),deaths,851,30,3.5
+CX-S16_2022_reportable_d,CX-S16,2022,reportable,All reporting systems,deaths,3910,1029,26.3
+CX-S16_2022_total_d,CX-S16,2022,total,WHO estimate,deaths,7364,1029,14.0
+CX-S16_2023_public_d,CX-S16,2023,public,Public facilities (HMIS),deaths,2077,960,46.2
+CX-S16_2023_private_d,CX-S16,2023,private,Private facilities (HMIS),deaths,906,121,13.4
+CX-S16_2023_emr_d,CX-S16,2023,emr,EMR exchange,deaths,116,0,0.0
+CX-S16_2023_community_d,CX-S16,2023,community,Community (cHMIS),deaths,862,52,6.0
+CX-S16_2023_reportable_d,CX-S16,2023,reportable,All reporting systems,deaths,3961,1133,28.6
+CX-S16_2023_total_d,CX-S16,2023,total,WHO estimate,deaths,7470,1133,15.2
+CX-S16_2024_public_d,CX-S16,2024,public,Public facilities (HMIS),deaths,2103,1005,47.8
+CX-S16_2024_private_d,CX-S16,2024,private,Private facilities (HMIS),deaths,917,143,15.6
+CX-S16_2024_emr_d,CX-S16,2024,emr,EMR exchange,deaths,118,2,1.7
+CX-S16_2024_community_d,CX-S16,2024,community,Community (cHMIS),deaths,873,73,8.4
+CX-S16_2024_reportable_d,CX-S16,2024,reportable,All reporting systems,deaths,4011,1223,30.5
+CX-S16_2024_total_d,CX-S16,2024,total,WHO estimate,deaths,7576,1223,16.1
+CX-S16_2025_public_d,CX-S16,2025,public,Public facilities (HMIS),deaths,2130,1079,50.7
+CX-S16_2025_private_d,CX-S16,2025,private,Private facilities (HMIS),deaths,929,158,17.0
+CX-S16_2025_emr_d,CX-S16,2025,emr,EMR exchange,deaths,119,4,3.4
+CX-S16_2025_community_d,CX-S16,2025,community,Community (cHMIS),deaths,884,93,10.5
+CX-S16_2025_reportable_d,CX-S16,2025,reportable,All reporting systems,deaths,4062,1334,32.8
+CX-S16_2025_total_d,CX-S16,2025,total,WHO estimate,deaths,7681,1334,17.4
+CX-S17_2021_public_c,CX-S17,2021,public,Public facilities (HMIS),cases,388047,247824,63.9
+CX-S17_2021_private_c,CX-S17,2021,private,Private facilities (HMIS),cases,156343,32391,20.7
+CX-S17_2021_emr_c,CX-S17,2021,emr,EMR exchange,cases,31435,0,0.0
+CX-S17_2021_community_c,CX-S17,2021,community,Community (cHMIS),cases,142811,15354,10.8
+CX-S17_2021_reportable_c,CX-S17,2021,reportable,All reporting systems,cases,718636,295569,41.1
+CX-S17_2021_total_c,CX-S17,2021,total,WHO estimate,cases,1017899,295569,29.0
+CX-S17_2022_public_c,CX-S17,2022,public,Public facilities (HMIS),cases,394239,269923,68.5
+CX-S17_2022_private_c,CX-S17,2022,private,Private facilities (HMIS),cases,158838,40204,25.3
+CX-S17_2022_emr_c,CX-S17,2022,emr,EMR exchange,cases,31936,0,0.0
+CX-S17_2022_community_c,CX-S17,2022,community,Community (cHMIS),cases,145090,29380,20.2
+CX-S17_2022_reportable_c,CX-S17,2022,reportable,All reporting systems,cases,730103,339507,46.5
+CX-S17_2022_total_c,CX-S17,2022,total,WHO estimate,cases,1032710,339507,32.9
+CX-S17_2023_public_c,CX-S17,2023,public,Public facilities (HMIS),cases,400432,280008,69.9
+CX-S17_2023_private_c,CX-S17,2023,private,Private facilities (HMIS),cases,161332,47162,29.2
+CX-S17_2023_emr_c,CX-S17,2023,emr,EMR exchange,cases,32438,0,0.0
+CX-S17_2023_community_c,CX-S17,2023,community,Community (cHMIS),cases,147369,36290,24.6
+CX-S17_2023_reportable_c,CX-S17,2023,reportable,All reporting systems,cases,741571,363460,49.0
+CX-S17_2023_total_c,CX-S17,2023,total,WHO estimate,cases,1047521,363460,34.7
+CX-S17_2024_public_c,CX-S17,2024,public,Public facilities (HMIS),cases,406624,294950,72.5
+CX-S17_2024_private_c,CX-S17,2024,private,Private facilities (HMIS),cases,163827,54646,33.4
+CX-S17_2024_emr_c,CX-S17,2024,emr,EMR exchange,cases,32939,519,1.6
+CX-S17_2024_community_c,CX-S17,2024,community,Community (cHMIS),cases,149648,48994,32.7
+CX-S17_2024_reportable_c,CX-S17,2024,reportable,All reporting systems,cases,753038,399109,53.0
+CX-S17_2024_total_c,CX-S17,2024,total,WHO estimate,cases,1062332,399109,37.6
+CX-S17_2025_public_c,CX-S17,2025,public,Public facilities (HMIS),cases,412816,311917,75.6
+CX-S17_2025_private_c,CX-S17,2025,private,Private facilities (HMIS),cases,166322,62135,37.4
+CX-S17_2025_emr_c,CX-S17,2025,emr,EMR exchange,cases,33441,1170,3.5
+CX-S17_2025_community_c,CX-S17,2025,community,Community (cHMIS),cases,151927,58476,38.5
+CX-S17_2025_reportable_c,CX-S17,2025,reportable,All reporting systems,cases,764506,433698,56.7
+CX-S17_2025_total_c,CX-S17,2025,total,WHO estimate,cases,1077142,433698,40.3
+CX-S17_2021_public_d,CX-S17,2021,public,Public facilities (HMIS),deaths,712,368,51.7
+CX-S17_2021_private_d,CX-S17,2021,private,Private facilities (HMIS),deaths,164,5,3.0
+CX-S17_2021_emr_d,CX-S17,2021,emr,EMR exchange,deaths,61,0,0.0
+CX-S17_2021_community_d,CX-S17,2021,community,Community (cHMIS),deaths,299,1,0.3
+CX-S17_2021_reportable_d,CX-S17,2021,reportable,All reporting systems,deaths,1236,374,30.3
+CX-S17_2021_total_d,CX-S17,2021,total,WHO estimate,deaths,2757,374,13.6
+CX-S17_2022_public_d,CX-S17,2022,public,Public facilities (HMIS),deaths,722,393,54.4
+CX-S17_2022_private_d,CX-S17,2022,private,Private facilities (HMIS),deaths,167,10,6.0
+CX-S17_2022_emr_d,CX-S17,2022,emr,EMR exchange,deaths,62,0,0.0
+CX-S17_2022_community_d,CX-S17,2022,community,Community (cHMIS),deaths,303,9,3.0
+CX-S17_2022_reportable_d,CX-S17,2022,reportable,All reporting systems,deaths,1254,412,32.9
+CX-S17_2022_total_d,CX-S17,2022,total,WHO estimate,deaths,2797,412,14.7
+CX-S17_2023_public_d,CX-S17,2023,public,Public facilities (HMIS),deaths,731,416,56.9
+CX-S17_2023_private_d,CX-S17,2023,private,Private facilities (HMIS),deaths,169,12,7.1
+CX-S17_2023_emr_d,CX-S17,2023,emr,EMR exchange,deaths,62,0,0.0
+CX-S17_2023_community_d,CX-S17,2023,community,Community (cHMIS),deaths,307,18,5.9
+CX-S17_2023_reportable_d,CX-S17,2023,reportable,All reporting systems,deaths,1269,446,35.1
+CX-S17_2023_total_d,CX-S17,2023,total,WHO estimate,deaths,2838,446,15.7
+CX-S17_2024_public_d,CX-S17,2024,public,Public facilities (HMIS),deaths,741,424,57.2
+CX-S17_2024_private_d,CX-S17,2024,private,Private facilities (HMIS),deaths,171,17,9.9
+CX-S17_2024_emr_d,CX-S17,2024,emr,EMR exchange,deaths,63,0,0.0
+CX-S17_2024_community_d,CX-S17,2024,community,Community (cHMIS),deaths,311,16,5.1
+CX-S17_2024_reportable_d,CX-S17,2024,reportable,All reporting systems,deaths,1286,457,35.5
+CX-S17_2024_total_d,CX-S17,2024,total,WHO estimate,deaths,2878,457,15.9
+CX-S17_2025_public_d,CX-S17,2025,public,Public facilities (HMIS),deaths,750,440,58.7
+CX-S17_2025_private_d,CX-S17,2025,private,Private facilities (HMIS),deaths,173,22,12.7
+CX-S17_2025_emr_d,CX-S17,2025,emr,EMR exchange,deaths,64,1,1.6
+CX-S17_2025_community_d,CX-S17,2025,community,Community (cHMIS),deaths,315,25,7.9
+CX-S17_2025_reportable_d,CX-S17,2025,reportable,All reporting systems,deaths,1302,488,37.5
+CX-S17_2025_total_d,CX-S17,2025,total,WHO estimate,deaths,2918,488,16.7
+CX-S18_2021_public_c,CX-S18,2021,public,Public facilities (HMIS),cases,551404,363325,65.9
+CX-S18_2021_private_c,CX-S18,2021,private,Private facilities (HMIS),cases,294924,84719,28.7
+CX-S18_2021_emr_c,CX-S18,2021,emr,EMR exchange,cases,37019,0,0.0
+CX-S18_2021_community_c,CX-S18,2021,community,Community (cHMIS),cases,179462,1795,1.0
+CX-S18_2021_reportable_c,CX-S18,2021,reportable,All reporting systems,cases,1062809,449839,42.3
+CX-S18_2021_total_c,CX-S18,2021,total,WHO estimate,cases,1408161,449839,31.9
+CX-S18_2022_public_c,CX-S18,2022,public,Public facilities (HMIS),cases,560203,394832,70.5
+CX-S18_2022_private_c,CX-S18,2022,private,Private facilities (HMIS),cases,299630,100093,33.4
+CX-S18_2022_emr_c,CX-S18,2022,emr,EMR exchange,cases,37610,0,0.0
+CX-S18_2022_community_c,CX-S18,2022,community,Community (cHMIS),cases,182326,14785,8.1
+CX-S18_2022_reportable_c,CX-S18,2022,reportable,All reporting systems,cases,1079769,509710,47.2
+CX-S18_2022_total_c,CX-S18,2022,total,WHO estimate,cases,1428650,509710,35.7
+CX-S18_2023_public_c,CX-S18,2023,public,Public facilities (HMIS),cases,569002,410919,72.2
+CX-S18_2023_private_c,CX-S18,2023,private,Private facilities (HMIS),cases,304337,114902,37.8
+CX-S18_2023_emr_c,CX-S18,2023,emr,EMR exchange,cases,38201,0,0.0
+CX-S18_2023_community_c,CX-S18,2023,community,Community (cHMIS),cases,185189,25665,13.9
+CX-S18_2023_reportable_c,CX-S18,2023,reportable,All reporting systems,cases,1096729,551486,50.3
+CX-S18_2023_total_c,CX-S18,2023,total,WHO estimate,cases,1449139,551486,38.1
+CX-S18_2024_public_c,CX-S18,2024,public,Public facilities (HMIS),cases,577801,451527,78.1
+CX-S18_2024_private_c,CX-S18,2024,private,Private facilities (HMIS),cases,309043,132178,42.8
+CX-S18_2024_emr_c,CX-S18,2024,emr,EMR exchange,cases,38791,824,2.1
+CX-S18_2024_community_c,CX-S18,2024,community,Community (cHMIS),cases,188053,37782,20.1
+CX-S18_2024_reportable_c,CX-S18,2024,reportable,All reporting systems,cases,1113688,622311,55.9
+CX-S18_2024_total_c,CX-S18,2024,total,WHO estimate,cases,1469629,622311,42.3
+CX-S18_2025_public_c,CX-S18,2025,public,Public facilities (HMIS),cases,586600,467818,79.8
+CX-S18_2025_private_c,CX-S18,2025,private,Private facilities (HMIS),cases,313749,141535,45.1
+CX-S18_2025_emr_c,CX-S18,2025,emr,EMR exchange,cases,39382,1859,4.7
+CX-S18_2025_community_c,CX-S18,2025,community,Community (cHMIS),cases,190917,49117,25.7
+CX-S18_2025_reportable_c,CX-S18,2025,reportable,All reporting systems,cases,1130648,660329,58.4
+CX-S18_2025_total_c,CX-S18,2025,total,WHO estimate,cases,1490118,660329,44.3
+CX-S18_2021_public_d,CX-S18,2021,public,Public facilities (HMIS),deaths,930,404,43.4
+CX-S18_2021_private_d,CX-S18,2021,private,Private facilities (HMIS),deaths,484,30,6.2
+CX-S18_2021_emr_d,CX-S18,2021,emr,EMR exchange,deaths,77,0,0.0
+CX-S18_2021_community_d,CX-S18,2021,community,Community (cHMIS),deaths,434,2,0.5
+CX-S18_2021_reportable_d,CX-S18,2021,reportable,All reporting systems,deaths,1925,436,22.6
+CX-S18_2021_total_d,CX-S18,2021,total,WHO estimate,deaths,3763,436,11.6
+CX-S18_2022_public_d,CX-S18,2022,public,Public facilities (HMIS),deaths,942,424,45.0
+CX-S18_2022_private_d,CX-S18,2022,private,Private facilities (HMIS),deaths,491,45,9.2
+CX-S18_2022_emr_d,CX-S18,2022,emr,EMR exchange,deaths,78,0,0.0
+CX-S18_2022_community_d,CX-S18,2022,community,Community (cHMIS),deaths,440,10,2.3
+CX-S18_2022_reportable_d,CX-S18,2022,reportable,All reporting systems,deaths,1951,479,24.6
+CX-S18_2022_total_d,CX-S18,2022,total,WHO estimate,deaths,3818,479,12.5
+CX-S18_2023_public_d,CX-S18,2023,public,Public facilities (HMIS),deaths,955,452,47.3
+CX-S18_2023_private_d,CX-S18,2023,private,Private facilities (HMIS),deaths,497,55,11.1
+CX-S18_2023_emr_d,CX-S18,2023,emr,EMR exchange,deaths,79,0,0.0
+CX-S18_2023_community_d,CX-S18,2023,community,Community (cHMIS),deaths,446,17,3.8
+CX-S18_2023_reportable_d,CX-S18,2023,reportable,All reporting systems,deaths,1977,524,26.5
+CX-S18_2023_total_d,CX-S18,2023,total,WHO estimate,deaths,3872,524,13.5
+CX-S18_2024_public_d,CX-S18,2024,public,Public facilities (HMIS),deaths,967,476,49.2
+CX-S18_2024_private_d,CX-S18,2024,private,Private facilities (HMIS),deaths,504,68,13.5
+CX-S18_2024_emr_d,CX-S18,2024,emr,EMR exchange,deaths,80,1,1.2
+CX-S18_2024_community_d,CX-S18,2024,community,Community (cHMIS),deaths,451,23,5.1
+CX-S18_2024_reportable_d,CX-S18,2024,reportable,All reporting systems,deaths,2002,568,28.4
+CX-S18_2024_total_d,CX-S18,2024,total,WHO estimate,deaths,3927,568,14.5
+CX-S18_2025_public_d,CX-S18,2025,public,Public facilities (HMIS),deaths,979,506,51.7
+CX-S18_2025_private_d,CX-S18,2025,private,Private facilities (HMIS),deaths,510,82,16.1
+CX-S18_2025_emr_d,CX-S18,2025,emr,EMR exchange,deaths,81,2,2.5
+CX-S18_2025_community_d,CX-S18,2025,community,Community (cHMIS),deaths,457,24,5.3
+CX-S18_2025_reportable_d,CX-S18,2025,reportable,All reporting systems,deaths,2027,614,30.3
+CX-S18_2025_total_d,CX-S18,2025,total,WHO estimate,deaths,3982,614,15.4
+CX-S19_2021_public_c,CX-S19,2021,public,Public facilities (HMIS),cases,1031201,780521,75.7
+CX-S19_2021_private_c,CX-S19,2021,private,Private facilities (HMIS),cases,460552,53607,11.6
+CX-S19_2021_emr_c,CX-S19,2021,emr,EMR exchange,cases,45880,0,0.0
+CX-S19_2021_community_c,CX-S19,2021,community,Community (cHMIS),cases,439260,50073,11.4
+CX-S19_2021_reportable_c,CX-S19,2021,reportable,All reporting systems,cases,1976893,884201,44.7
+CX-S19_2021_total_c,CX-S19,2021,total,WHO estimate,cases,2722445,884201,32.5
+CX-S19_2022_public_c,CX-S19,2022,public,Public facilities (HMIS),cases,1047656,828556,79.1
+CX-S19_2022_private_c,CX-S19,2022,private,Private facilities (HMIS),cases,467901,76965,16.4
+CX-S19_2022_emr_c,CX-S19,2022,emr,EMR exchange,cases,46613,0,0.0
+CX-S19_2022_community_c,CX-S19,2022,community,Community (cHMIS),cases,446270,78169,17.5
+CX-S19_2022_reportable_c,CX-S19,2022,reportable,All reporting systems,cases,2008440,983690,49.0
+CX-S19_2022_total_c,CX-S19,2022,total,WHO estimate,cases,2762057,983690,35.6
+CX-S19_2023_public_c,CX-S19,2023,public,Public facilities (HMIS),cases,1064111,864773,81.3
+CX-S19_2023_private_c,CX-S19,2023,private,Private facilities (HMIS),cases,475251,103014,21.7
+CX-S19_2023_emr_c,CX-S19,2023,emr,EMR exchange,cases,47345,0,0.0
+CX-S19_2023_community_c,CX-S19,2023,community,Community (cHMIS),cases,453279,107282,23.7
+CX-S19_2023_reportable_c,CX-S19,2023,reportable,All reporting systems,cases,2039986,1075069,52.7
+CX-S19_2023_total_c,CX-S19,2023,total,WHO estimate,cases,2801670,1075069,38.4
+CX-S19_2024_public_c,CX-S19,2024,public,Public facilities (HMIS),cases,1080567,914830,84.7
+CX-S19_2024_private_c,CX-S19,2024,private,Private facilities (HMIS),cases,482600,124064,25.7
+CX-S19_2024_emr_c,CX-S19,2024,emr,EMR exchange,cases,48077,799,1.7
+CX-S19_2024_community_c,CX-S19,2024,community,Community (cHMIS),cases,460289,133456,29.0
+CX-S19_2024_reportable_c,CX-S19,2024,reportable,All reporting systems,cases,2071533,1173149,56.6
+CX-S19_2024_total_c,CX-S19,2024,total,WHO estimate,cases,2841282,1173149,41.3
+CX-S19_2025_public_c,CX-S19,2025,public,Public facilities (HMIS),cases,1097022,949483,86.6
+CX-S19_2025_private_c,CX-S19,2025,private,Private facilities (HMIS),cases,489949,147067,30.0
+CX-S19_2025_emr_c,CX-S19,2025,emr,EMR exchange,cases,48809,1802,3.7
+CX-S19_2025_community_c,CX-S19,2025,community,Community (cHMIS),cases,467298,155988,33.4
+CX-S19_2025_reportable_c,CX-S19,2025,reportable,All reporting systems,cases,2103078,1254340,59.6
+CX-S19_2025_total_c,CX-S19,2025,total,WHO estimate,cases,2880894,1254340,43.5
+CX-S19_2021_public_d,CX-S19,2021,public,Public facilities (HMIS),deaths,2146,1088,50.7
+CX-S19_2021_private_d,CX-S19,2021,private,Private facilities (HMIS),deaths,568,41,7.2
+CX-S19_2021_emr_d,CX-S19,2021,emr,EMR exchange,deaths,135,0,0.0
+CX-S19_2021_community_d,CX-S19,2021,community,Community (cHMIS),deaths,1026,5,0.5
+CX-S19_2021_reportable_d,CX-S19,2021,reportable,All reporting systems,deaths,3875,1134,29.3
+CX-S19_2021_total_d,CX-S19,2021,total,WHO estimate,deaths,7636,1134,14.9
+CX-S19_2022_public_d,CX-S19,2022,public,Public facilities (HMIS),deaths,2174,1118,51.4
+CX-S19_2022_private_d,CX-S19,2022,private,Private facilities (HMIS),deaths,576,54,9.4
+CX-S19_2022_emr_d,CX-S19,2022,emr,EMR exchange,deaths,137,0,0.0
+CX-S19_2022_community_d,CX-S19,2022,community,Community (cHMIS),deaths,1040,22,2.1
+CX-S19_2022_reportable_d,CX-S19,2022,reportable,All reporting systems,deaths,3927,1194,30.4
+CX-S19_2022_total_d,CX-S19,2022,total,WHO estimate,deaths,7747,1194,15.4
+CX-S19_2023_public_d,CX-S19,2023,public,Public facilities (HMIS),deaths,2203,1212,55.0
+CX-S19_2023_private_d,CX-S19,2023,private,Private facilities (HMIS),deaths,583,75,12.9
+CX-S19_2023_emr_d,CX-S19,2023,emr,EMR exchange,deaths,138,0,0.0
+CX-S19_2023_community_d,CX-S19,2023,community,Community (cHMIS),deaths,1053,48,4.6
+CX-S19_2023_reportable_d,CX-S19,2023,reportable,All reporting systems,deaths,3977,1335,33.6
+CX-S19_2023_total_d,CX-S19,2023,total,WHO estimate,deaths,7858,1335,17.0
+CX-S19_2024_public_d,CX-S19,2024,public,Public facilities (HMIS),deaths,2231,1243,55.7
+CX-S19_2024_private_d,CX-S19,2024,private,Private facilities (HMIS),deaths,591,89,15.1
+CX-S19_2024_emr_d,CX-S19,2024,emr,EMR exchange,deaths,140,2,1.4
+CX-S19_2024_community_d,CX-S19,2024,community,Community (cHMIS),deaths,1066,62,5.8
+CX-S19_2024_reportable_d,CX-S19,2024,reportable,All reporting systems,deaths,4028,1396,34.7
+CX-S19_2024_total_d,CX-S19,2024,total,WHO estimate,deaths,7969,1396,17.5
+CX-S19_2025_public_d,CX-S19,2025,public,Public facilities (HMIS),deaths,2259,1292,57.2
+CX-S19_2025_private_d,CX-S19,2025,private,Private facilities (HMIS),deaths,598,109,18.2
+CX-S19_2025_emr_d,CX-S19,2025,emr,EMR exchange,deaths,142,4,2.8
+CX-S19_2025_community_d,CX-S19,2025,community,Community (cHMIS),deaths,1080,79,7.3
+CX-S19_2025_reportable_d,CX-S19,2025,reportable,All reporting systems,deaths,4079,1484,36.4
+CX-S19_2025_total_d,CX-S19,2025,total,WHO estimate,deaths,8080,1484,18.4
+CX-S20_2021_public_c,CX-S20,2021,public,Public facilities (HMIS),cases,937051,614269,65.6
+CX-S20_2021_private_c,CX-S20,2021,private,Private facilities (HMIS),cases,331022,71218,21.5
+CX-S20_2021_emr_c,CX-S20,2021,emr,EMR exchange,cases,38546,0,0.0
+CX-S20_2021_community_c,CX-S20,2021,community,Community (cHMIS),cases,363440,64743,17.8
+CX-S20_2021_reportable_c,CX-S20,2021,reportable,All reporting systems,cases,1670059,750230,44.9
+CX-S20_2021_total_c,CX-S20,2021,total,WHO estimate,cases,2403262,750230,31.2
+CX-S20_2022_public_c,CX-S20,2022,public,Public facilities (HMIS),cases,952004,678273,71.2
+CX-S20_2022_private_c,CX-S20,2022,private,Private facilities (HMIS),cases,336304,84996,25.3
+CX-S20_2022_emr_c,CX-S20,2022,emr,EMR exchange,cases,39161,0,0.0
+CX-S20_2022_community_c,CX-S20,2022,community,Community (cHMIS),cases,369239,85032,23.0
+CX-S20_2022_reportable_c,CX-S20,2022,reportable,All reporting systems,cases,1696708,848301,50.0
+CX-S20_2022_total_c,CX-S20,2022,total,WHO estimate,cases,2438230,848301,34.8
+CX-S20_2023_public_c,CX-S20,2023,public,Public facilities (HMIS),cases,966957,704864,72.9
+CX-S20_2023_private_c,CX-S20,2023,private,Private facilities (HMIS),cases,341586,99548,29.1
+CX-S20_2023_emr_c,CX-S20,2023,emr,EMR exchange,cases,39776,0,0.0
+CX-S20_2023_community_c,CX-S20,2023,community,Community (cHMIS),cases,375039,98238,26.2
+CX-S20_2023_reportable_c,CX-S20,2023,reportable,All reporting systems,cases,1723358,902650,52.4
+CX-S20_2023_total_c,CX-S20,2023,total,WHO estimate,cases,2473198,902650,36.5
+CX-S20_2024_public_c,CX-S20,2024,public,Public facilities (HMIS),cases,981910,740808,75.4
+CX-S20_2024_private_c,CX-S20,2024,private,Private facilities (HMIS),cases,346869,115422,33.3
+CX-S20_2024_emr_c,CX-S20,2024,emr,EMR exchange,cases,40391,726,1.8
+CX-S20_2024_community_c,CX-S20,2024,community,Community (cHMIS),cases,380838,115541,30.3
+CX-S20_2024_reportable_c,CX-S20,2024,reportable,All reporting systems,cases,1750008,972497,55.6
+CX-S20_2024_total_c,CX-S20,2024,total,WHO estimate,cases,2508166,972497,38.8
+CX-S20_2025_public_c,CX-S20,2025,public,Public facilities (HMIS),cases,996863,791667,79.4
+CX-S20_2025_private_c,CX-S20,2025,private,Private facilities (HMIS),cases,352151,126305,35.9
+CX-S20_2025_emr_c,CX-S20,2025,emr,EMR exchange,cases,41006,1639,4.0
+CX-S20_2025_community_c,CX-S20,2025,community,Community (cHMIS),cases,386638,131567,34.0
+CX-S20_2025_reportable_c,CX-S20,2025,reportable,All reporting systems,cases,1776658,1051178,59.2
+CX-S20_2025_total_c,CX-S20,2025,total,WHO estimate,cases,2543134,1051178,41.3
+CX-S20_2021_public_d,CX-S20,2021,public,Public facilities (HMIS),deaths,1881,749,39.8
+CX-S20_2021_private_d,CX-S20,2021,private,Private facilities (HMIS),deaths,580,41,7.1
+CX-S20_2021_emr_d,CX-S20,2021,emr,EMR exchange,deaths,103,0,0.0
+CX-S20_2021_community_d,CX-S20,2021,community,Community (cHMIS),deaths,933,22,2.4
+CX-S20_2021_reportable_d,CX-S20,2021,reportable,All reporting systems,deaths,3497,812,23.2
+CX-S20_2021_total_d,CX-S20,2021,total,WHO estimate,deaths,6841,812,11.9
+CX-S20_2022_public_d,CX-S20,2022,public,Public facilities (HMIS),deaths,1906,818,42.9
+CX-S20_2022_private_d,CX-S20,2022,private,Private facilities (HMIS),deaths,588,53,9.0
+CX-S20_2022_emr_d,CX-S20,2022,emr,EMR exchange,deaths,104,0,0.0
+CX-S20_2022_community_d,CX-S20,2022,community,Community (cHMIS),deaths,945,35,3.7
+CX-S20_2022_reportable_d,CX-S20,2022,reportable,All reporting systems,deaths,3543,906,25.6
+CX-S20_2022_total_d,CX-S20,2022,total,WHO estimate,deaths,6940,906,13.1
+CX-S20_2023_public_d,CX-S20,2023,public,Public facilities (HMIS),deaths,1930,867,44.9
+CX-S20_2023_private_d,CX-S20,2023,private,Private facilities (HMIS),deaths,596,68,11.4
+CX-S20_2023_emr_d,CX-S20,2023,emr,EMR exchange,deaths,105,0,0.0
+CX-S20_2023_community_d,CX-S20,2023,community,Community (cHMIS),deaths,957,57,6.0
+CX-S20_2023_reportable_d,CX-S20,2023,reportable,All reporting systems,deaths,3588,992,27.6
+CX-S20_2023_total_d,CX-S20,2023,total,WHO estimate,deaths,7040,992,14.1
+CX-S20_2024_public_d,CX-S20,2024,public,Public facilities (HMIS),deaths,1955,884,45.2
+CX-S20_2024_private_d,CX-S20,2024,private,Private facilities (HMIS),deaths,603,81,13.4
+CX-S20_2024_emr_d,CX-S20,2024,emr,EMR exchange,deaths,107,0,0.0
+CX-S20_2024_community_d,CX-S20,2024,community,Community (cHMIS),deaths,970,85,8.8
+CX-S20_2024_reportable_d,CX-S20,2024,reportable,All reporting systems,deaths,3635,1050,28.9
+CX-S20_2024_total_d,CX-S20,2024,total,WHO estimate,deaths,7139,1050,14.7
+CX-S20_2025_public_d,CX-S20,2025,public,Public facilities (HMIS),deaths,1980,953,48.1
+CX-S20_2025_private_d,CX-S20,2025,private,Private facilities (HMIS),deaths,611,96,15.7
+CX-S20_2025_emr_d,CX-S20,2025,emr,EMR exchange,deaths,108,0,0.0
+CX-S20_2025_community_d,CX-S20,2025,community,Community (cHMIS),deaths,982,106,10.8
+CX-S20_2025_reportable_d,CX-S20,2025,reportable,All reporting systems,deaths,3681,1155,31.4
+CX-S20_2025_total_d,CX-S20,2025,total,WHO estimate,deaths,7239,1155,16.0
+CX-S21_2021_public_c,CX-S21,2021,public,Public facilities (HMIS),cases,770024,487623,63.3
+CX-S21_2021_private_c,CX-S21,2021,private,Private facilities (HMIS),cases,315955,69154,21.9
+CX-S21_2021_emr_c,CX-S21,2021,emr,EMR exchange,cases,47313,0,0.0
+CX-S21_2021_community_c,CX-S21,2021,community,Community (cHMIS),cases,293688,56975,19.4
+CX-S21_2021_reportable_c,CX-S21,2021,reportable,All reporting systems,cases,1426980,613752,43.0
+CX-S21_2021_total_c,CX-S21,2021,total,WHO estimate,cases,2059939,613752,29.8
+CX-S21_2022_public_c,CX-S21,2022,public,Public facilities (HMIS),cases,782312,523441,66.9
+CX-S21_2022_private_c,CX-S21,2022,private,Private facilities (HMIS),cases,320997,87994,27.4
+CX-S21_2022_emr_c,CX-S21,2022,emr,EMR exchange,cases,48068,0,0.0
+CX-S21_2022_community_c,CX-S21,2022,community,Community (cHMIS),cases,298374,72319,24.2
+CX-S21_2022_reportable_c,CX-S21,2022,reportable,All reporting systems,cases,1449751,683754,47.2
+CX-S21_2022_total_c,CX-S21,2022,total,WHO estimate,cases,2089911,683754,32.7
+CX-S21_2023_public_c,CX-S21,2023,public,Public facilities (HMIS),cases,794600,555838,70.0
+CX-S21_2023_private_c,CX-S21,2023,private,Private facilities (HMIS),cases,326038,95637,29.3
+CX-S21_2023_emr_c,CX-S21,2023,emr,EMR exchange,cases,48823,0,0.0
+CX-S21_2023_community_c,CX-S21,2023,community,Community (cHMIS),cases,303061,82908,27.4
+CX-S21_2023_reportable_c,CX-S21,2023,reportable,All reporting systems,cases,1472522,734383,49.9
+CX-S21_2023_total_c,CX-S21,2023,total,WHO estimate,cases,2119884,734383,34.6
+CX-S21_2024_public_c,CX-S21,2024,public,Public facilities (HMIS),cases,806887,599975,74.4
+CX-S21_2024_private_c,CX-S21,2024,private,Private facilities (HMIS),cases,331080,112613,34.0
+CX-S21_2024_emr_c,CX-S21,2024,emr,EMR exchange,cases,49578,972,2.0
+CX-S21_2024_community_c,CX-S21,2024,community,Community (cHMIS),cases,307747,96373,31.3
+CX-S21_2024_reportable_c,CX-S21,2024,reportable,All reporting systems,cases,1495292,809933,54.2
+CX-S21_2024_total_c,CX-S21,2024,total,WHO estimate,cases,2149857,809933,37.7
+CX-S21_2025_public_c,CX-S21,2025,public,Public facilities (HMIS),cases,819175,626517,76.5
+CX-S21_2025_private_c,CX-S21,2025,private,Private facilities (HMIS),cases,336122,125223,37.3
+CX-S21_2025_emr_c,CX-S21,2025,emr,EMR exchange,cases,50333,2194,4.4
+CX-S21_2025_community_c,CX-S21,2025,community,Community (cHMIS),cases,312434,110864,35.5
+CX-S21_2025_reportable_c,CX-S21,2025,reportable,All reporting systems,cases,1518064,864798,57.0
+CX-S21_2025_total_c,CX-S21,2025,total,WHO estimate,cases,2179829,864798,39.7
+CX-S21_2021_public_d,CX-S21,2021,public,Public facilities (HMIS),deaths,1546,628,40.6
+CX-S21_2021_private_d,CX-S21,2021,private,Private facilities (HMIS),deaths,539,45,8.3
+CX-S21_2021_emr_d,CX-S21,2021,emr,EMR exchange,deaths,93,0,0.0
+CX-S21_2021_community_d,CX-S21,2021,community,Community (cHMIS),deaths,701,14,2.0
+CX-S21_2021_reportable_d,CX-S21,2021,reportable,All reporting systems,deaths,2879,687,23.9
+CX-S21_2021_total_d,CX-S21,2021,total,WHO estimate,deaths,5616,687,12.2
+CX-S21_2022_public_d,CX-S21,2022,public,Public facilities (HMIS),deaths,1566,678,43.3
+CX-S21_2022_private_d,CX-S21,2022,private,Private facilities (HMIS),deaths,546,65,11.9
+CX-S21_2022_emr_d,CX-S21,2022,emr,EMR exchange,deaths,94,0,0.0
+CX-S21_2022_community_d,CX-S21,2022,community,Community (cHMIS),deaths,710,30,4.2
+CX-S21_2022_reportable_d,CX-S21,2022,reportable,All reporting systems,deaths,2916,773,26.5
+CX-S21_2022_total_d,CX-S21,2022,total,WHO estimate,deaths,5697,773,13.6
+CX-S21_2023_public_d,CX-S21,2023,public,Public facilities (HMIS),deaths,1586,709,44.7
+CX-S21_2023_private_d,CX-S21,2023,private,Private facilities (HMIS),deaths,553,66,11.9
+CX-S21_2023_emr_d,CX-S21,2023,emr,EMR exchange,deaths,96,0,0.0
+CX-S21_2023_community_d,CX-S21,2023,community,Community (cHMIS),deaths,720,47,6.5
+CX-S21_2023_reportable_d,CX-S21,2023,reportable,All reporting systems,deaths,2955,822,27.8
+CX-S21_2023_total_d,CX-S21,2023,total,WHO estimate,deaths,5779,822,14.2
+CX-S21_2024_public_d,CX-S21,2024,public,Public facilities (HMIS),deaths,1607,743,46.2
+CX-S21_2024_private_d,CX-S21,2024,private,Private facilities (HMIS),deaths,560,88,15.7
+CX-S21_2024_emr_d,CX-S21,2024,emr,EMR exchange,deaths,97,0,0.0
+CX-S21_2024_community_d,CX-S21,2024,community,Community (cHMIS),deaths,729,62,8.5
+CX-S21_2024_reportable_d,CX-S21,2024,reportable,All reporting systems,deaths,2993,893,29.8
+CX-S21_2024_total_d,CX-S21,2024,total,WHO estimate,deaths,5861,893,15.2
+CX-S21_2025_public_d,CX-S21,2025,public,Public facilities (HMIS),deaths,1627,788,48.4
+CX-S21_2025_private_d,CX-S21,2025,private,Private facilities (HMIS),deaths,567,100,17.6
+CX-S21_2025_emr_d,CX-S21,2025,emr,EMR exchange,deaths,98,0,0.0
+CX-S21_2025_community_d,CX-S21,2025,community,Community (cHMIS),deaths,738,72,9.8
+CX-S21_2025_reportable_d,CX-S21,2025,reportable,All reporting systems,deaths,3030,960,31.7
+CX-S21_2025_total_d,CX-S21,2025,total,WHO estimate,deaths,5943,960,16.2
+CX-S22_2021_public_c,CX-S22,2021,public,Public facilities (HMIS),cases,562448,308688,54.9
+CX-S22_2021_private_c,CX-S22,2021,private,Private facilities (HMIS),cases,563524,130922,23.2
+CX-S22_2021_emr_c,CX-S22,2021,emr,EMR exchange,cases,137301,0,0.0
+CX-S22_2021_community_c,CX-S22,2021,community,Community (cHMIS),cases,127469,13921,10.9
+CX-S22_2021_reportable_c,CX-S22,2021,reportable,All reporting systems,cases,1390742,453531,32.6
+CX-S22_2021_total_c,CX-S22,2021,total,WHO estimate,cases,1858773,453531,24.4
+CX-S22_2022_public_c,CX-S22,2022,public,Public facilities (HMIS),cases,571423,338149,59.2
+CX-S22_2022_private_c,CX-S22,2022,private,Private facilities (HMIS),cases,572517,159950,27.9
+CX-S22_2022_emr_c,CX-S22,2022,emr,EMR exchange,cases,139492,0,0.0
+CX-S22_2022_community_c,CX-S22,2022,community,Community (cHMIS),cases,129503,19434,15.0
+CX-S22_2022_reportable_c,CX-S22,2022,reportable,All reporting systems,cases,1412935,517533,36.6
+CX-S22_2022_total_c,CX-S22,2022,total,WHO estimate,cases,1885818,517533,27.4
+CX-S22_2023_public_c,CX-S22,2023,public,Public facilities (HMIS),cases,580399,368444,63.5
+CX-S22_2023_private_c,CX-S22,2023,private,Private facilities (HMIS),cases,581509,183341,31.5
+CX-S22_2023_emr_c,CX-S22,2023,emr,EMR exchange,cases,141683,0,0.0
+CX-S22_2023_community_c,CX-S22,2023,community,Community (cHMIS),cases,131537,24639,18.7
+CX-S22_2023_reportable_c,CX-S22,2023,reportable,All reporting systems,cases,1435128,576424,40.2
+CX-S22_2023_total_c,CX-S22,2023,total,WHO estimate,cases,1912864,576424,30.1
+CX-S22_2024_public_c,CX-S22,2024,public,Public facilities (HMIS),cases,589374,395843,67.2
+CX-S22_2024_private_c,CX-S22,2024,private,Private facilities (HMIS),cases,590502,204389,34.6
+CX-S22_2024_emr_c,CX-S22,2024,emr,EMR exchange,cases,143874,45755,31.8
+CX-S22_2024_community_c,CX-S22,2024,community,Community (cHMIS),cases,133571,31147,23.3
+CX-S22_2024_reportable_c,CX-S22,2024,reportable,All reporting systems,cases,1457321,677134,46.5
+CX-S22_2024_total_c,CX-S22,2024,total,WHO estimate,cases,1939910,677134,34.9
+CX-S22_2025_public_c,CX-S22,2025,public,Public facilities (HMIS),cases,598349,416596,69.6
+CX-S22_2025_private_c,CX-S22,2025,private,Private facilities (HMIS),cases,599494,227125,37.9
+CX-S22_2025_emr_c,CX-S22,2025,emr,EMR exchange,cases,146065,103226,70.7
+CX-S22_2025_community_c,CX-S22,2025,community,Community (cHMIS),cases,135605,35366,26.1
+CX-S22_2025_reportable_c,CX-S22,2025,reportable,All reporting systems,cases,1479513,782313,52.9
+CX-S22_2025_total_c,CX-S22,2025,total,WHO estimate,cases,1966955,782313,39.8
+CX-S22_2021_public_d,CX-S22,2021,public,Public facilities (HMIS),deaths,1031,311,30.2
+CX-S22_2021_private_d,CX-S22,2021,private,Private facilities (HMIS),deaths,751,67,8.9
+CX-S22_2021_emr_d,CX-S22,2021,emr,EMR exchange,deaths,206,0,0.0
+CX-S22_2021_community_d,CX-S22,2021,community,Community (cHMIS),deaths,355,4,1.1
+CX-S22_2021_reportable_d,CX-S22,2021,reportable,All reporting systems,deaths,2343,382,16.3
+CX-S22_2021_total_d,CX-S22,2021,total,WHO estimate,deaths,4374,382,8.7
+CX-S22_2022_public_d,CX-S22,2022,public,Public facilities (HMIS),deaths,1044,338,32.4
+CX-S22_2022_private_d,CX-S22,2022,private,Private facilities (HMIS),deaths,761,90,11.8
+CX-S22_2022_emr_d,CX-S22,2022,emr,EMR exchange,deaths,209,0,0.0
+CX-S22_2022_community_d,CX-S22,2022,community,Community (cHMIS),deaths,360,14,3.9
+CX-S22_2022_reportable_d,CX-S22,2022,reportable,All reporting systems,deaths,2374,442,18.6
+CX-S22_2022_total_d,CX-S22,2022,total,WHO estimate,deaths,4438,442,10.0
+CX-S22_2023_public_d,CX-S22,2023,public,Public facilities (HMIS),deaths,1058,364,34.4
+CX-S22_2023_private_d,CX-S22,2023,private,Private facilities (HMIS),deaths,771,106,13.7
+CX-S22_2023_emr_d,CX-S22,2023,emr,EMR exchange,deaths,212,0,0.0
+CX-S22_2023_community_d,CX-S22,2023,community,Community (cHMIS),deaths,365,18,4.9
+CX-S22_2023_reportable_d,CX-S22,2023,reportable,All reporting systems,deaths,2406,488,20.3
+CX-S22_2023_total_d,CX-S22,2023,total,WHO estimate,deaths,4501,488,10.8
+CX-S22_2024_public_d,CX-S22,2024,public,Public facilities (HMIS),deaths,1071,399,37.3
+CX-S22_2024_private_d,CX-S22,2024,private,Private facilities (HMIS),deaths,781,118,15.1
+CX-S22_2024_emr_d,CX-S22,2024,emr,EMR exchange,deaths,214,36,16.8
+CX-S22_2024_community_d,CX-S22,2024,community,Community (cHMIS),deaths,369,24,6.5
+CX-S22_2024_reportable_d,CX-S22,2024,reportable,All reporting systems,deaths,2435,577,23.7
+CX-S22_2024_total_d,CX-S22,2024,total,WHO estimate,deaths,4565,577,12.6
+CX-S22_2025_public_d,CX-S22,2025,public,Public facilities (HMIS),deaths,1085,423,39.0
+CX-S22_2025_private_d,CX-S22,2025,private,Private facilities (HMIS),deaths,791,140,17.7
+CX-S22_2025_emr_d,CX-S22,2025,emr,EMR exchange,deaths,217,81,37.3
+CX-S22_2025_community_d,CX-S22,2025,community,Community (cHMIS),deaths,374,28,7.5
+CX-S22_2025_reportable_d,CX-S22,2025,reportable,All reporting systems,deaths,2467,672,27.2
+CX-S22_2025_total_d,CX-S22,2025,total,WHO estimate,deaths,4629,672,14.5
+CX-S23_2021_public_c,CX-S23,2021,public,Public facilities (HMIS),cases,343894,195066,56.7
+CX-S23_2021_private_c,CX-S23,2021,private,Private facilities (HMIS),cases,184324,49530,26.9
+CX-S23_2021_emr_c,CX-S23,2021,emr,EMR exchange,cases,22989,0,0.0
+CX-S23_2021_community_c,CX-S23,2021,community,Community (cHMIS),cases,132955,22951,17.3
+CX-S23_2021_reportable_c,CX-S23,2021,reportable,All reporting systems,cases,684162,267547,39.1
+CX-S23_2021_total_c,CX-S23,2021,total,WHO estimate,cases,917316,267547,29.2
+CX-S23_2022_public_c,CX-S23,2022,public,Public facilities (HMIS),cases,349382,213242,61.0
+CX-S23_2022_private_c,CX-S23,2022,private,Private facilities (HMIS),cases,187265,55597,29.7
+CX-S23_2022_emr_c,CX-S23,2022,emr,EMR exchange,cases,23355,0,0.0
+CX-S23_2022_community_c,CX-S23,2022,community,Community (cHMIS),cases,135076,29232,21.6
+CX-S23_2022_reportable_c,CX-S23,2022,reportable,All reporting systems,cases,695078,298071,42.9
+CX-S23_2022_total_c,CX-S23,2022,total,WHO estimate,cases,930664,298071,32.0
+CX-S23_2023_public_c,CX-S23,2023,public,Public facilities (HMIS),cases,354870,232126,65.4
+CX-S23_2023_private_c,CX-S23,2023,private,Private facilities (HMIS),cases,190206,62564,32.9
+CX-S23_2023_emr_c,CX-S23,2023,emr,EMR exchange,cases,23722,0,0.0
+CX-S23_2023_community_c,CX-S23,2023,community,Community (cHMIS),cases,137198,34383,25.1
+CX-S23_2023_reportable_c,CX-S23,2023,reportable,All reporting systems,cases,705996,329073,46.6
+CX-S23_2023_total_c,CX-S23,2023,total,WHO estimate,cases,944011,329073,34.9
+CX-S23_2024_public_c,CX-S23,2024,public,Public facilities (HMIS),cases,360357,249121,69.1
+CX-S23_2024_private_c,CX-S23,2024,private,Private facilities (HMIS),cases,193148,71029,36.8
+CX-S23_2024_emr_c,CX-S23,2024,emr,EMR exchange,cases,24089,508,2.1
+CX-S23_2024_community_c,CX-S23,2024,community,Community (cHMIS),cases,139319,40515,29.1
+CX-S23_2024_reportable_c,CX-S23,2024,reportable,All reporting systems,cases,716913,361173,50.4
+CX-S23_2024_total_c,CX-S23,2024,total,WHO estimate,cases,957358,361173,37.7
+CX-S23_2025_public_c,CX-S23,2025,public,Public facilities (HMIS),cases,365845,269675,73.7
+CX-S23_2025_private_c,CX-S23,2025,private,Private facilities (HMIS),cases,196089,77117,39.3
+CX-S23_2025_emr_c,CX-S23,2025,emr,EMR exchange,cases,24456,1147,4.7
+CX-S23_2025_community_c,CX-S23,2025,community,Community (cHMIS),cases,141441,45842,32.4
+CX-S23_2025_reportable_c,CX-S23,2025,reportable,All reporting systems,cases,727831,393781,54.1
+CX-S23_2025_total_c,CX-S23,2025,total,WHO estimate,cases,970705,393781,40.6
+CX-S23_2021_public_d,CX-S23,2021,public,Public facilities (HMIS),deaths,546,197,36.1
+CX-S23_2021_private_d,CX-S23,2021,private,Private facilities (HMIS),deaths,319,15,4.7
+CX-S23_2021_emr_d,CX-S23,2021,emr,EMR exchange,deaths,58,0,0.0
+CX-S23_2021_community_d,CX-S23,2021,community,Community (cHMIS),deaths,260,1,0.4
+CX-S23_2021_reportable_d,CX-S23,2021,reportable,All reporting systems,deaths,1183,213,18.0
+CX-S23_2021_total_d,CX-S23,2021,total,WHO estimate,deaths,2415,213,8.8
+CX-S23_2022_public_d,CX-S23,2022,public,Public facilities (HMIS),deaths,553,218,39.4
+CX-S23_2022_private_d,CX-S23,2022,private,Private facilities (HMIS),deaths,323,23,7.1
+CX-S23_2022_emr_d,CX-S23,2022,emr,EMR exchange,deaths,59,0,0.0
+CX-S23_2022_community_d,CX-S23,2022,community,Community (cHMIS),deaths,264,6,2.3
+CX-S23_2022_reportable_d,CX-S23,2022,reportable,All reporting systems,deaths,1199,247,20.6
+CX-S23_2022_total_d,CX-S23,2022,total,WHO estimate,deaths,2450,247,10.1
+CX-S23_2023_public_d,CX-S23,2023,public,Public facilities (HMIS),deaths,561,232,41.4
+CX-S23_2023_private_d,CX-S23,2023,private,Private facilities (HMIS),deaths,328,25,7.6
+CX-S23_2023_emr_d,CX-S23,2023,emr,EMR exchange,deaths,59,0,0.0
+CX-S23_2023_community_d,CX-S23,2023,community,Community (cHMIS),deaths,267,12,4.5
+CX-S23_2023_reportable_d,CX-S23,2023,reportable,All reporting systems,deaths,1215,269,22.1
+CX-S23_2023_total_d,CX-S23,2023,total,WHO estimate,deaths,2485,269,10.8
+CX-S23_2024_public_d,CX-S23,2024,public,Public facilities (HMIS),deaths,568,251,44.2
+CX-S23_2024_private_d,CX-S23,2024,private,Private facilities (HMIS),deaths,332,38,11.4
+CX-S23_2024_emr_d,CX-S23,2024,emr,EMR exchange,deaths,60,0,0.0
+CX-S23_2024_community_d,CX-S23,2024,community,Community (cHMIS),deaths,271,20,7.4
+CX-S23_2024_reportable_d,CX-S23,2024,reportable,All reporting systems,deaths,1231,309,25.1
+CX-S23_2024_total_d,CX-S23,2024,total,WHO estimate,deaths,2520,309,12.3
+CX-S23_2025_public_d,CX-S23,2025,public,Public facilities (HMIS),deaths,575,266,46.3
+CX-S23_2025_private_d,CX-S23,2025,private,Private facilities (HMIS),deaths,336,41,12.2
+CX-S23_2025_emr_d,CX-S23,2025,emr,EMR exchange,deaths,61,1,1.6
+CX-S23_2025_community_d,CX-S23,2025,community,Community (cHMIS),deaths,274,23,8.4
+CX-S23_2025_reportable_d,CX-S23,2025,reportable,All reporting systems,deaths,1246,331,26.6
+CX-S23_2025_total_d,CX-S23,2025,total,WHO estimate,deaths,2555,331,13.0
+CX-S24_2021_public_c,CX-S24,2021,public,Public facilities (HMIS),cases,371238,266554,71.8
+CX-S24_2021_private_c,CX-S24,2021,private,Private facilities (HMIS),cases,246580,94920,38.5
+CX-S24_2021_emr_c,CX-S24,2021,emr,EMR exchange,cases,56395,0,0.0
+CX-S24_2021_community_c,CX-S24,2021,community,Community (cHMIS),cases,114320,35177,30.8
+CX-S24_2021_reportable_c,CX-S24,2021,reportable,All reporting systems,cases,788533,396651,50.3
+CX-S24_2021_total_c,CX-S24,2021,total,WHO estimate,cases,1071544,396651,37.0
+CX-S24_2022_public_c,CX-S24,2022,public,Public facilities (HMIS),cases,377162,285537,75.7
+CX-S24_2022_private_c,CX-S24,2022,private,Private facilities (HMIS),cases,250515,103211,41.2
+CX-S24_2022_emr_c,CX-S24,2022,emr,EMR exchange,cases,57295,0,0.0
+CX-S24_2022_community_c,CX-S24,2022,community,Community (cHMIS),cases,116144,41855,36.0
+CX-S24_2022_reportable_c,CX-S24,2022,reportable,All reporting systems,cases,801116,430603,53.8
+CX-S24_2022_total_c,CX-S24,2022,total,WHO estimate,cases,1087135,430603,39.6
+CX-S24_2023_public_c,CX-S24,2023,public,Public facilities (HMIS),cases,383086,300962,78.6
+CX-S24_2023_private_c,CX-S24,2023,private,Private facilities (HMIS),cases,254449,112303,44.1
+CX-S24_2023_emr_c,CX-S24,2023,emr,EMR exchange,cases,58195,0,0.0
+CX-S24_2023_community_c,CX-S24,2023,community,Community (cHMIS),cases,117968,49037,41.6
+CX-S24_2023_reportable_c,CX-S24,2023,reportable,All reporting systems,cases,813698,462302,56.8
+CX-S24_2023_total_c,CX-S24,2023,total,WHO estimate,cases,1102726,462302,41.9
+CX-S24_2024_public_c,CX-S24,2024,public,Public facilities (HMIS),cases,389010,319366,82.1
+CX-S24_2024_private_c,CX-S24,2024,private,Private facilities (HMIS),cases,258384,121839,47.2
+CX-S24_2024_emr_c,CX-S24,2024,emr,EMR exchange,cases,59095,13943,23.6
+CX-S24_2024_community_c,CX-S24,2024,community,Community (cHMIS),cases,119793,54040,45.1
+CX-S24_2024_reportable_c,CX-S24,2024,reportable,All reporting systems,cases,826282,509188,61.6
+CX-S24_2024_total_c,CX-S24,2024,total,WHO estimate,cases,1118317,509188,45.5
+CX-S24_2025_public_c,CX-S24,2025,public,Public facilities (HMIS),cases,394934,337918,85.6
+CX-S24_2025_private_c,CX-S24,2025,private,Private facilities (HMIS),cases,262319,129785,49.5
+CX-S24_2025_emr_c,CX-S24,2025,emr,EMR exchange,cases,59995,31456,52.4
+CX-S24_2025_community_c,CX-S24,2025,community,Community (cHMIS),cases,121617,60125,49.4
+CX-S24_2025_reportable_c,CX-S24,2025,reportable,All reporting systems,cases,838865,559284,66.7
+CX-S24_2025_total_c,CX-S24,2025,total,WHO estimate,cases,1133909,559284,49.3
+CX-S24_2021_public_d,CX-S24,2021,public,Public facilities (HMIS),deaths,720,284,39.4
+CX-S24_2021_private_d,CX-S24,2021,private,Private facilities (HMIS),deaths,373,38,10.2
+CX-S24_2021_emr_d,CX-S24,2021,emr,EMR exchange,deaths,76,0,0.0
+CX-S24_2021_community_d,CX-S24,2021,community,Community (cHMIS),deaths,297,11,3.7
+CX-S24_2021_reportable_d,CX-S24,2021,reportable,All reporting systems,deaths,1466,333,22.7
+CX-S24_2021_total_d,CX-S24,2021,total,WHO estimate,deaths,2774,333,12.0
+CX-S24_2022_public_d,CX-S24,2022,public,Public facilities (HMIS),deaths,730,309,42.3
+CX-S24_2022_private_d,CX-S24,2022,private,Private facilities (HMIS),deaths,378,44,11.6
+CX-S24_2022_emr_d,CX-S24,2022,emr,EMR exchange,deaths,77,0,0.0
+CX-S24_2022_community_d,CX-S24,2022,community,Community (cHMIS),deaths,301,23,7.6
+CX-S24_2022_reportable_d,CX-S24,2022,reportable,All reporting systems,deaths,1486,376,25.3
+CX-S24_2022_total_d,CX-S24,2022,total,WHO estimate,deaths,2814,376,13.4
+CX-S24_2023_public_d,CX-S24,2023,public,Public facilities (HMIS),deaths,739,324,43.8
+CX-S24_2023_private_d,CX-S24,2023,private,Private facilities (HMIS),deaths,383,51,13.3
+CX-S24_2023_emr_d,CX-S24,2023,emr,EMR exchange,deaths,78,0,0.0
+CX-S24_2023_community_d,CX-S24,2023,community,Community (cHMIS),deaths,305,28,9.2
+CX-S24_2023_reportable_d,CX-S24,2023,reportable,All reporting systems,deaths,1505,403,26.8
+CX-S24_2023_total_d,CX-S24,2023,total,WHO estimate,deaths,2855,403,14.1
+CX-S24_2024_public_d,CX-S24,2024,public,Public facilities (HMIS),deaths,749,338,45.1
+CX-S24_2024_private_d,CX-S24,2024,private,Private facilities (HMIS),deaths,388,61,15.7
+CX-S24_2024_emr_d,CX-S24,2024,emr,EMR exchange,deaths,79,10,12.7
+CX-S24_2024_community_d,CX-S24,2024,community,Community (cHMIS),deaths,309,39,12.6
+CX-S24_2024_reportable_d,CX-S24,2024,reportable,All reporting systems,deaths,1525,448,29.4
+CX-S24_2024_total_d,CX-S24,2024,total,WHO estimate,deaths,2895,448,15.5
+CX-S24_2025_public_d,CX-S24,2025,public,Public facilities (HMIS),deaths,758,361,47.6
+CX-S24_2025_private_d,CX-S24,2025,private,Private facilities (HMIS),deaths,393,65,16.5
+CX-S24_2025_emr_d,CX-S24,2025,emr,EMR exchange,deaths,80,22,27.5
+CX-S24_2025_community_d,CX-S24,2025,community,Community (cHMIS),deaths,313,47,15.0
+CX-S24_2025_reportable_d,CX-S24,2025,reportable,All reporting systems,deaths,1544,495,32.1
+CX-S24_2025_total_d,CX-S24,2025,total,WHO estimate,deaths,2935,495,16.9
+CX-S25_2021_public_c,CX-S25,2021,public,Public facilities (HMIS),cases,561329,351568,62.6
+CX-S25_2021_private_c,CX-S25,2021,private,Private facilities (HMIS),cases,289107,40638,14.1
+CX-S25_2021_emr_c,CX-S25,2021,emr,EMR exchange,cases,59225,0,0.0
+CX-S25_2021_community_c,CX-S25,2021,community,Community (cHMIS),cases,194096,33473,17.2
+CX-S25_2021_reportable_c,CX-S25,2021,reportable,All reporting systems,cases,1103757,425679,38.6
+CX-S25_2021_total_c,CX-S25,2021,total,WHO estimate,cases,1609327,425679,26.5
+CX-S25_2022_public_c,CX-S25,2022,public,Public facilities (HMIS),cases,570286,382034,67.0
+CX-S25_2022_private_c,CX-S25,2022,private,Private facilities (HMIS),cases,293721,55577,18.9
+CX-S25_2022_emr_c,CX-S25,2022,emr,EMR exchange,cases,60170,0,0.0
+CX-S25_2022_community_c,CX-S25,2022,community,Community (cHMIS),cases,197193,51989,26.4
+CX-S25_2022_reportable_c,CX-S25,2022,reportable,All reporting systems,cases,1121370,489600,43.7
+CX-S25_2022_total_c,CX-S25,2022,total,WHO estimate,cases,1632743,489600,30.0
+CX-S25_2023_public_c,CX-S25,2023,public,Public facilities (HMIS),cases,579243,412648,71.2
+CX-S25_2023_private_c,CX-S25,2023,private,Private facilities (HMIS),cases,298334,69687,23.4
+CX-S25_2023_emr_c,CX-S25,2023,emr,EMR exchange,cases,61115,0,0.0
+CX-S25_2023_community_c,CX-S25,2023,community,Community (cHMIS),cases,200290,66489,33.2
+CX-S25_2023_reportable_c,CX-S25,2023,reportable,All reporting systems,cases,1138982,548824,48.2
+CX-S25_2023_total_c,CX-S25,2023,total,WHO estimate,cases,1656159,548824,33.1
+CX-S25_2024_public_c,CX-S25,2024,public,Public facilities (HMIS),cases,588201,443189,75.3
+CX-S25_2024_private_c,CX-S25,2024,private,Private facilities (HMIS),cases,302948,82721,27.3
+CX-S25_2024_emr_c,CX-S25,2024,emr,EMR exchange,cases,62060,1534,2.5
+CX-S25_2024_community_c,CX-S25,2024,community,Community (cHMIS),cases,203388,81436,40.0
+CX-S25_2024_reportable_c,CX-S25,2024,reportable,All reporting systems,cases,1156597,608880,52.6
+CX-S25_2024_total_c,CX-S25,2024,total,WHO estimate,cases,1679575,608880,36.3
+CX-S25_2025_public_c,CX-S25,2025,public,Public facilities (HMIS),cases,597158,470574,78.8
+CX-S25_2025_private_c,CX-S25,2025,private,Private facilities (HMIS),cases,307561,96511,31.4
+CX-S25_2025_emr_c,CX-S25,2025,emr,EMR exchange,cases,63005,3461,5.5
+CX-S25_2025_community_c,CX-S25,2025,community,Community (cHMIS),cases,206485,96744,46.9
+CX-S25_2025_reportable_c,CX-S25,2025,reportable,All reporting systems,cases,1174209,667290,56.8
+CX-S25_2025_total_c,CX-S25,2025,total,WHO estimate,cases,1702992,667290,39.2
+CX-S25_2021_public_d,CX-S25,2021,public,Public facilities (HMIS),deaths,1327,351,26.5
+CX-S25_2021_private_d,CX-S25,2021,private,Private facilities (HMIS),deaths,441,30,6.8
+CX-S25_2021_emr_d,CX-S25,2021,emr,EMR exchange,deaths,85,0,0.0
+CX-S25_2021_community_d,CX-S25,2021,community,Community (cHMIS),deaths,560,3,0.5
+CX-S25_2021_reportable_d,CX-S25,2021,reportable,All reporting systems,deaths,2413,384,15.9
+CX-S25_2021_total_d,CX-S25,2021,total,WHO estimate,deaths,4269,384,9.0
+CX-S25_2022_public_d,CX-S25,2022,public,Public facilities (HMIS),deaths,1345,392,29.1
+CX-S25_2022_private_d,CX-S25,2022,private,Private facilities (HMIS),deaths,447,37,8.3
+CX-S25_2022_emr_d,CX-S25,2022,emr,EMR exchange,deaths,86,0,0.0
+CX-S25_2022_community_d,CX-S25,2022,community,Community (cHMIS),deaths,568,18,3.2
+CX-S25_2022_reportable_d,CX-S25,2022,reportable,All reporting systems,deaths,2446,447,18.3
+CX-S25_2022_total_d,CX-S25,2022,total,WHO estimate,deaths,4331,447,10.3
+CX-S25_2023_public_d,CX-S25,2023,public,Public facilities (HMIS),deaths,1362,433,31.8
+CX-S25_2023_private_d,CX-S25,2023,private,Private facilities (HMIS),deaths,452,56,12.4
+CX-S25_2023_emr_d,CX-S25,2023,emr,EMR exchange,deaths,87,0,0.0
+CX-S25_2023_community_d,CX-S25,2023,community,Community (cHMIS),deaths,575,36,6.3
+CX-S25_2023_reportable_d,CX-S25,2023,reportable,All reporting systems,deaths,2476,525,21.2
+CX-S25_2023_total_d,CX-S25,2023,total,WHO estimate,deaths,4393,525,12.0
+CX-S25_2024_public_d,CX-S25,2024,public,Public facilities (HMIS),deaths,1380,464,33.6
+CX-S25_2024_private_d,CX-S25,2024,private,Private facilities (HMIS),deaths,458,72,15.7
+CX-S25_2024_emr_d,CX-S25,2024,emr,EMR exchange,deaths,88,1,1.1
+CX-S25_2024_community_d,CX-S25,2024,community,Community (cHMIS),deaths,583,51,8.7
+CX-S25_2024_reportable_d,CX-S25,2024,reportable,All reporting systems,deaths,2509,588,23.4
+CX-S25_2024_total_d,CX-S25,2024,total,WHO estimate,deaths,4455,588,13.2
+CX-S25_2025_public_d,CX-S25,2025,public,Public facilities (HMIS),deaths,1397,505,36.1
+CX-S25_2025_private_d,CX-S25,2025,private,Private facilities (HMIS),deaths,464,80,17.2
+CX-S25_2025_emr_d,CX-S25,2025,emr,EMR exchange,deaths,89,3,3.4
+CX-S25_2025_community_d,CX-S25,2025,community,Community (cHMIS),deaths,590,62,10.5
+CX-S25_2025_reportable_d,CX-S25,2025,reportable,All reporting systems,deaths,2540,650,25.6
+CX-S25_2025_total_d,CX-S25,2025,total,WHO estimate,deaths,4517,650,14.4
+CX-S26_2021_public_c,CX-S26,2021,public,Public facilities (HMIS),cases,474927,318206,67.0
+CX-S26_2021_private_c,CX-S26,2021,private,Private facilities (HMIS),cases,279924,81345,29.1
+CX-S26_2021_emr_c,CX-S26,2021,emr,EMR exchange,cases,51530,0,0.0
+CX-S26_2021_community_c,CX-S26,2021,community,Community (cHMIS),cases,184496,25529,13.8
+CX-S26_2021_reportable_c,CX-S26,2021,reportable,All reporting systems,cases,990877,425080,42.9
+CX-S26_2021_total_c,CX-S26,2021,total,WHO estimate,cases,1350494,425080,31.5
+CX-S26_2022_public_c,CX-S26,2022,public,Public facilities (HMIS),cases,482506,344741,71.4
+CX-S26_2022_private_c,CX-S26,2022,private,Private facilities (HMIS),cases,284391,92055,32.4
+CX-S26_2022_emr_c,CX-S26,2022,emr,EMR exchange,cases,52352,0,0.0
+CX-S26_2022_community_c,CX-S26,2022,community,Community (cHMIS),cases,187440,37550,20.0
+CX-S26_2022_reportable_c,CX-S26,2022,reportable,All reporting systems,cases,1006689,474346,47.1
+CX-S26_2022_total_c,CX-S26,2022,total,WHO estimate,cases,1370144,474346,34.6
+CX-S26_2023_public_c,CX-S26,2023,public,Public facilities (HMIS),cases,490085,363588,74.2
+CX-S26_2023_private_c,CX-S26,2023,private,Private facilities (HMIS),cases,288858,99118,34.3
+CX-S26_2023_emr_c,CX-S26,2023,emr,EMR exchange,cases,53174,0,0.0
+CX-S26_2023_community_c,CX-S26,2023,community,Community (cHMIS),cases,190384,51023,26.8
+CX-S26_2023_reportable_c,CX-S26,2023,reportable,All reporting systems,cases,1022501,513729,50.2
+CX-S26_2023_total_c,CX-S26,2023,total,WHO estimate,cases,1389794,513729,37.0
+CX-S26_2024_public_c,CX-S26,2024,public,Public facilities (HMIS),cases,497663,389111,78.2
+CX-S26_2024_private_c,CX-S26,2024,private,Private facilities (HMIS),cases,293325,109186,37.2
+CX-S26_2024_emr_c,CX-S26,2024,emr,EMR exchange,cases,53997,361,0.7
+CX-S26_2024_community_c,CX-S26,2024,community,Community (cHMIS),cases,193328,63907,33.1
+CX-S26_2024_reportable_c,CX-S26,2024,reportable,All reporting systems,cases,1038313,562565,54.2
+CX-S26_2024_total_c,CX-S26,2024,total,WHO estimate,cases,1409444,562565,39.9
+CX-S26_2025_public_c,CX-S26,2025,public,Public facilities (HMIS),cases,505242,409863,81.1
+CX-S26_2025_private_c,CX-S26,2025,private,Private facilities (HMIS),cases,297792,117879,39.6
+CX-S26_2025_emr_c,CX-S26,2025,emr,EMR exchange,cases,54819,815,1.5
+CX-S26_2025_community_c,CX-S26,2025,community,Community (cHMIS),cases,196272,74638,38.0
+CX-S26_2025_reportable_c,CX-S26,2025,reportable,All reporting systems,cases,1054125,603195,57.2
+CX-S26_2025_total_c,CX-S26,2025,total,WHO estimate,cases,1429094,603195,42.2
+CX-S26_2021_public_d,CX-S26,2021,public,Public facilities (HMIS),deaths,922,398,43.2
+CX-S26_2021_private_d,CX-S26,2021,private,Private facilities (HMIS),deaths,389,32,8.2
+CX-S26_2021_emr_d,CX-S26,2021,emr,EMR exchange,deaths,100,0,0.0
+CX-S26_2021_community_d,CX-S26,2021,community,Community (cHMIS),deaths,444,2,0.5
+CX-S26_2021_reportable_d,CX-S26,2021,reportable,All reporting systems,deaths,1855,432,23.3
+CX-S26_2021_total_d,CX-S26,2021,total,WHO estimate,deaths,3555,432,12.2
+CX-S26_2022_public_d,CX-S26,2022,public,Public facilities (HMIS),deaths,935,431,46.1
+CX-S26_2022_private_d,CX-S26,2022,private,Private facilities (HMIS),deaths,394,40,10.2
+CX-S26_2022_emr_d,CX-S26,2022,emr,EMR exchange,deaths,101,0,0.0
+CX-S26_2022_community_d,CX-S26,2022,community,Community (cHMIS),deaths,449,12,2.7
+CX-S26_2022_reportable_d,CX-S26,2022,reportable,All reporting systems,deaths,1879,483,25.7
+CX-S26_2022_total_d,CX-S26,2022,total,WHO estimate,deaths,3607,483,13.4
+CX-S26_2023_public_d,CX-S26,2023,public,Public facilities (HMIS),deaths,947,438,46.3
+CX-S26_2023_private_d,CX-S26,2023,private,Private facilities (HMIS),deaths,399,47,11.8
+CX-S26_2023_emr_d,CX-S26,2023,emr,EMR exchange,deaths,102,0,0.0
+CX-S26_2023_community_d,CX-S26,2023,community,Community (cHMIS),deaths,455,15,3.3
+CX-S26_2023_reportable_d,CX-S26,2023,reportable,All reporting systems,deaths,1903,500,26.3
+CX-S26_2023_total_d,CX-S26,2023,total,WHO estimate,deaths,3658,500,13.7
+CX-S26_2024_public_d,CX-S26,2024,public,Public facilities (HMIS),deaths,959,477,49.7
+CX-S26_2024_private_d,CX-S26,2024,private,Private facilities (HMIS),deaths,404,49,12.1
+CX-S26_2024_emr_d,CX-S26,2024,emr,EMR exchange,deaths,104,0,0.0
+CX-S26_2024_community_d,CX-S26,2024,community,Community (cHMIS),deaths,461,25,5.4
+CX-S26_2024_reportable_d,CX-S26,2024,reportable,All reporting systems,deaths,1928,551,28.6
+CX-S26_2024_total_d,CX-S26,2024,total,WHO estimate,deaths,3710,551,14.9
+CX-S26_2025_public_d,CX-S26,2025,public,Public facilities (HMIS),deaths,971,501,51.6
+CX-S26_2025_private_d,CX-S26,2025,private,Private facilities (HMIS),deaths,409,59,14.4
+CX-S26_2025_emr_d,CX-S26,2025,emr,EMR exchange,deaths,105,0,0.0
+CX-S26_2025_community_d,CX-S26,2025,community,Community (cHMIS),deaths,467,33,7.1
+CX-S26_2025_reportable_d,CX-S26,2025,reportable,All reporting systems,deaths,1952,593,30.4
+CX-S26_2025_total_d,CX-S26,2025,total,WHO estimate,deaths,3762,593,15.8
+CX-S27_2021_public_c,CX-S27,2021,public,Public facilities (HMIS),cases,461066,223089,48.4
+CX-S27_2021_private_c,CX-S27,2021,private,Private facilities (HMIS),cases,254259,65638,25.8
+CX-S27_2021_emr_c,CX-S27,2021,emr,EMR exchange,cases,40577,0,0.0
+CX-S27_2021_community_c,CX-S27,2021,community,Community (cHMIS),cases,196449,49809,25.4
+CX-S27_2021_reportable_c,CX-S27,2021,reportable,All reporting systems,cases,952351,338536,35.5
+CX-S27_2021_total_c,CX-S27,2021,total,WHO estimate,cases,1260640,338536,26.9
+CX-S27_2022_public_c,CX-S27,2022,public,Public facilities (HMIS),cases,468424,246980,52.7
+CX-S27_2022_private_c,CX-S27,2022,private,Private facilities (HMIS),cases,258316,78040,30.2
+CX-S27_2022_emr_c,CX-S27,2022,emr,EMR exchange,cases,41224,0,0.0
+CX-S27_2022_community_c,CX-S27,2022,community,Community (cHMIS),cases,199584,62228,31.2
+CX-S27_2022_reportable_c,CX-S27,2022,reportable,All reporting systems,cases,967548,387248,40.0
+CX-S27_2022_total_c,CX-S27,2022,total,WHO estimate,cases,1278982,387248,30.3
+CX-S27_2023_public_c,CX-S27,2023,public,Public facilities (HMIS),cases,475781,267670,56.3
+CX-S27_2023_private_c,CX-S27,2023,private,Private facilities (HMIS),cases,262373,91360,34.8
+CX-S27_2023_emr_c,CX-S27,2023,emr,EMR exchange,cases,41872,0,0.0
+CX-S27_2023_community_c,CX-S27,2023,community,Community (cHMIS),cases,202718,73794,36.4
+CX-S27_2023_reportable_c,CX-S27,2023,reportable,All reporting systems,cases,982744,432824,44.0
+CX-S27_2023_total_c,CX-S27,2023,total,WHO estimate,cases,1297325,432824,33.4
+CX-S27_2024_public_c,CX-S27,2024,public,Public facilities (HMIS),cases,483139,292301,60.5
+CX-S27_2024_private_c,CX-S27,2024,private,Private facilities (HMIS),cases,266431,100729,37.8
+CX-S27_2024_emr_c,CX-S27,2024,emr,EMR exchange,cases,42519,535,1.3
+CX-S27_2024_community_c,CX-S27,2024,community,Community (cHMIS),cases,205853,83449,40.5
+CX-S27_2024_reportable_c,CX-S27,2024,reportable,All reporting systems,cases,997942,477014,47.8
+CX-S27_2024_total_c,CX-S27,2024,total,WHO estimate,cases,1315667,477014,36.3
+CX-S27_2025_public_c,CX-S27,2025,public,Public facilities (HMIS),cases,490496,313522,63.9
+CX-S27_2025_private_c,CX-S27,2025,private,Private facilities (HMIS),cases,270488,109864,40.6
+CX-S27_2025_emr_c,CX-S27,2025,emr,EMR exchange,cases,43167,1208,2.8
+CX-S27_2025_community_c,CX-S27,2025,community,Community (cHMIS),cases,208988,94951,45.4
+CX-S27_2025_reportable_c,CX-S27,2025,reportable,All reporting systems,cases,1013139,519545,51.3
+CX-S27_2025_total_c,CX-S27,2025,total,WHO estimate,cases,1334010,519545,38.9
+CX-S27_2021_public_d,CX-S27,2021,public,Public facilities (HMIS),deaths,706,219,31.0
+CX-S27_2021_private_d,CX-S27,2021,private,Private facilities (HMIS),deaths,355,34,9.6
+CX-S27_2021_emr_d,CX-S27,2021,emr,EMR exchange,deaths,88,0,0.0
+CX-S27_2021_community_d,CX-S27,2021,community,Community (cHMIS),deaths,421,6,1.4
+CX-S27_2021_reportable_d,CX-S27,2021,reportable,All reporting systems,deaths,1570,259,16.5
+CX-S27_2021_total_d,CX-S27,2021,total,WHO estimate,deaths,3344,259,7.7
+CX-S27_2022_public_d,CX-S27,2022,public,Public facilities (HMIS),deaths,715,239,33.4
+CX-S27_2022_private_d,CX-S27,2022,private,Private facilities (HMIS),deaths,360,47,13.1
+CX-S27_2022_emr_d,CX-S27,2022,emr,EMR exchange,deaths,90,0,0.0
+CX-S27_2022_community_d,CX-S27,2022,community,Community (cHMIS),deaths,426,24,5.6
+CX-S27_2022_reportable_d,CX-S27,2022,reportable,All reporting systems,deaths,1591,310,19.5
+CX-S27_2022_total_d,CX-S27,2022,total,WHO estimate,deaths,3393,310,9.1
+CX-S27_2023_public_d,CX-S27,2023,public,Public facilities (HMIS),deaths,724,264,36.5
+CX-S27_2023_private_d,CX-S27,2023,private,Private facilities (HMIS),deaths,365,51,14.0
+CX-S27_2023_emr_d,CX-S27,2023,emr,EMR exchange,deaths,91,0,0.0
+CX-S27_2023_community_d,CX-S27,2023,community,Community (cHMIS),deaths,432,33,7.6
+CX-S27_2023_reportable_d,CX-S27,2023,reportable,All reporting systems,deaths,1612,348,21.6
+CX-S27_2023_total_d,CX-S27,2023,total,WHO estimate,deaths,3441,348,10.1
+CX-S27_2024_public_d,CX-S27,2024,public,Public facilities (HMIS),deaths,734,279,38.0
+CX-S27_2024_private_d,CX-S27,2024,private,Private facilities (HMIS),deaths,369,61,16.5
+CX-S27_2024_emr_d,CX-S27,2024,emr,EMR exchange,deaths,92,0,0.0
+CX-S27_2024_community_d,CX-S27,2024,community,Community (cHMIS),deaths,437,47,10.8
+CX-S27_2024_reportable_d,CX-S27,2024,reportable,All reporting systems,deaths,1632,387,23.7
+CX-S27_2024_total_d,CX-S27,2024,total,WHO estimate,deaths,3490,387,11.1
+CX-S27_2025_public_d,CX-S27,2025,public,Public facilities (HMIS),deaths,743,300,40.4
+CX-S27_2025_private_d,CX-S27,2025,private,Private facilities (HMIS),deaths,374,69,18.4
+CX-S27_2025_emr_d,CX-S27,2025,emr,EMR exchange,deaths,93,1,1.1
+CX-S27_2025_community_d,CX-S27,2025,community,Community (cHMIS),deaths,443,60,13.5
+CX-S27_2025_reportable_d,CX-S27,2025,reportable,All reporting systems,deaths,1653,430,26.0
+CX-S27_2025_total_d,CX-S27,2025,total,WHO estimate,deaths,3539,430,12.2
+CX-S28_2021_public_c,CX-S28,2021,public,Public facilities (HMIS),cases,478467,308167,64.4
+CX-S28_2021_private_c,CX-S28,2021,private,Private facilities (HMIS),cases,281942,78713,27.9
+CX-S28_2021_emr_c,CX-S28,2021,emr,EMR exchange,cases,42010,0,0.0
+CX-S28_2021_community_c,CX-S28,2021,community,Community (cHMIS),cases,157406,28322,18.0
+CX-S28_2021_reportable_c,CX-S28,2021,reportable,All reporting systems,cases,959825,415202,43.3
+CX-S28_2021_total_c,CX-S28,2021,total,WHO estimate,cases,1424254,415202,29.2
+CX-S28_2022_public_c,CX-S28,2022,public,Public facilities (HMIS),cases,486102,325774,67.0
+CX-S28_2022_private_c,CX-S28,2022,private,Private facilities (HMIS),cases,286441,91749,32.0
+CX-S28_2022_emr_c,CX-S28,2022,emr,EMR exchange,cases,42680,0,0.0
+CX-S28_2022_community_c,CX-S28,2022,community,Community (cHMIS),cases,159918,37419,23.4
+CX-S28_2022_reportable_c,CX-S28,2022,reportable,All reporting systems,cases,975141,454942,46.7
+CX-S28_2022_total_c,CX-S28,2022,total,WHO estimate,cases,1444978,454942,31.5
+CX-S28_2023_public_c,CX-S28,2023,public,Public facilities (HMIS),cases,493737,348990,70.7
+CX-S28_2023_private_c,CX-S28,2023,private,Private facilities (HMIS),cases,290940,107544,37.0
+CX-S28_2023_emr_c,CX-S28,2023,emr,EMR exchange,cases,43350,0,0.0
+CX-S28_2023_community_c,CX-S28,2023,community,Community (cHMIS),cases,162429,47736,29.4
+CX-S28_2023_reportable_c,CX-S28,2023,reportable,All reporting systems,cases,990456,504270,50.9
+CX-S28_2023_total_c,CX-S28,2023,total,WHO estimate,cases,1465701,504270,34.4
+CX-S28_2024_public_c,CX-S28,2024,public,Public facilities (HMIS),cases,501372,358043,71.4
+CX-S28_2024_private_c,CX-S28,2024,private,Private facilities (HMIS),cases,295439,119627,40.5
+CX-S28_2024_emr_c,CX-S28,2024,emr,EMR exchange,cases,44021,865,2.0
+CX-S28_2024_community_c,CX-S28,2024,community,Community (cHMIS),cases,164941,55317,33.5
+CX-S28_2024_reportable_c,CX-S28,2024,reportable,All reporting systems,cases,1005773,533852,53.1
+CX-S28_2024_total_c,CX-S28,2024,total,WHO estimate,cases,1486424,533852,35.9
+CX-S28_2025_public_c,CX-S28,2025,public,Public facilities (HMIS),cases,509007,381854,75.0
+CX-S28_2025_private_c,CX-S28,2025,private,Private facilities (HMIS),cases,299938,134149,44.7
+CX-S28_2025_emr_c,CX-S28,2025,emr,EMR exchange,cases,44691,1952,4.4
+CX-S28_2025_community_c,CX-S28,2025,community,Community (cHMIS),cases,167453,64659,38.6
+CX-S28_2025_reportable_c,CX-S28,2025,reportable,All reporting systems,cases,1021089,582614,57.1
+CX-S28_2025_total_c,CX-S28,2025,total,WHO estimate,cases,1507148,582614,38.7
+CX-S28_2021_public_d,CX-S28,2021,public,Public facilities (HMIS),deaths,1036,288,27.8
+CX-S28_2021_private_d,CX-S28,2021,private,Private facilities (HMIS),deaths,411,31,7.5
+CX-S28_2021_emr_d,CX-S28,2021,emr,EMR exchange,deaths,105,0,0.0
+CX-S28_2021_community_d,CX-S28,2021,community,Community (cHMIS),deaths,358,2,0.6
+CX-S28_2021_reportable_d,CX-S28,2021,reportable,All reporting systems,deaths,1910,321,16.8
+CX-S28_2021_total_d,CX-S28,2021,total,WHO estimate,deaths,3719,321,8.6
+CX-S28_2022_public_d,CX-S28,2022,public,Public facilities (HMIS),deaths,1050,322,30.7
+CX-S28_2022_private_d,CX-S28,2022,private,Private facilities (HMIS),deaths,417,42,10.1
+CX-S28_2022_emr_d,CX-S28,2022,emr,EMR exchange,deaths,107,0,0.0
+CX-S28_2022_community_d,CX-S28,2022,community,Community (cHMIS),deaths,363,12,3.3
+CX-S28_2022_reportable_d,CX-S28,2022,reportable,All reporting systems,deaths,1937,376,19.4
+CX-S28_2022_total_d,CX-S28,2022,total,WHO estimate,deaths,3773,376,10.0
+CX-S28_2023_public_d,CX-S28,2023,public,Public facilities (HMIS),deaths,1064,334,31.4
+CX-S28_2023_private_d,CX-S28,2023,private,Private facilities (HMIS),deaths,422,56,13.3
+CX-S28_2023_emr_d,CX-S28,2023,emr,EMR exchange,deaths,108,0,0.0
+CX-S28_2023_community_d,CX-S28,2023,community,Community (cHMIS),deaths,368,26,7.1
+CX-S28_2023_reportable_d,CX-S28,2023,reportable,All reporting systems,deaths,1962,416,21.2
+CX-S28_2023_total_d,CX-S28,2023,total,WHO estimate,deaths,3827,416,10.9
+CX-S28_2024_public_d,CX-S28,2024,public,Public facilities (HMIS),deaths,1077,351,32.6
+CX-S28_2024_private_d,CX-S28,2024,private,Private facilities (HMIS),deaths,428,66,15.4
+CX-S28_2024_emr_d,CX-S28,2024,emr,EMR exchange,deaths,110,1,0.9
+CX-S28_2024_community_d,CX-S28,2024,community,Community (cHMIS),deaths,372,37,9.9
+CX-S28_2024_reportable_d,CX-S28,2024,reportable,All reporting systems,deaths,1987,455,22.9
+CX-S28_2024_total_d,CX-S28,2024,total,WHO estimate,deaths,3881,455,11.7
+CX-S28_2025_public_d,CX-S28,2025,public,Public facilities (HMIS),deaths,1091,373,34.2
+CX-S28_2025_private_d,CX-S28,2025,private,Private facilities (HMIS),deaths,433,77,17.8
+CX-S28_2025_emr_d,CX-S28,2025,emr,EMR exchange,deaths,111,3,2.7
+CX-S28_2025_community_d,CX-S28,2025,community,Community (cHMIS),deaths,377,47,12.5
+CX-S28_2025_reportable_d,CX-S28,2025,reportable,All reporting systems,deaths,2012,500,24.9
+CX-S28_2025_total_d,CX-S28,2025,total,WHO estimate,deaths,3935,500,12.7
+CX-S29_2021_public_c,CX-S29,2021,public,Public facilities (HMIS),cases,592600,358826,60.6
+CX-S29_2021_private_c,CX-S29,2021,private,Private facilities (HMIS),cases,284196,58350,20.5
+CX-S29_2021_emr_c,CX-S29,2021,emr,EMR exchange,cases,46009,0,0.0
+CX-S29_2021_community_c,CX-S29,2021,community,Community (cHMIS),cases,234895,48149,20.5
+CX-S29_2021_reportable_c,CX-S29,2021,reportable,All reporting systems,cases,1157700,465325,40.2
+CX-S29_2021_total_c,CX-S29,2021,total,WHO estimate,cases,1609327,465325,28.9
+CX-S29_2022_public_c,CX-S29,2022,public,Public facilities (HMIS),cases,602057,388275,64.5
+CX-S29_2022_private_c,CX-S29,2022,private,Private facilities (HMIS),cases,288731,71663,24.8
+CX-S29_2022_emr_c,CX-S29,2022,emr,EMR exchange,cases,46743,0,0.0
+CX-S29_2022_community_c,CX-S29,2022,community,Community (cHMIS),cases,238643,61988,26.0
+CX-S29_2022_reportable_c,CX-S29,2022,reportable,All reporting systems,cases,1176174,521926,44.4
+CX-S29_2022_total_c,CX-S29,2022,total,WHO estimate,cases,1632743,521926,32.0
+CX-S29_2023_public_c,CX-S29,2023,public,Public facilities (HMIS),cases,611513,419445,68.6
+CX-S29_2023_private_c,CX-S29,2023,private,Private facilities (HMIS),cases,293266,89710,30.6
+CX-S29_2023_emr_c,CX-S29,2023,emr,EMR exchange,cases,47478,0,0.0
+CX-S29_2023_community_c,CX-S29,2023,community,Community (cHMIS),cases,242391,75924,31.3
+CX-S29_2023_reportable_c,CX-S29,2023,reportable,All reporting systems,cases,1194648,585079,49.0
+CX-S29_2023_total_c,CX-S29,2023,total,WHO estimate,cases,1656159,585079,35.3
+CX-S29_2024_public_c,CX-S29,2024,public,Public facilities (HMIS),cases,620970,444151,71.5
+CX-S29_2024_private_c,CX-S29,2024,private,Private facilities (HMIS),cases,297801,101737,34.2
+CX-S29_2024_emr_c,CX-S29,2024,emr,EMR exchange,cases,48212,1172,2.4
+CX-S29_2024_community_c,CX-S29,2024,community,Community (cHMIS),cases,246140,91834,37.3
+CX-S29_2024_reportable_c,CX-S29,2024,reportable,All reporting systems,cases,1213123,638894,52.7
+CX-S29_2024_total_c,CX-S29,2024,total,WHO estimate,cases,1679575,638894,38.0
+CX-S29_2025_public_c,CX-S29,2025,public,Public facilities (HMIS),cases,630426,476607,75.6
+CX-S29_2025_private_c,CX-S29,2025,private,Private facilities (HMIS),cases,302336,115285,38.1
+CX-S29_2025_emr_c,CX-S29,2025,emr,EMR exchange,cases,48946,2644,5.4
+CX-S29_2025_community_c,CX-S29,2025,community,Community (cHMIS),cases,249888,102181,40.9
+CX-S29_2025_reportable_c,CX-S29,2025,reportable,All reporting systems,cases,1231596,696717,56.6
+CX-S29_2025_total_c,CX-S29,2025,total,WHO estimate,cases,1702992,696717,40.9
+CX-S29_2021_public_d,CX-S29,2021,public,Public facilities (HMIS),deaths,1082,461,42.6
+CX-S29_2021_private_d,CX-S29,2021,private,Private facilities (HMIS),deaths,501,29,5.8
+CX-S29_2021_emr_d,CX-S29,2021,emr,EMR exchange,deaths,62,0,0.0
+CX-S29_2021_community_d,CX-S29,2021,community,Community (cHMIS),deaths,378,9,2.4
+CX-S29_2021_reportable_d,CX-S29,2021,reportable,All reporting systems,deaths,2023,499,24.7
+CX-S29_2021_total_d,CX-S29,2021,total,WHO estimate,deaths,4387,499,11.4
+CX-S29_2022_public_d,CX-S29,2022,public,Public facilities (HMIS),deaths,1096,501,45.7
+CX-S29_2022_private_d,CX-S29,2022,private,Private facilities (HMIS),deaths,507,45,8.9
+CX-S29_2022_emr_d,CX-S29,2022,emr,EMR exchange,deaths,63,0,0.0
+CX-S29_2022_community_d,CX-S29,2022,community,Community (cHMIS),deaths,383,17,4.4
+CX-S29_2022_reportable_d,CX-S29,2022,reportable,All reporting systems,deaths,2049,563,27.5
+CX-S29_2022_total_d,CX-S29,2022,total,WHO estimate,deaths,4451,563,12.6
+CX-S29_2023_public_d,CX-S29,2023,public,Public facilities (HMIS),deaths,1111,534,48.1
+CX-S29_2023_private_d,CX-S29,2023,private,Private facilities (HMIS),deaths,514,59,11.5
+CX-S29_2023_emr_d,CX-S29,2023,emr,EMR exchange,deaths,63,0,0.0
+CX-S29_2023_community_d,CX-S29,2023,community,Community (cHMIS),deaths,388,33,8.5
+CX-S29_2023_reportable_d,CX-S29,2023,reportable,All reporting systems,deaths,2076,626,30.2
+CX-S29_2023_total_d,CX-S29,2023,total,WHO estimate,deaths,4515,626,13.9
+CX-S29_2024_public_d,CX-S29,2024,public,Public facilities (HMIS),deaths,1125,567,50.4
+CX-S29_2024_private_d,CX-S29,2024,private,Private facilities (HMIS),deaths,520,69,13.3
+CX-S29_2024_emr_d,CX-S29,2024,emr,EMR exchange,deaths,64,1,1.6
+CX-S29_2024_community_d,CX-S29,2024,community,Community (cHMIS),deaths,393,48,12.2
+CX-S29_2024_reportable_d,CX-S29,2024,reportable,All reporting systems,deaths,2102,685,32.6
+CX-S29_2024_total_d,CX-S29,2024,total,WHO estimate,deaths,4579,685,15.0
+CX-S29_2025_public_d,CX-S29,2025,public,Public facilities (HMIS),deaths,1139,589,51.7
+CX-S29_2025_private_d,CX-S29,2025,private,Private facilities (HMIS),deaths,527,86,16.3
+CX-S29_2025_emr_d,CX-S29,2025,emr,EMR exchange,deaths,65,2,3.1
+CX-S29_2025_community_d,CX-S29,2025,community,Community (cHMIS),deaths,398,58,14.6
+CX-S29_2025_reportable_d,CX-S29,2025,reportable,All reporting systems,deaths,2129,735,34.5
+CX-S29_2025_total_d,CX-S29,2025,total,WHO estimate,deaths,4643,735,15.8
+CX-S30_2021_public_c,CX-S30,2021,public,Public facilities (HMIS),cases,969357,593660,61.2
+CX-S30_2021_private_c,CX-S30,2021,private,Private facilities (HMIS),cases,676372,149005,22.0
+CX-S30_2021_emr_c,CX-S30,2021,emr,EMR exchange,cases,138040,0,0.0
+CX-S30_2021_community_c,CX-S30,2021,community,Community (cHMIS),cases,309769,39114,12.6
+CX-S30_2021_reportable_c,CX-S30,2021,reportable,All reporting systems,cases,2093538,781779,37.3
+CX-S30_2021_total_c,CX-S30,2021,total,WHO estimate,cases,2896789,781779,27.0
+CX-S30_2022_public_c,CX-S30,2022,public,Public facilities (HMIS),cases,984826,645209,65.5
+CX-S30_2022_private_c,CX-S30,2022,private,Private facilities (HMIS),cases,687165,179911,26.2
+CX-S30_2022_emr_c,CX-S30,2022,emr,EMR exchange,cases,140243,0,0.0
+CX-S30_2022_community_c,CX-S30,2022,community,Community (cHMIS),cases,314713,57337,18.2
+CX-S30_2022_reportable_c,CX-S30,2022,reportable,All reporting systems,cases,2126947,882457,41.5
+CX-S30_2022_total_c,CX-S30,2022,total,WHO estimate,cases,2938938,882457,30.0
+CX-S30_2023_public_c,CX-S30,2023,public,Public facilities (HMIS),cases,1000294,692629,69.2
+CX-S30_2023_private_c,CX-S30,2023,private,Private facilities (HMIS),cases,697959,212247,30.4
+CX-S30_2023_emr_c,CX-S30,2023,emr,EMR exchange,cases,142445,0,0.0
+CX-S30_2023_community_c,CX-S30,2023,community,Community (cHMIS),cases,319656,70567,22.1
+CX-S30_2023_reportable_c,CX-S30,2023,reportable,All reporting systems,cases,2160354,975443,45.2
+CX-S30_2023_total_c,CX-S30,2023,total,WHO estimate,cases,2981087,975443,32.7
+CX-S30_2024_public_c,CX-S30,2024,public,Public facilities (HMIS),cases,1015763,725591,71.4
+CX-S30_2024_private_c,CX-S30,2024,private,Private facilities (HMIS),cases,708752,233204,32.9
+CX-S30_2024_emr_c,CX-S30,2024,emr,EMR exchange,cases,144648,40547,28.0
+CX-S30_2024_community_c,CX-S30,2024,community,Community (cHMIS),cases,324599,85421,26.3
+CX-S30_2024_reportable_c,CX-S30,2024,reportable,All reporting systems,cases,2193762,1084763,49.4
+CX-S30_2024_total_c,CX-S30,2024,total,WHO estimate,cases,3023236,1084763,35.9
+CX-S30_2025_public_c,CX-S30,2025,public,Public facilities (HMIS),cases,1031231,770175,74.7
+CX-S30_2025_private_c,CX-S30,2025,private,Private facilities (HMIS),cases,719545,270487,37.6
+CX-S30_2025_emr_c,CX-S30,2025,emr,EMR exchange,cases,146851,91476,62.3
+CX-S30_2025_community_c,CX-S30,2025,community,Community (cHMIS),cases,329542,100270,30.4
+CX-S30_2025_reportable_c,CX-S30,2025,reportable,All reporting systems,cases,2227169,1232408,55.3
+CX-S30_2025_total_c,CX-S30,2025,total,WHO estimate,cases,3065385,1232408,40.2
+CX-S30_2021_public_d,CX-S30,2021,public,Public facilities (HMIS),deaths,2015,775,38.5
+CX-S30_2021_private_d,CX-S30,2021,private,Private facilities (HMIS),deaths,1078,84,7.8
+CX-S30_2021_emr_d,CX-S30,2021,emr,EMR exchange,deaths,266,0,0.0
+CX-S30_2021_community_d,CX-S30,2021,community,Community (cHMIS),deaths,868,13,1.5
+CX-S30_2021_reportable_d,CX-S30,2021,reportable,All reporting systems,deaths,4227,872,20.6
+CX-S30_2021_total_d,CX-S30,2021,total,WHO estimate,deaths,7897,872,11.0
+CX-S30_2022_public_d,CX-S30,2022,public,Public facilities (HMIS),deaths,2041,840,41.2
+CX-S30_2022_private_d,CX-S30,2022,private,Private facilities (HMIS),deaths,1092,110,10.1
+CX-S30_2022_emr_d,CX-S30,2022,emr,EMR exchange,deaths,270,0,0.0
+CX-S30_2022_community_d,CX-S30,2022,community,Community (cHMIS),deaths,880,33,3.8
+CX-S30_2022_reportable_d,CX-S30,2022,reportable,All reporting systems,deaths,4283,983,23.0
+CX-S30_2022_total_d,CX-S30,2022,total,WHO estimate,deaths,8012,983,12.3
+CX-S30_2023_public_d,CX-S30,2023,public,Public facilities (HMIS),deaths,2068,892,43.1
+CX-S30_2023_private_d,CX-S30,2023,private,Private facilities (HMIS),deaths,1107,153,13.8
+CX-S30_2023_emr_d,CX-S30,2023,emr,EMR exchange,deaths,273,0,0.0
+CX-S30_2023_community_d,CX-S30,2023,community,Community (cHMIS),deaths,891,42,4.7
+CX-S30_2023_reportable_d,CX-S30,2023,reportable,All reporting systems,deaths,4339,1087,25.1
+CX-S30_2023_total_d,CX-S30,2023,total,WHO estimate,deaths,8127,1087,13.4
+CX-S30_2024_public_d,CX-S30,2024,public,Public facilities (HMIS),deaths,2094,925,44.2
+CX-S30_2024_private_d,CX-S30,2024,private,Private facilities (HMIS),deaths,1121,179,16.0
+CX-S30_2024_emr_d,CX-S30,2024,emr,EMR exchange,deaths,276,41,14.9
+CX-S30_2024_community_d,CX-S30,2024,community,Community (cHMIS),deaths,903,58,6.4
+CX-S30_2024_reportable_d,CX-S30,2024,reportable,All reporting systems,deaths,4394,1203,27.4
+CX-S30_2024_total_d,CX-S30,2024,total,WHO estimate,deaths,8242,1203,14.6
+CX-S30_2025_public_d,CX-S30,2025,public,Public facilities (HMIS),deaths,2121,986,46.5
+CX-S30_2025_private_d,CX-S30,2025,private,Private facilities (HMIS),deaths,1135,197,17.4
+CX-S30_2025_emr_d,CX-S30,2025,emr,EMR exchange,deaths,280,93,33.2
+CX-S30_2025_community_d,CX-S30,2025,community,Community (cHMIS),deaths,914,79,8.6
+CX-S30_2025_reportable_d,CX-S30,2025,reportable,All reporting systems,deaths,4450,1355,30.4
+CX-S30_2025_total_d,CX-S30,2025,total,WHO estimate,deaths,8357,1355,16.2
+CX-S31_2021_public_c,CX-S31,2021,public,Public facilities (HMIS),cases,375661,243440,64.8
+CX-S31_2021_private_c,CX-S31,2021,private,Private facilities (HMIS),cases,254958,69714,27.3
+CX-S31_2021_emr_c,CX-S31,2021,emr,EMR exchange,cases,50679,0,0.0
+CX-S31_2021_community_c,CX-S31,2021,community,Community (cHMIS),cases,110130,16228,14.7
+CX-S31_2021_reportable_c,CX-S31,2021,reportable,All reporting systems,cases,791428,329382,41.6
+CX-S31_2021_total_c,CX-S31,2021,total,WHO estimate,cases,1117141,329382,29.5
+CX-S31_2022_public_c,CX-S31,2022,public,Public facilities (HMIS),cases,381655,258127,67.6
+CX-S31_2022_private_c,CX-S31,2022,private,Private facilities (HMIS),cases,259027,82749,31.9
+CX-S31_2022_emr_c,CX-S31,2022,emr,EMR exchange,cases,51488,0,0.0
+CX-S31_2022_community_c,CX-S31,2022,community,Community (cHMIS),cases,111888,20473,18.3
+CX-S31_2022_reportable_c,CX-S31,2022,reportable,All reporting systems,cases,804058,361349,44.9
+CX-S31_2022_total_c,CX-S31,2022,total,WHO estimate,cases,1133396,361349,31.9
+CX-S31_2023_public_c,CX-S31,2023,public,Public facilities (HMIS),cases,387650,277985,71.7
+CX-S31_2023_private_c,CX-S31,2023,private,Private facilities (HMIS),cases,263095,94758,36.0
+CX-S31_2023_emr_c,CX-S31,2023,emr,EMR exchange,cases,52297,0,0.0
+CX-S31_2023_community_c,CX-S31,2023,community,Community (cHMIS),cases,113645,24441,21.5
+CX-S31_2023_reportable_c,CX-S31,2023,reportable,All reporting systems,cases,816687,397184,48.6
+CX-S31_2023_total_c,CX-S31,2023,total,WHO estimate,cases,1149651,397184,34.5
+CX-S31_2024_public_c,CX-S31,2024,public,Public facilities (HMIS),cases,393644,300317,76.3
+CX-S31_2024_private_c,CX-S31,2024,private,Private facilities (HMIS),cases,267164,110157,41.2
+CX-S31_2024_emr_c,CX-S31,2024,emr,EMR exchange,cases,53105,16628,31.3
+CX-S31_2024_community_c,CX-S31,2024,community,Community (cHMIS),cases,115403,29684,25.7
+CX-S31_2024_reportable_c,CX-S31,2024,reportable,All reporting systems,cases,829316,456786,55.1
+CX-S31_2024_total_c,CX-S31,2024,total,WHO estimate,cases,1165905,456786,39.2
+CX-S31_2025_public_c,CX-S31,2025,public,Public facilities (HMIS),cases,399639,320615,80.2
+CX-S31_2025_private_c,CX-S31,2025,private,Private facilities (HMIS),cases,271232,121752,44.9
+CX-S31_2025_emr_c,CX-S31,2025,emr,EMR exchange,cases,53914,37515,69.6
+CX-S31_2025_community_c,CX-S31,2025,community,Community (cHMIS),cases,117160,33086,28.2
+CX-S31_2025_reportable_c,CX-S31,2025,reportable,All reporting systems,cases,841945,512968,60.9
+CX-S31_2025_total_c,CX-S31,2025,total,WHO estimate,cases,1182160,512968,43.4
+CX-S31_2021_public_d,CX-S31,2021,public,Public facilities (HMIS),deaths,748,311,41.6
+CX-S31_2021_private_d,CX-S31,2021,private,Private facilities (HMIS),deaths,348,17,4.9
+CX-S31_2021_emr_d,CX-S31,2021,emr,EMR exchange,deaths,94,0,0.0
+CX-S31_2021_community_d,CX-S31,2021,community,Community (cHMIS),deaths,322,23,7.1
+CX-S31_2021_reportable_d,CX-S31,2021,reportable,All reporting systems,deaths,1512,351,23.2
+CX-S31_2021_total_d,CX-S31,2021,total,WHO estimate,deaths,2892,351,12.1
+CX-S31_2022_public_d,CX-S31,2022,public,Public facilities (HMIS),deaths,757,336,44.4
+CX-S31_2022_private_d,CX-S31,2022,private,Private facilities (HMIS),deaths,352,28,8.0
+CX-S31_2022_emr_d,CX-S31,2022,emr,EMR exchange,deaths,95,0,0.0
+CX-S31_2022_community_d,CX-S31,2022,community,Community (cHMIS),deaths,326,31,9.5
+CX-S31_2022_reportable_d,CX-S31,2022,reportable,All reporting systems,deaths,1530,395,25.8
+CX-S31_2022_total_d,CX-S31,2022,total,WHO estimate,deaths,2934,395,13.5
+CX-S31_2023_public_d,CX-S31,2023,public,Public facilities (HMIS),deaths,767,358,46.7
+CX-S31_2023_private_d,CX-S31,2023,private,Private facilities (HMIS),deaths,357,38,10.6
+CX-S31_2023_emr_d,CX-S31,2023,emr,EMR exchange,deaths,97,0,0.0
+CX-S31_2023_community_d,CX-S31,2023,community,Community (cHMIS),deaths,331,40,12.1
+CX-S31_2023_reportable_d,CX-S31,2023,reportable,All reporting systems,deaths,1552,436,28.1
+CX-S31_2023_total_d,CX-S31,2023,total,WHO estimate,deaths,2976,436,14.7
+CX-S31_2024_public_d,CX-S31,2024,public,Public facilities (HMIS),deaths,777,377,48.5
+CX-S31_2024_private_d,CX-S31,2024,private,Private facilities (HMIS),deaths,361,46,12.7
+CX-S31_2024_emr_d,CX-S31,2024,emr,EMR exchange,deaths,98,17,17.3
+CX-S31_2024_community_d,CX-S31,2024,community,Community (cHMIS),deaths,335,45,13.4
+CX-S31_2024_reportable_d,CX-S31,2024,reportable,All reporting systems,deaths,1571,485,30.9
+CX-S31_2024_total_d,CX-S31,2024,total,WHO estimate,deaths,3018,485,16.1
+CX-S31_2025_public_d,CX-S31,2025,public,Public facilities (HMIS),deaths,787,401,51.0
+CX-S31_2025_private_d,CX-S31,2025,private,Private facilities (HMIS),deaths,366,57,15.6
+CX-S31_2025_emr_d,CX-S31,2025,emr,EMR exchange,deaths,99,39,39.4
+CX-S31_2025_community_d,CX-S31,2025,community,Community (cHMIS),deaths,339,52,15.3
+CX-S31_2025_reportable_d,CX-S31,2025,reportable,All reporting systems,deaths,1591,549,34.5
+CX-S31_2025_total_d,CX-S31,2025,total,WHO estimate,deaths,3060,549,17.9
+CX-S32_2021_public_c,CX-S32,2021,public,Public facilities (HMIS),cases,760659,505475,66.5
+CX-S32_2021_private_c,CX-S32,2021,private,Private facilities (HMIS),cases,276456,59364,21.5
+CX-S32_2021_emr_c,CX-S32,2021,emr,EMR exchange,cases,50901,0,0.0
+CX-S32_2021_community_c,CX-S32,2021,community,Community (cHMIS),cases,277049,21387,7.7
+CX-S32_2021_reportable_c,CX-S32,2021,reportable,All reporting systems,cases,1365065,586226,42.9
+CX-S32_2021_total_c,CX-S32,2021,total,WHO estimate,cases,2004953,586226,29.2
+CX-S32_2022_public_c,CX-S32,2022,public,Public facilities (HMIS),cases,772797,531244,68.7
+CX-S32_2022_private_c,CX-S32,2022,private,Private facilities (HMIS),cases,280867,71415,25.4
+CX-S32_2022_emr_c,CX-S32,2022,emr,EMR exchange,cases,51713,0,0.0
+CX-S32_2022_community_c,CX-S32,2022,community,Community (cHMIS),cases,281470,44687,15.9
+CX-S32_2022_reportable_c,CX-S32,2022,reportable,All reporting systems,cases,1386847,647346,46.7
+CX-S32_2022_total_c,CX-S32,2022,total,WHO estimate,cases,2034126,647346,31.8
+CX-S32_2023_public_c,CX-S32,2023,public,Public facilities (HMIS),cases,784936,577595,73.6
+CX-S32_2023_private_c,CX-S32,2023,private,Private facilities (HMIS),cases,285279,85924,30.1
+CX-S32_2023_emr_c,CX-S32,2023,emr,EMR exchange,cases,52526,0,0.0
+CX-S32_2023_community_c,CX-S32,2023,community,Community (cHMIS),cases,285891,62630,21.9
+CX-S32_2023_reportable_c,CX-S32,2023,reportable,All reporting systems,cases,1408632,726149,51.5
+CX-S32_2023_total_c,CX-S32,2023,total,WHO estimate,cases,2063299,726149,35.2
+CX-S32_2024_public_c,CX-S32,2024,public,Public facilities (HMIS),cases,797074,610058,76.5
+CX-S32_2024_private_c,CX-S32,2024,private,Private facilities (HMIS),cases,289690,97132,33.5
+CX-S32_2024_emr_c,CX-S32,2024,emr,EMR exchange,cases,53338,1271,2.4
+CX-S32_2024_community_c,CX-S32,2024,community,Community (cHMIS),cases,290312,79552,27.4
+CX-S32_2024_reportable_c,CX-S32,2024,reportable,All reporting systems,cases,1430414,788013,55.1
+CX-S32_2024_total_c,CX-S32,2024,total,WHO estimate,cases,2092471,788013,37.7
+CX-S32_2025_public_c,CX-S32,2025,public,Public facilities (HMIS),cases,809212,643845,79.6
+CX-S32_2025_private_c,CX-S32,2025,private,Private facilities (HMIS),cases,294102,108585,36.9
+CX-S32_2025_emr_c,CX-S32,2025,emr,EMR exchange,cases,54150,2867,5.3
+CX-S32_2025_community_c,CX-S32,2025,community,Community (cHMIS),cases,294733,97655,33.1
+CX-S32_2025_reportable_c,CX-S32,2025,reportable,All reporting systems,cases,1452197,852952,58.7
+CX-S32_2025_total_c,CX-S32,2025,total,WHO estimate,cases,2121644,852952,40.2
+CX-S32_2021_public_d,CX-S32,2021,public,Public facilities (HMIS),deaths,1550,603,38.9
+CX-S32_2021_private_d,CX-S32,2021,private,Private facilities (HMIS),deaths,692,59,8.5
+CX-S32_2021_emr_d,CX-S32,2021,emr,EMR exchange,deaths,108,0,0.0
+CX-S32_2021_community_d,CX-S32,2021,community,Community (cHMIS),deaths,591,3,0.5
+CX-S32_2021_reportable_d,CX-S32,2021,reportable,All reporting systems,deaths,2941,665,22.6
+CX-S32_2021_total_d,CX-S32,2021,total,WHO estimate,deaths,5431,665,12.2
+CX-S32_2022_public_d,CX-S32,2022,public,Public facilities (HMIS),deaths,1571,653,41.6
+CX-S32_2022_private_d,CX-S32,2022,private,Private facilities (HMIS),deaths,701,80,11.4
+CX-S32_2022_emr_d,CX-S32,2022,emr,EMR exchange,deaths,110,0,0.0
+CX-S32_2022_community_d,CX-S32,2022,community,Community (cHMIS),deaths,599,19,3.2
+CX-S32_2022_reportable_d,CX-S32,2022,reportable,All reporting systems,deaths,2981,752,25.2
+CX-S32_2022_total_d,CX-S32,2022,total,WHO estimate,deaths,5510,752,13.6
+CX-S32_2023_public_d,CX-S32,2023,public,Public facilities (HMIS),deaths,1591,698,43.9
+CX-S32_2023_private_d,CX-S32,2023,private,Private facilities (HMIS),deaths,710,96,13.5
+CX-S32_2023_emr_d,CX-S32,2023,emr,EMR exchange,deaths,111,0,0.0
+CX-S32_2023_community_d,CX-S32,2023,community,Community (cHMIS),deaths,606,29,4.8
+CX-S32_2023_reportable_d,CX-S32,2023,reportable,All reporting systems,deaths,3018,823,27.3
+CX-S32_2023_total_d,CX-S32,2023,total,WHO estimate,deaths,5589,823,14.7
+CX-S32_2024_public_d,CX-S32,2024,public,Public facilities (HMIS),deaths,1612,732,45.4
+CX-S32_2024_private_d,CX-S32,2024,private,Private facilities (HMIS),deaths,719,113,15.7
+CX-S32_2024_emr_d,CX-S32,2024,emr,EMR exchange,deaths,113,2,1.8
+CX-S32_2024_community_d,CX-S32,2024,community,Community (cHMIS),deaths,614,45,7.3
+CX-S32_2024_reportable_d,CX-S32,2024,reportable,All reporting systems,deaths,3058,892,29.2
+CX-S32_2024_total_d,CX-S32,2024,total,WHO estimate,deaths,5668,892,15.7
+CX-S32_2025_public_d,CX-S32,2025,public,Public facilities (HMIS),deaths,1632,764,46.8
+CX-S32_2025_private_d,CX-S32,2025,private,Private facilities (HMIS),deaths,728,129,17.7
+CX-S32_2025_emr_d,CX-S32,2025,emr,EMR exchange,deaths,114,4,3.5
+CX-S32_2025_community_d,CX-S32,2025,community,Community (cHMIS),deaths,622,54,8.7
+CX-S32_2025_reportable_d,CX-S32,2025,reportable,All reporting systems,deaths,3096,951,30.7
+CX-S32_2025_total_d,CX-S32,2025,total,WHO estimate,deaths,5747,951,16.5
+CX-S33_2021_public_c,CX-S33,2021,public,Public facilities (HMIS),cases,1134228,837401,73.8
+CX-S33_2021_private_c,CX-S33,2021,private,Private facilities (HMIS),cases,595099,208851,35.1
+CX-S33_2021_emr_c,CX-S33,2021,emr,EMR exchange,cases,66384,0,0.0
+CX-S33_2021_community_c,CX-S33,2021,community,Community (cHMIS),cases,489969,26131,5.3
+CX-S33_2021_reportable_c,CX-S33,2021,reportable,All reporting systems,cases,2285680,1072383,46.9
+CX-S33_2021_total_c,CX-S33,2021,total,WHO estimate,cases,3005418,1072383,35.7
+CX-S33_2022_public_c,CX-S33,2022,public,Public facilities (HMIS),cases,1152328,923399,80.1
+CX-S33_2022_private_c,CX-S33,2022,private,Private facilities (HMIS),cases,604595,234485,38.8
+CX-S33_2022_emr_c,CX-S33,2022,emr,EMR exchange,cases,67443,0,0.0
+CX-S33_2022_community_c,CX-S33,2022,community,Community (cHMIS),cases,497788,47006,9.4
+CX-S33_2022_reportable_c,CX-S33,2022,reportable,All reporting systems,cases,2322154,1204890,51.9
+CX-S33_2022_total_c,CX-S33,2022,total,WHO estimate,cases,3049148,1204890,39.5
+CX-S33_2023_public_c,CX-S33,2023,public,Public facilities (HMIS),cases,1170427,973413,83.2
+CX-S33_2023_private_c,CX-S33,2023,private,Private facilities (HMIS),cases,614091,258230,42.1
+CX-S33_2023_emr_c,CX-S33,2023,emr,EMR exchange,cases,68502,0,0.0
+CX-S33_2023_community_c,CX-S33,2023,community,Community (cHMIS),cases,505607,76585,15.1
+CX-S33_2023_reportable_c,CX-S33,2023,reportable,All reporting systems,cases,2358627,1308228,55.5
+CX-S33_2023_total_c,CX-S33,2023,total,WHO estimate,cases,3092878,1308228,42.3
+CX-S33_2024_public_c,CX-S33,2024,public,Public facilities (HMIS),cases,1188527,1045254,87.9
+CX-S33_2024_private_c,CX-S33,2024,private,Private facilities (HMIS),cases,623588,283112,45.4
+CX-S33_2024_emr_c,CX-S33,2024,emr,EMR exchange,cases,69562,1642,2.4
+CX-S33_2024_community_c,CX-S33,2024,community,Community (cHMIS),cases,513425,91162,17.8
+CX-S33_2024_reportable_c,CX-S33,2024,reportable,All reporting systems,cases,2395102,1421170,59.3
+CX-S33_2024_total_c,CX-S33,2024,total,WHO estimate,cases,3136607,1421170,45.3
+CX-S33_2025_public_c,CX-S33,2025,public,Public facilities (HMIS),cases,1206626,1109075,91.9
+CX-S33_2025_private_c,CX-S33,2025,private,Private facilities (HMIS),cases,633084,305846,48.3
+CX-S33_2025_emr_c,CX-S33,2025,emr,EMR exchange,cases,70621,3705,5.2
+CX-S33_2025_community_c,CX-S33,2025,community,Community (cHMIS),cases,521244,112130,21.5
+CX-S33_2025_reportable_c,CX-S33,2025,reportable,All reporting systems,cases,2431575,1530756,63.0
+CX-S33_2025_total_c,CX-S33,2025,total,WHO estimate,cases,3180337,1530756,48.1
+CX-S33_2021_public_d,CX-S33,2021,public,Public facilities (HMIS),deaths,2283,1161,50.9
+CX-S33_2021_private_d,CX-S33,2021,private,Private facilities (HMIS),deaths,773,160,20.7
+CX-S33_2021_emr_d,CX-S33,2021,emr,EMR exchange,deaths,113,0,0.0
+CX-S33_2021_community_d,CX-S33,2021,community,Community (cHMIS),deaths,1054,5,0.5
+CX-S33_2021_reportable_d,CX-S33,2021,reportable,All reporting systems,deaths,4223,1326,31.4
+CX-S33_2021_total_d,CX-S33,2021,total,WHO estimate,deaths,8339,1326,15.9
+CX-S33_2022_public_d,CX-S33,2022,public,Public facilities (HMIS),deaths,2313,1243,53.7
+CX-S33_2022_private_d,CX-S33,2022,private,Private facilities (HMIS),deaths,783,176,22.5
+CX-S33_2022_emr_d,CX-S33,2022,emr,EMR exchange,deaths,115,0,0.0
+CX-S33_2022_community_d,CX-S33,2022,community,Community (cHMIS),deaths,1068,23,2.2
+CX-S33_2022_reportable_d,CX-S33,2022,reportable,All reporting systems,deaths,4279,1442,33.7
+CX-S33_2022_total_d,CX-S33,2022,total,WHO estimate,deaths,8461,1442,17.0
+CX-S33_2023_public_d,CX-S33,2023,public,Public facilities (HMIS),deaths,2343,1321,56.4
+CX-S33_2023_private_d,CX-S33,2023,private,Private facilities (HMIS),deaths,794,202,25.4
+CX-S33_2023_emr_d,CX-S33,2023,emr,EMR exchange,deaths,116,0,0.0
+CX-S33_2023_community_d,CX-S33,2023,community,Community (cHMIS),deaths,1082,35,3.2
+CX-S33_2023_reportable_d,CX-S33,2023,reportable,All reporting systems,deaths,4335,1558,35.9
+CX-S33_2023_total_d,CX-S33,2023,total,WHO estimate,deaths,8582,1558,18.2
+CX-S33_2024_public_d,CX-S33,2024,public,Public facilities (HMIS),deaths,2373,1407,59.3
+CX-S33_2024_private_d,CX-S33,2024,private,Private facilities (HMIS),deaths,804,224,27.9
+CX-S33_2024_emr_d,CX-S33,2024,emr,EMR exchange,deaths,118,1,0.8
+CX-S33_2024_community_d,CX-S33,2024,community,Community (cHMIS),deaths,1096,43,3.9
+CX-S33_2024_reportable_d,CX-S33,2024,reportable,All reporting systems,deaths,4391,1675,38.1
+CX-S33_2024_total_d,CX-S33,2024,total,WHO estimate,deaths,8703,1675,19.2
+CX-S33_2025_public_d,CX-S33,2025,public,Public facilities (HMIS),deaths,2403,1483,61.7
+CX-S33_2025_private_d,CX-S33,2025,private,Private facilities (HMIS),deaths,814,233,28.6
+CX-S33_2025_emr_d,CX-S33,2025,emr,EMR exchange,deaths,119,3,2.5
+CX-S33_2025_community_d,CX-S33,2025,community,Community (cHMIS),deaths,1110,66,5.9
+CX-S33_2025_reportable_d,CX-S33,2025,reportable,All reporting systems,deaths,4446,1785,40.1
+CX-S33_2025_total_d,CX-S33,2025,total,WHO estimate,deaths,8825,1785,20.2
+CX-S34_2021_public_c,CX-S34,2021,public,Public facilities (HMIS),cases,419812,294691,70.2
+CX-S34_2021_private_c,CX-S34,2021,private,Private facilities (HMIS),cases,292967,52647,18.0
+CX-S34_2021_emr_c,CX-S34,2021,emr,EMR exchange,cases,61269,0,0.0
+CX-S34_2021_community_c,CX-S34,2021,community,Community (cHMIS),cases,146358,21028,14.4
+CX-S34_2021_reportable_c,CX-S34,2021,reportable,All reporting systems,cases,920406,368366,40.0
+CX-S34_2021_total_c,CX-S34,2021,total,WHO estimate,cases,1287462,368366,28.6
+CX-S34_2022_public_c,CX-S34,2022,public,Public facilities (HMIS),cases,426512,307666,72.1
+CX-S34_2022_private_c,CX-S34,2022,private,Private facilities (HMIS),cases,297642,75556,25.4
+CX-S34_2022_emr_c,CX-S34,2022,emr,EMR exchange,cases,62247,0,0.0
+CX-S34_2022_community_c,CX-S34,2022,community,Community (cHMIS),cases,148694,29418,19.8
+CX-S34_2022_reportable_c,CX-S34,2022,reportable,All reporting systems,cases,935095,412640,44.1
+CX-S34_2022_total_c,CX-S34,2022,total,WHO estimate,cases,1306195,412640,31.6
+CX-S34_2023_public_c,CX-S34,2023,public,Public facilities (HMIS),cases,433211,333485,77.0
+CX-S34_2023_private_c,CX-S34,2023,private,Private facilities (HMIS),cases,302317,81962,27.1
+CX-S34_2023_emr_c,CX-S34,2023,emr,EMR exchange,cases,63225,0,0.0
+CX-S34_2023_community_c,CX-S34,2023,community,Community (cHMIS),cases,151029,38273,25.3
+CX-S34_2023_reportable_c,CX-S34,2023,reportable,All reporting systems,cases,949782,453720,47.8
+CX-S34_2023_total_c,CX-S34,2023,total,WHO estimate,cases,1324927,453720,34.2
+CX-S34_2024_public_c,CX-S34,2024,public,Public facilities (HMIS),cases,439910,346628,78.8
+CX-S34_2024_private_c,CX-S34,2024,private,Private facilities (HMIS),cases,306992,102188,33.3
+CX-S34_2024_emr_c,CX-S34,2024,emr,EMR exchange,cases,64202,15783,24.6
+CX-S34_2024_community_c,CX-S34,2024,community,Community (cHMIS),cases,153364,44847,29.2
+CX-S34_2024_reportable_c,CX-S34,2024,reportable,All reporting systems,cases,964468,509446,52.8
+CX-S34_2024_total_c,CX-S34,2024,total,WHO estimate,cases,1343660,509446,37.9
+CX-S34_2025_public_c,CX-S34,2025,public,Public facilities (HMIS),cases,446609,362482,81.2
+CX-S34_2025_private_c,CX-S34,2025,private,Private facilities (HMIS),cases,311667,114019,36.6
+CX-S34_2025_emr_c,CX-S34,2025,emr,EMR exchange,cases,65180,35608,54.6
+CX-S34_2025_community_c,CX-S34,2025,community,Community (cHMIS),cases,155700,53363,34.3
+CX-S34_2025_reportable_c,CX-S34,2025,reportable,All reporting systems,cases,979156,565472,57.8
+CX-S34_2025_total_c,CX-S34,2025,total,WHO estimate,cases,1362393,565472,41.5
+CX-S34_2021_public_d,CX-S34,2021,public,Public facilities (HMIS),deaths,792,368,46.5
+CX-S34_2021_private_d,CX-S34,2021,private,Private facilities (HMIS),deaths,462,33,7.1
+CX-S34_2021_emr_d,CX-S34,2021,emr,EMR exchange,deaths,123,0,0.0
+CX-S34_2021_community_d,CX-S34,2021,community,Community (cHMIS),deaths,310,2,0.6
+CX-S34_2021_reportable_d,CX-S34,2021,reportable,All reporting systems,deaths,1687,403,23.9
+CX-S34_2021_total_d,CX-S34,2021,total,WHO estimate,deaths,3303,403,12.2
+CX-S34_2022_public_d,CX-S34,2022,public,Public facilities (HMIS),deaths,803,390,48.6
+CX-S34_2022_private_d,CX-S34,2022,private,Private facilities (HMIS),deaths,468,50,10.7
+CX-S34_2022_emr_d,CX-S34,2022,emr,EMR exchange,deaths,124,0,0.0
+CX-S34_2022_community_d,CX-S34,2022,community,Community (cHMIS),deaths,314,9,2.9
+CX-S34_2022_reportable_d,CX-S34,2022,reportable,All reporting systems,deaths,1709,449,26.3
+CX-S34_2022_total_d,CX-S34,2022,total,WHO estimate,deaths,3351,449,13.4
+CX-S34_2023_public_d,CX-S34,2023,public,Public facilities (HMIS),deaths,813,411,50.6
+CX-S34_2023_private_d,CX-S34,2023,private,Private facilities (HMIS),deaths,474,64,13.5
+CX-S34_2023_emr_d,CX-S34,2023,emr,EMR exchange,deaths,126,0,0.0
+CX-S34_2023_community_d,CX-S34,2023,community,Community (cHMIS),deaths,318,18,5.7
+CX-S34_2023_reportable_d,CX-S34,2023,reportable,All reporting systems,deaths,1731,493,28.5
+CX-S34_2023_total_d,CX-S34,2023,total,WHO estimate,deaths,3399,493,14.5
+CX-S34_2024_public_d,CX-S34,2024,public,Public facilities (HMIS),deaths,824,431,52.3
+CX-S34_2024_private_d,CX-S34,2024,private,Private facilities (HMIS),deaths,480,76,15.8
+CX-S34_2024_emr_d,CX-S34,2024,emr,EMR exchange,deaths,127,19,15.0
+CX-S34_2024_community_d,CX-S34,2024,community,Community (cHMIS),deaths,322,27,8.4
+CX-S34_2024_reportable_d,CX-S34,2024,reportable,All reporting systems,deaths,1753,553,31.5
+CX-S34_2024_total_d,CX-S34,2024,total,WHO estimate,deaths,3447,553,16.0
+CX-S34_2025_public_d,CX-S34,2025,public,Public facilities (HMIS),deaths,834,442,53.0
+CX-S34_2025_private_d,CX-S34,2025,private,Private facilities (HMIS),deaths,486,88,18.1
+CX-S34_2025_emr_d,CX-S34,2025,emr,EMR exchange,deaths,129,43,33.3
+CX-S34_2025_community_d,CX-S34,2025,community,Community (cHMIS),deaths,326,34,10.4
+CX-S34_2025_reportable_d,CX-S34,2025,reportable,All reporting systems,deaths,1775,607,34.2
+CX-S34_2025_total_d,CX-S34,2025,total,WHO estimate,deaths,3495,607,17.4
+CX-S35_2021_public_c,CX-S35,2021,public,Public facilities (HMIS),cases,325699,191915,58.9
+CX-S35_2021_private_c,CX-S35,2021,private,Private facilities (HMIS),cases,161277,30300,18.8
+CX-S35_2021_emr_c,CX-S35,2021,emr,EMR exchange,cases,24896,0,0.0
+CX-S35_2021_community_c,CX-S35,2021,community,Community (cHMIS),cases,90558,906,1.0
+CX-S35_2021_reportable_c,CX-S35,2021,reportable,All reporting systems,cases,602430,223121,37.0
+CX-S35_2021_total_c,CX-S35,2021,total,WHO estimate,cases,855626,223121,26.1
+CX-S35_2022_public_c,CX-S35,2022,public,Public facilities (HMIS),cases,330896,212506,64.2
+CX-S35_2022_private_c,CX-S35,2022,private,Private facilities (HMIS),cases,163850,41434,25.3
+CX-S35_2022_emr_c,CX-S35,2022,emr,EMR exchange,cases,25293,0,0.0
+CX-S35_2022_community_c,CX-S35,2022,community,Community (cHMIS),cases,92003,6105,6.6
+CX-S35_2022_reportable_c,CX-S35,2022,reportable,All reporting systems,cases,612042,260045,42.5
+CX-S35_2022_total_c,CX-S35,2022,total,WHO estimate,cases,868075,260045,30.0
+CX-S35_2023_public_c,CX-S35,2023,public,Public facilities (HMIS),cases,336093,230334,68.5
+CX-S35_2023_private_c,CX-S35,2023,private,Private facilities (HMIS),cases,166424,51629,31.0
+CX-S35_2023_emr_c,CX-S35,2023,emr,EMR exchange,cases,25690,0,0.0
+CX-S35_2023_community_c,CX-S35,2023,community,Community (cHMIS),cases,93448,12429,13.3
+CX-S35_2023_reportable_c,CX-S35,2023,reportable,All reporting systems,cases,621655,294392,47.4
+CX-S35_2023_total_c,CX-S35,2023,total,WHO estimate,cases,880525,294392,33.4
+CX-S35_2024_public_c,CX-S35,2024,public,Public facilities (HMIS),cases,341291,240508,70.5
+CX-S35_2024_private_c,CX-S35,2024,private,Private facilities (HMIS),cases,168997,62750,37.1
+CX-S35_2024_emr_c,CX-S35,2024,emr,EMR exchange,cases,26088,780,3.0
+CX-S35_2024_community_c,CX-S35,2024,community,Community (cHMIS),cases,94893,16410,17.3
+CX-S35_2024_reportable_c,CX-S35,2024,reportable,All reporting systems,cases,631269,320448,50.8
+CX-S35_2024_total_c,CX-S35,2024,total,WHO estimate,cases,892974,320448,35.9
+CX-S35_2025_public_c,CX-S35,2025,public,Public facilities (HMIS),cases,346488,259762,75.0
+CX-S35_2025_private_c,CX-S35,2025,private,Private facilities (HMIS),cases,171571,70283,41.0
+CX-S35_2025_emr_c,CX-S35,2025,emr,EMR exchange,cases,26485,1759,6.6
+CX-S35_2025_community_c,CX-S35,2025,community,Community (cHMIS),cases,96338,21606,22.4
+CX-S35_2025_reportable_c,CX-S35,2025,reportable,All reporting systems,cases,640882,353410,55.1
+CX-S35_2025_total_c,CX-S35,2025,total,WHO estimate,cases,905424,353410,39.0
+CX-S35_2021_public_d,CX-S35,2021,public,Public facilities (HMIS),deaths,617,274,44.4
+CX-S35_2021_private_d,CX-S35,2021,private,Private facilities (HMIS),deaths,275,28,10.2
+CX-S35_2021_emr_d,CX-S35,2021,emr,EMR exchange,deaths,43,0,0.0
+CX-S35_2021_community_d,CX-S35,2021,community,Community (cHMIS),deaths,284,1,0.4
+CX-S35_2021_reportable_d,CX-S35,2021,reportable,All reporting systems,deaths,1219,303,24.9
+CX-S35_2021_total_d,CX-S35,2021,total,WHO estimate,deaths,2302,303,13.2
+CX-S35_2022_public_d,CX-S35,2022,public,Public facilities (HMIS),deaths,625,295,47.2
+CX-S35_2022_private_d,CX-S35,2022,private,Private facilities (HMIS),deaths,278,40,14.4
+CX-S35_2022_emr_d,CX-S35,2022,emr,EMR exchange,deaths,43,0,0.0
+CX-S35_2022_community_d,CX-S35,2022,community,Community (cHMIS),deaths,288,8,2.8
+CX-S35_2022_reportable_d,CX-S35,2022,reportable,All reporting systems,deaths,1234,343,27.8
+CX-S35_2022_total_d,CX-S35,2022,total,WHO estimate,deaths,2336,343,14.7
+CX-S35_2023_public_d,CX-S35,2023,public,Public facilities (HMIS),deaths,633,315,49.8
+CX-S35_2023_private_d,CX-S35,2023,private,Private facilities (HMIS),deaths,282,51,18.1
+CX-S35_2023_emr_d,CX-S35,2023,emr,EMR exchange,deaths,44,0,0.0
+CX-S35_2023_community_d,CX-S35,2023,community,Community (cHMIS),deaths,292,19,6.5
+CX-S35_2023_reportable_d,CX-S35,2023,reportable,All reporting systems,deaths,1251,385,30.8
+CX-S35_2023_total_d,CX-S35,2023,total,WHO estimate,deaths,2369,385,16.3
+CX-S35_2024_public_d,CX-S35,2024,public,Public facilities (HMIS),deaths,641,333,52.0
+CX-S35_2024_private_d,CX-S35,2024,private,Private facilities (HMIS),deaths,285,56,19.6
+CX-S35_2024_emr_d,CX-S35,2024,emr,EMR exchange,deaths,44,1,2.3
+CX-S35_2024_community_d,CX-S35,2024,community,Community (cHMIS),deaths,295,24,8.1
+CX-S35_2024_reportable_d,CX-S35,2024,reportable,All reporting systems,deaths,1265,414,32.7
+CX-S35_2024_total_d,CX-S35,2024,total,WHO estimate,deaths,2403,414,17.2
+CX-S35_2025_public_d,CX-S35,2025,public,Public facilities (HMIS),deaths,649,351,54.1
+CX-S35_2025_private_d,CX-S35,2025,private,Private facilities (HMIS),deaths,289,68,23.5
+CX-S35_2025_emr_d,CX-S35,2025,emr,EMR exchange,deaths,45,2,4.4
+CX-S35_2025_community_d,CX-S35,2025,community,Community (cHMIS),deaths,299,34,11.4
+CX-S35_2025_reportable_d,CX-S35,2025,reportable,All reporting systems,deaths,1282,455,35.5
+CX-S35_2025_total_d,CX-S35,2025,total,WHO estimate,deaths,2436,455,18.7
+CX-S36_2021_public_c,CX-S36,2021,public,Public facilities (HMIS),cases,500987,270618,54.0
+CX-S36_2021_private_c,CX-S36,2021,private,Private facilities (HMIS),cases,342967,168510,49.1
+CX-S36_2021_emr_c,CX-S36,2021,emr,EMR exchange,cases,59381,0,0.0
+CX-S36_2021_community_c,CX-S36,2021,community,Community (cHMIS),cases,176621,25337,14.3
+CX-S36_2021_reportable_c,CX-S36,2021,reportable,All reporting systems,cases,1079956,464465,43.0
+CX-S36_2021_total_c,CX-S36,2021,total,WHO estimate,cases,1496674,464465,31.0
+CX-S36_2022_public_c,CX-S36,2022,public,Public facilities (HMIS),cases,508982,297031,58.4
+CX-S36_2022_private_c,CX-S36,2022,private,Private facilities (HMIS),cases,348440,181925,52.2
+CX-S36_2022_emr_c,CX-S36,2022,emr,EMR exchange,cases,60328,0,0.0
+CX-S36_2022_community_c,CX-S36,2022,community,Community (cHMIS),cases,179440,32211,18.0
+CX-S36_2022_reportable_c,CX-S36,2022,reportable,All reporting systems,cases,1097190,511167,46.6
+CX-S36_2022_total_c,CX-S36,2022,total,WHO estimate,cases,1518451,511167,33.7
+CX-S36_2023_public_c,CX-S36,2023,public,Public facilities (HMIS),cases,516976,318169,61.5
+CX-S36_2023_private_c,CX-S36,2023,private,Private facilities (HMIS),cases,353913,199951,56.5
+CX-S36_2023_emr_c,CX-S36,2023,emr,EMR exchange,cases,61276,0,0.0
+CX-S36_2023_community_c,CX-S36,2023,community,Community (cHMIS),cases,182258,37735,20.7
+CX-S36_2023_reportable_c,CX-S36,2023,reportable,All reporting systems,cases,1114423,555855,49.9
+CX-S36_2023_total_c,CX-S36,2023,total,WHO estimate,cases,1540228,555855,36.1
+CX-S36_2024_public_c,CX-S36,2024,public,Public facilities (HMIS),cases,524971,341802,65.1
+CX-S36_2024_private_c,CX-S36,2024,private,Private facilities (HMIS),cases,359386,211042,58.7
+CX-S36_2024_emr_c,CX-S36,2024,emr,EMR exchange,cases,62223,971,1.6
+CX-S36_2024_community_c,CX-S36,2024,community,Community (cHMIS),cases,185077,45018,24.3
+CX-S36_2024_reportable_c,CX-S36,2024,reportable,All reporting systems,cases,1131657,598833,52.9
+CX-S36_2024_total_c,CX-S36,2024,total,WHO estimate,cases,1562005,598833,38.3
+CX-S36_2025_public_c,CX-S36,2025,public,Public facilities (HMIS),cases,532965,369206,69.3
+CX-S36_2025_private_c,CX-S36,2025,private,Private facilities (HMIS),cases,364859,224926,61.6
+CX-S36_2025_emr_c,CX-S36,2025,emr,EMR exchange,cases,63171,2191,3.5
+CX-S36_2025_community_c,CX-S36,2025,community,Community (cHMIS),cases,187895,49776,26.5
+CX-S36_2025_reportable_c,CX-S36,2025,reportable,All reporting systems,cases,1148890,646099,56.2
+CX-S36_2025_total_c,CX-S36,2025,total,WHO estimate,cases,1583782,646099,40.8
+CX-S36_2021_public_d,CX-S36,2021,public,Public facilities (HMIS),deaths,880,433,49.2
+CX-S36_2021_private_d,CX-S36,2021,private,Private facilities (HMIS),deaths,495,110,22.2
+CX-S36_2021_emr_d,CX-S36,2021,emr,EMR exchange,deaths,124,0,0.0
+CX-S36_2021_community_d,CX-S36,2021,community,Community (cHMIS),deaths,464,2,0.4
+CX-S36_2021_reportable_d,CX-S36,2021,reportable,All reporting systems,deaths,1963,545,27.8
+CX-S36_2021_total_d,CX-S36,2021,total,WHO estimate,deaths,3908,545,13.9
+CX-S36_2022_public_d,CX-S36,2022,public,Public facilities (HMIS),deaths,891,468,52.5
+CX-S36_2022_private_d,CX-S36,2022,private,Private facilities (HMIS),deaths,501,120,24.0
+CX-S36_2022_emr_d,CX-S36,2022,emr,EMR exchange,deaths,126,0,0.0
+CX-S36_2022_community_d,CX-S36,2022,community,Community (cHMIS),deaths,470,10,2.1
+CX-S36_2022_reportable_d,CX-S36,2022,reportable,All reporting systems,deaths,1988,598,30.1
+CX-S36_2022_total_d,CX-S36,2022,total,WHO estimate,deaths,3965,598,15.1
+CX-S36_2023_public_d,CX-S36,2023,public,Public facilities (HMIS),deaths,903,489,54.2
+CX-S36_2023_private_d,CX-S36,2023,private,Private facilities (HMIS),deaths,508,135,26.6
+CX-S36_2023_emr_d,CX-S36,2023,emr,EMR exchange,deaths,128,0,0.0
+CX-S36_2023_community_d,CX-S36,2023,community,Community (cHMIS),deaths,476,19,4.0
+CX-S36_2023_reportable_d,CX-S36,2023,reportable,All reporting systems,deaths,2015,643,31.9
+CX-S36_2023_total_d,CX-S36,2023,total,WHO estimate,deaths,4022,643,16.0
+CX-S36_2024_public_d,CX-S36,2024,public,Public facilities (HMIS),deaths,914,510,55.8
+CX-S36_2024_private_d,CX-S36,2024,private,Private facilities (HMIS),deaths,514,146,28.4
+CX-S36_2024_emr_d,CX-S36,2024,emr,EMR exchange,deaths,129,1,0.8
+CX-S36_2024_community_d,CX-S36,2024,community,Community (cHMIS),deaths,482,22,4.6
+CX-S36_2024_reportable_d,CX-S36,2024,reportable,All reporting systems,deaths,2039,679,33.3
+CX-S36_2024_total_d,CX-S36,2024,total,WHO estimate,deaths,4078,679,16.7
+CX-S36_2025_public_d,CX-S36,2025,public,Public facilities (HMIS),deaths,926,540,58.3
+CX-S36_2025_private_d,CX-S36,2025,private,Private facilities (HMIS),deaths,521,155,29.8
+CX-S36_2025_emr_d,CX-S36,2025,emr,EMR exchange,deaths,131,3,2.3
+CX-S36_2025_community_d,CX-S36,2025,community,Community (cHMIS),deaths,488,24,4.9
+CX-S36_2025_reportable_d,CX-S36,2025,reportable,All reporting systems,deaths,2066,722,34.9
+CX-S36_2025_total_d,CX-S36,2025,total,WHO estimate,deaths,4135,722,17.5
+CX-S37_2021_public_c,CX-S37,2021,public,Public facilities (HMIS),cases,1393664,873413,62.7
+CX-S37_2021_private_c,CX-S37,2021,private,Private facilities (HMIS),cases,595196,125497,21.1
+CX-S37_2021_emr_c,CX-S37,2021,emr,EMR exchange,cases,85721,0,0.0
+CX-S37_2021_community_c,CX-S37,2021,community,Community (cHMIS),cases,599067,158947,26.5
+CX-S37_2021_reportable_c,CX-S37,2021,reportable,All reporting systems,cases,2673648,1157857,43.3
+CX-S37_2021_total_c,CX-S37,2021,total,WHO estimate,cases,3905300,1157857,29.6
+CX-S37_2022_public_c,CX-S37,2022,public,Public facilities (HMIS),cases,1415903,923386,65.2
+CX-S37_2022_private_c,CX-S37,2022,private,Private facilities (HMIS),cases,604694,154362,25.5
+CX-S37_2022_emr_c,CX-S37,2022,emr,EMR exchange,cases,87089,0,0.0
+CX-S37_2022_community_c,CX-S37,2022,community,Community (cHMIS),cases,608626,185333,30.5
+CX-S37_2022_reportable_c,CX-S37,2022,reportable,All reporting systems,cases,2716312,1263081,46.5
+CX-S37_2022_total_c,CX-S37,2022,total,WHO estimate,cases,3962124,1263081,31.9
+CX-S37_2023_public_c,CX-S37,2023,public,Public facilities (HMIS),cases,1438142,978677,68.1
+CX-S37_2023_private_c,CX-S37,2023,private,Private facilities (HMIS),cases,614191,173680,28.3
+CX-S37_2023_emr_c,CX-S37,2023,emr,EMR exchange,cases,88457,0,0.0
+CX-S37_2023_community_c,CX-S37,2023,community,Community (cHMIS),cases,618186,215340,34.8
+CX-S37_2023_reportable_c,CX-S37,2023,reportable,All reporting systems,cases,2758976,1367697,49.6
+CX-S37_2023_total_c,CX-S37,2023,total,WHO estimate,cases,4018947,1367697,34.0
+CX-S37_2024_public_c,CX-S37,2024,public,Public facilities (HMIS),cases,1460382,1039647,71.2
+CX-S37_2024_private_c,CX-S37,2024,private,Private facilities (HMIS),cases,623689,194074,31.1
+CX-S37_2024_emr_c,CX-S37,2024,emr,EMR exchange,cases,89825,1959,2.2
+CX-S37_2024_community_c,CX-S37,2024,community,Community (cHMIS),cases,627745,240545,38.3
+CX-S37_2024_reportable_c,CX-S37,2024,reportable,All reporting systems,cases,2801641,1476225,52.7
+CX-S37_2024_total_c,CX-S37,2024,total,WHO estimate,cases,4075770,1476225,36.2
+CX-S37_2025_public_c,CX-S37,2025,public,Public facilities (HMIS),cases,1482621,1086512,73.3
+CX-S37_2025_private_c,CX-S37,2025,private,Private facilities (HMIS),cases,633187,219685,34.7
+CX-S37_2025_emr_c,CX-S37,2025,emr,EMR exchange,cases,91193,4419,4.8
+CX-S37_2025_community_c,CX-S37,2025,community,Community (cHMIS),cases,637305,261137,41.0
+CX-S37_2025_reportable_c,CX-S37,2025,reportable,All reporting systems,cases,2844306,1571753,55.3
+CX-S37_2025_total_c,CX-S37,2025,total,WHO estimate,cases,4132593,1571753,38.0
+CX-S37_2021_public_d,CX-S37,2021,public,Public facilities (HMIS),deaths,2998,1367,45.6
+CX-S37_2021_private_d,CX-S37,2021,private,Private facilities (HMIS),deaths,1010,5,0.5
+CX-S37_2021_emr_d,CX-S37,2021,emr,EMR exchange,deaths,181,0,0.0
+CX-S37_2021_community_d,CX-S37,2021,community,Community (cHMIS),deaths,1552,124,8.0
+CX-S37_2021_reportable_d,CX-S37,2021,reportable,All reporting systems,deaths,5741,1496,26.1
+CX-S37_2021_total_d,CX-S37,2021,total,WHO estimate,deaths,10896,1496,13.7
+CX-S37_2022_public_d,CX-S37,2022,public,Public facilities (HMIS),deaths,3038,1416,46.6
+CX-S37_2022_private_d,CX-S37,2022,private,Private facilities (HMIS),deaths,1023,29,2.8
+CX-S37_2022_emr_d,CX-S37,2022,emr,EMR exchange,deaths,184,0,0.0
+CX-S37_2022_community_d,CX-S37,2022,community,Community (cHMIS),deaths,1573,156,9.9
+CX-S37_2022_reportable_d,CX-S37,2022,reportable,All reporting systems,deaths,5818,1601,27.5
+CX-S37_2022_total_d,CX-S37,2022,total,WHO estimate,deaths,11054,1601,14.5
+CX-S37_2023_public_d,CX-S37,2023,public,Public facilities (HMIS),deaths,3077,1517,49.3
+CX-S37_2023_private_d,CX-S37,2023,private,Private facilities (HMIS),deaths,1036,38,3.7
+CX-S37_2023_emr_d,CX-S37,2023,emr,EMR exchange,deaths,186,0,0.0
+CX-S37_2023_community_d,CX-S37,2023,community,Community (cHMIS),deaths,1593,211,13.2
+CX-S37_2023_reportable_d,CX-S37,2023,reportable,All reporting systems,deaths,5892,1766,30.0
+CX-S37_2023_total_d,CX-S37,2023,total,WHO estimate,deaths,11213,1766,15.7
+CX-S37_2024_public_d,CX-S37,2024,public,Public facilities (HMIS),deaths,3117,1567,50.3
+CX-S37_2024_private_d,CX-S37,2024,private,Private facilities (HMIS),deaths,1050,72,6.9
+CX-S37_2024_emr_d,CX-S37,2024,emr,EMR exchange,deaths,189,2,1.1
+CX-S37_2024_community_d,CX-S37,2024,community,Community (cHMIS),deaths,1614,241,14.9
+CX-S37_2024_reportable_d,CX-S37,2024,reportable,All reporting systems,deaths,5970,1882,31.5
+CX-S37_2024_total_d,CX-S37,2024,total,WHO estimate,deaths,11371,1882,16.6
+CX-S37_2025_public_d,CX-S37,2025,public,Public facilities (HMIS),deaths,3156,1640,52.0
+CX-S37_2025_private_d,CX-S37,2025,private,Private facilities (HMIS),deaths,1063,86,8.1
+CX-S37_2025_emr_d,CX-S37,2025,emr,EMR exchange,deaths,191,4,2.1
+CX-S37_2025_community_d,CX-S37,2025,community,Community (cHMIS),deaths,1634,273,16.7
+CX-S37_2025_reportable_d,CX-S37,2025,reportable,All reporting systems,deaths,6044,2003,33.1
+CX-S37_2025_total_d,CX-S37,2025,total,WHO estimate,deaths,11530,2003,17.4

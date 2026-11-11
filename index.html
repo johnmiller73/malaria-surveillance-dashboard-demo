@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Country X Malaria Surveillance: Routine Reporting vs WHO Estimates (Demo)</title>
+<style>
+:root{
+  --font-anthropic-sans: system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --font-anthropic-serif: Georgia,"Times New Roman",serif;
+  --color-fg:#1f1f1c;--color-fg-muted:#6b6a64;--color-bg:#ffffff;--color-panel:#f7f6f2;--color-border-line:#e4e2da;
+  --color-ok:#1f7a4d;--color-warn:#a35c00;--color-bad:#b42318;
+  --cds-font-size-caption:12.5px;--cds-font-size-body:15px;--cds-font-size-heading:18px;--cds-font-size-title:28px;--cds-font-weight-medium:600;
+  --cds-gap-xs:4px;--cds-gap-sm:8px;--cds-gap-md:14px;--cds-gap-lg:20px;--cds-gap-xl:36px;
+  --cds-pad-xs:4px;--cds-pad-sm:8px;--cds-pad-md:12px;--cds-pad-lg:16px;--cds-pad-xl:24px;--cds-radius:8px;
+  --cds-chart-muted:#d9d6cc;--cds-chart-status-critical:#c2410c;--cds-chart-grid:#ecebe5;--cds-chart-axis:#c9c6bc;--cds-chart-reference:#a9a69c;
+  --cds-text-secondary:#6b6a64;--cds-surface-popover:#ffffff;--cds-border:#e4e2da;--cds-shadow-popover:0 4px 16px rgba(0,0,0,.12);
+  --series-0:#2f6fd6;--series-1:#d4881f;--series-2:#8a55c9;--series-3:#1f9a74;
+}
+@media (prefers-color-scheme: dark){:root{
+  --color-fg:#ecebe6;--color-fg-muted:#a3a198;--color-bg:#1b1b19;--color-panel:#252522;--color-border-line:#3a3935;
+  --color-ok:#4cc38a;--color-warn:#f0a43a;--color-bad:#f07167;
+  --cds-chart-muted:#4a4944;--cds-chart-status-critical:#f07a3a;--cds-chart-grid:#2f2e2b;--cds-chart-axis:#55534d;--cds-chart-reference:#77746c;
+  --cds-text-secondary:#a3a198;--cds-surface-popover:#2a2a27;--cds-border:#3a3935;--cds-shadow-popover:0 4px 16px rgba(0,0,0,.5);
+  --series-0:#6b9cf0;--series-1:#efaa4c;--series-2:#b18be6;--series-3:#4cc3a0;
+}}
+html,body{margin:0;background:var(--color-bg);color:var(--color-fg);font-family:var(--font-anthropic-sans);font-size:var(--cds-font-size-body)}
+#dash-root{max-width:1180px;margin:0 auto;padding:28px 20px 60px}
+.dash-select{appearance:none;-webkit-appearance:none;font:inherit;font-size:14px;color:var(--color-fg);background-color:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:7px 30px 7px 10px;background-image:linear-gradient(45deg,transparent 50%,var(--color-fg-muted) 50%),linear-gradient(135deg,var(--color-fg-muted) 50%,transparent 50%);background-position:calc(100% - 16px) 50%,calc(100% - 11px) 50%;background-size:5px 5px;background-repeat:no-repeat}
+.dash-select:disabled{opacity:.6}
+.dash-skeleton{background:var(--color-panel);border-radius:var(--cds-radius)}
+.mx-foot{margin-top:40px;font-size:12px;color:var(--color-fg-muted)}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="data/data.js"></script>
+<script src="dash-shim.js"></script>
+</head>
+<body>
+<div id="dash-root">
+<style>
+.mx{font-family:var(--font-anthropic-sans);color:var(--color-fg)}
+.mx-title{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);margin:0 0 var(--cds-gap-xs);line-height:1.2}
+.mx-badge{display:inline-block;font-family:var(--font-anthropic-sans);font-size:var(--cds-font-size-caption);color:var(--color-warn);border:1px solid var(--color-warn);border-radius:999px;padding:0 8px;vertical-align:middle}
+.mx-lede{max-width:78ch;margin:var(--cds-gap-sm) 0 0;line-height:1.5}
+.mx-lede b{font-variant-numeric:tabular-nums}
+.mx-controls{display:flex;flex-wrap:wrap;gap:var(--cds-gap-sm) var(--cds-gap-md);align-items:flex-end;margin:var(--cds-gap-lg) 0 var(--cds-gap-sm)}
+.mx-ctl{display:flex;flex-direction:column;gap:4px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);flex:1 1 150px;min-width:140px;max-width:260px}
+.mx-ctl select{width:100%}
+.mx-crumb{display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:var(--cds-font-size-body);margin-bottom:var(--cds-gap-md)}
+.mx-crumb button{background:none;border:0;padding:2px 4px;color:var(--color-fg);text-decoration:underline;cursor:pointer;font:inherit}
+.mx-crumb button[disabled]{text-decoration:none;cursor:default;font-weight:var(--cds-font-weight-medium)}
+.mx-crumb .sep{color:var(--color-fg-muted)}
+.mx-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:var(--cds-gap-md)}
+.mx-card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg)}
+.mx-card h3{margin:0;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);font-weight:var(--cds-font-weight-medium)}
+.mx-big{font-family:var(--font-anthropic-serif);font-weight:400;font-size:1.9rem;font-variant-numeric:tabular-nums;margin:6px 0 4px;line-height:1.15}
+.mx-mid{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:6px 0 2px}
+.mx-sub{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);font-variant-numeric:tabular-nums}
+.mx-up{color:var(--color-ok)}.mx-down{color:var(--color-bad)}
+.mx-sec{margin-top:var(--cds-gap-xl)}
+.mx-sec>h2{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:0 0 4px}
+.mx-note{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:0 0 var(--cds-gap-sm);max-width:80ch}
+.mx-chart{position:relative;min-height:220px}
+.mx-chart svg{display:block;overflow:visible}
+.mx-chart svg text{fill:var(--cds-text-secondary);font-size:var(--cds-font-size-caption);font-family:var(--font-anthropic-sans)}
+.mx-chart svg text.fg{fill:var(--color-fg)}
+.mx-chart .axis text{fill:var(--cds-text-secondary);font-size:var(--cds-font-size-caption)}
+.mx-chart .axis path,.mx-chart .axis line{stroke:var(--cds-chart-axis)}
+.mx-tip{position:absolute;pointer-events:none;background:var(--cds-surface-popover);border:1px solid var(--cds-border);box-shadow:var(--cds-shadow-popover);border-radius:var(--cds-radius);padding:6px 9px;font-size:var(--cds-font-size-caption);opacity:0;z-index:5;max-width:280px;line-height:1.45;font-variant-numeric:tabular-nums}
+.mx-tip .t{font-weight:var(--cds-font-weight-medium);color:var(--color-fg)}
+.mx-tip .r{color:var(--cds-text-secondary)}
+.mx-legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:0 0 var(--cds-gap-sm)}
+.mx-legend span{display:inline-flex;align-items:center;gap:6px}
+.mx-sw{display:inline-block;width:12px;height:12px;border-radius:2px}
+.mx-sw.line{height:3px;border-radius:0}
+.mx-sw.dash{height:0;border-top:2px dashed var(--color-fg);background:none!important}
+.mx-sw.out{border:1.5px dashed var(--cds-chart-status-critical);background:none!important}
+.mx-tblwrap{overflow-x:auto}
+.mx-tbl{border-collapse:collapse;width:100%;font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums}
+.mx-tbl th,.mx-tbl td{padding:7px 8px;border-bottom:1px solid var(--color-border-line);text-align:right;white-space:nowrap}
+.mx-tbl th{color:var(--color-fg-muted);font-weight:var(--cds-font-weight-medium);vertical-align:bottom}
+.mx-tbl .l{text-align:left}
+.mx-tbl tbody tr.click{cursor:pointer}
+.mx-tbl tbody tr.click:hover{background:var(--color-panel)}
+.mx-tbl tbody tr.sum td{font-weight:var(--cds-font-weight-medium)}
+.mx-tbl tbody tr.muted td{color:var(--color-fg-muted)}
+.mx-pill{display:inline-block;padding:1px 8px;border-radius:999px;border:1px solid var(--color-border-line);color:var(--color-fg)}
+.mx-pill.bad{border-color:var(--color-bad);color:var(--color-bad)}
+.mx-pill.warn{border-color:var(--color-warn);color:var(--color-warn)}
+.mx-pill.ok{border-color:var(--color-ok);color:var(--color-ok)}
+.mx-empty{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);padding:var(--cds-pad-md) 0}
+.mx-details{margin-top:var(--cds-gap-xl);font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);max-width:90ch}
+.mx-details summary{cursor:pointer;color:var(--color-fg);font-size:var(--cds-font-size-body)}
+.mx-details dt{color:var(--color-fg);font-weight:var(--cds-font-weight-medium);margin-top:8px}
+.mx-details dd{margin:2px 0 0 0}
+.mx [data-dash-source-state=refreshing]{opacity:.5}
+</style>
+
+<div class="mx">
+  <header id="top">
+    <h1 class="mx-title">Malaria surveillance: routine reporting vs WHO estimates <span class="mx-badge">Demo · sample data</span></h1>
+    <p class="mx-sub">Country X · 2025 · Public facility, private facility, EMR exchange and community reporting compared with modelled burden</p>
+    <p class="mx-lede" id="lede">In <b data-draw="gname">—</b>, routine reporting systems captured <b data-draw="l_cap">—</b> of WHO-estimated malaria <span data-draw="mword">—</span> in 2025, <span data-draw="l_dir">—</span> <b data-draw="l_chg">—</b> since 2021. The largest gap is in <b data-draw="l_sys">—</b>, where <b data-draw="l_gap">—</b> expected <span data-draw="mword">—</span> went unreported.</p>
+  </header>
+
+  <div class="mx-controls" id="filters">
+    <label class="mx-ctl">State
+      <select class="dash-select" data-draw="sel_state" aria-label="State" data-source="geo"></select>
+    </label>
+    <label class="mx-ctl">District
+      <select class="dash-select" data-draw="sel_lga" aria-label="District" data-source="geo"></select>
+    </label>
+    <label class="mx-ctl">Measure
+      <select class="dash-select" data-param="metric" aria-label="Measure">
+        <option value="cases">Malaria cases</option>
+        <option value="deaths">Malaria deaths</option>
+      </select>
+    </label>
+  </div>
+  <nav class="mx-crumb" aria-label="Location" data-draw="crumb"></nav>
+
+  <section class="mx-kpis" id="kpis">
+    <div class="mx-card" id="kpi-est">
+      <h3>WHO-estimated <span data-draw="mword">—</span>, 2025</h3>
+      <div class="mx-big" data-draw="k_est">—</div>
+      <div class="mx-sub">Modelled total burden (all care channels)</div>
+    </div>
+    <div class="mx-card" id="kpi-rep">
+      <h3>Routinely reported <span data-draw="mword">—</span>, 2025</h3>
+      <div class="mx-big" data-draw="k_rep">—</div>
+      <div class="mx-sub"><span data-draw="k_repcap">—</span> of those expected through reporting systems</div>
+    </div>
+    <div class="mx-card" id="kpi-cap">
+      <h3>Share of WHO estimate captured</h3>
+      <div class="mx-big" data-draw="k_cap">—</div>
+      <div class="mx-sub"><span data-draw="k_chg">—</span> since 2021</div>
+    </div>
+    <div class="mx-card" id="kpi-gap">
+      <h3>Largest reporting-system gap</h3>
+      <div class="mx-mid" data-draw="k_topsys">—</div>
+      <div class="mx-big" data-draw="k_topgap">—</div>
+      <div class="mx-sub">expected but not reported · <span data-draw="k_topcap">—</span> captured</div>
+    </div>
+  </section>
+
+  <section class="mx-sec" id="bridge">
+    <h2>From WHO estimate to routinely reported <span data-draw="mword">—</span></h2>
+    <p class="mx-note">Each step removes what is not expected to be reported (no formal care), then the unreported share in each reporting system, largest first.</p>
+    <div class="mx-chart" data-draw="waterfall" data-source="geo" role="img" aria-label="Waterfall from WHO estimate to routinely reported, showing the gap in each reporting system"></div>
+  </section>
+
+  <section class="mx-sec" id="composition">
+    <h2>Where the estimate should be reported, and what actually was</h2>
+    <p class="mx-note">Top bar: WHO estimate split by the reporting system each case or death is expected to pass through. Bottom bar: what each system actually reported, on the same scale.</p>
+    <div class="mx-legend" id="comp-legend">
+      <span><i class="mx-sw" data-ci="0"></i>Public facilities (HMIS)</span>
+      <span><i class="mx-sw" data-ci="1"></i>Private facilities (HMIS)</span>
+      <span><i class="mx-sw" data-ci="2"></i>EMR exchange</span>
+      <span><i class="mx-sw" data-ci="3"></i>Community (cHMIS)</span>
+      <span><i class="mx-sw" style="background:var(--cds-chart-muted)"></i>No formal care (not reportable)</span>
+      <span><i class="mx-sw out"></i>Expected but not reported</span>
+    </div>
+    <div class="mx-chart" style="min-height:150px" data-draw="compose" data-source="geo" role="img" aria-label="Stacked bars of expected and reported counts by reporting system"></div>
+  </section>
+
+  <section class="mx-sec" id="systems">
+    <h2>Reporting system scorecard</h2>
+    <p class="mx-note">Expected = WHO estimate × share expected through that system. Completeness = reporting units that submitted ÷ units expected to report. Recording accuracy = how fully reporting units record what they see.</p>
+    <div class="mx-tblwrap">
+      <table class="mx-tbl" id="sys-table" data-source="geo" data-row-key="row_id">
+        <thead><tr>
+          <th class="l" data-field="system_label">Reporting system</th>
+          <th data-field="est">Expected</th>
+          <th data-field="rep">Reported</th>
+          <th data-field="gap">Gap</th>
+          <th data-field="cap">% captured</th>
+          <th class="l">Captured</th>
+          <th data-field="cap_change">Change since 2021 (pts)</th>
+          <th data-field="units_expected">Units expected</th>
+          <th data-field="units_reporting">Units reporting</th>
+          <th data-field="completeness">Reporting completeness</th>
+          <th data-field="accuracy">Recording accuracy</th>
+          <th class="l" data-field="action">Suggested focus</th>
+        </tr></thead>
+        <tbody data-draw="systbl"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="mx-sec" id="progress">
+    <h2>Progress since 2021: share of expected <span data-draw="mword">—</span> captured</h2>
+    <p class="mx-note" id="trend-lga-note" hidden>District-level trends are not in the sample data, so this chart shows the selected district's state.</p>
+    <div class="mx-legend" id="trend-legend">
+      <span><i class="mx-sw line" data-ci="0"></i>Public facilities</span>
+      <span><i class="mx-sw line" data-ci="1"></i>Private facilities</span>
+      <span><i class="mx-sw line" data-ci="2"></i>EMR exchange</span>
+      <span><i class="mx-sw line" data-ci="3"></i>Community</span>
+      <span><i class="mx-sw dash"></i>All systems vs WHO estimate</span>
+    </div>
+    <div class="mx-chart" style="min-height:280px" data-draw="trend" data-source="trend" role="img" aria-label="Line chart of percent of expected captured by each reporting system, 2021 to 2025"></div>
+  </section>
+
+  <section class="mx-sec" id="gaps">
+    <h2>Where are the largest gaps?</h2>
+    <p class="mx-note">Rank the units below the current selection (or all districts in the sample) to see where support for reporting would recover the most <span data-draw="mword">—</span>. Click a row to drill down.</p>
+    <div class="mx-controls" style="margin-top:0">
+      <label class="mx-ctl">Compare
+        <select class="dash-select" data-param="scope" aria-label="Compare">
+          <option value="children">Units within current selection</option>
+          <option value="lga">All districts with sample data</option>
+        </select>
+      </label>
+      <label class="mx-ctl">Reporting system
+        <select class="dash-select" data-param="sys" aria-label="Reporting system">
+          <option value="all">Each system separately</option>
+          <option value="reportable">All systems combined</option>
+          <option value="public">Public facilities (HMIS)</option>
+          <option value="private">Private facilities (HMIS)</option>
+          <option value="emr">EMR exchange</option>
+          <option value="community">Community (cHMIS)</option>
+        </select>
+      </label>
+      <label class="mx-ctl">Rank by
+        <select class="dash-select" data-param="rank" aria-label="Rank by">
+          <option value="gap">Largest gap (number unreported)</option>
+          <option value="pct">Lowest % captured</option>
+          <option value="comp">Lowest reporting completeness</option>
+          <option value="chg">Slowest improvement since 2021</option>
+        </select>
+      </label>
+      <label class="mx-ctl">Show
+        <select class="dash-select" data-param="topn" aria-label="Show">
+          <option value="10">Top 10</option>
+          <option value="15">Top 15</option>
+          <option value="25">Top 25</option>
+          <option value="all">All</option>
+        </select>
+      </label>
+    </div>
+    <p class="mx-note" id="self-note" hidden>There are no smaller units with sample data under this selection, so the table shows its own reporting systems.</p>
+    <div class="mx-tblwrap">
+      <table class="mx-tbl" id="rank-table" data-source="geo" data-row-key="row_id">
+        <thead><tr>
+          <th>#</th>
+          <th class="l" data-field="name">Location</th>
+          <th class="l" data-field="state">State</th>
+          <th class="l" data-field="system_label">Reporting system</th>
+          <th data-field="est">Expected</th>
+          <th data-field="rep">Reported</th>
+          <th data-field="gap">Gap</th>
+          <th data-field="cap">% captured</th>
+          <th data-field="cap_change">Change since 2021 (pts)</th>
+          <th data-field="completeness">Reporting completeness</th>
+          <th class="l" data-field="action">Suggested focus</th>
+        </tr></thead>
+        <tbody data-draw="rank"></tbody>
+      </table>
+    </div>
+
+    <h2 style="margin-top:var(--cds-gap-xl)" id="heat-title">Gap heatmap: % of expected captured, by system</h2>
+    <p class="mx-note">The 20 units with the largest combined gap. Darker cells have a larger share unreported; the right column is the combined number unreported.</p>
+    <p class="mx-empty" id="heat-empty" hidden>No smaller units with sample data under this selection.</p>
+    <div class="mx-chart" id="heat-box" data-draw="heat" data-source="geo" role="img" aria-label="Heatmap of percent captured by location and reporting system"></div>
+  </section>
+
+  <details class="mx-details" id="notes">
+    <summary>About this demo: definitions and sample data</summary>
+    <dl>
+      <dt>Sample data only</dt>
+      <dd>Every number on this page is synthetic, generated for demonstration. The national totals are set near the scale of a high-burden country in recent World Malaria Reports but are not WHO figures. District-level data exist for 9 states; the EMR exchange is treated as live in 10 states.</dd>
+      <dt>WHO estimate</dt>
+      <dd>Modelled total malaria cases or deaths, including those that never reach a health service.</dd>
+      <dt>Expected per reporting system</dt>
+      <dd>The estimate split by where people are expected to seek care (public facility, private facility, EMR-connected facility, community health worker) or to get no formal care. In practice this split would come from care-seeking surveys (DHS/MIS), facility listings and system coverage.</dd>
+      <dt>No formal care</dt>
+      <dd>Cases and deaths not expected to reach any reporting system (no care sought, informal drug sellers, home deaths). They are a modelling gap rather than a reporting gap, so they are excluded from the gap ranking.</dd>
+      <dt>% captured</dt>
+      <dd>Reported ÷ expected for that system and location.</dd>
+      <dt>Reporting completeness and recording accuracy</dt>
+      <dd>Completeness is the share of units (facilities or CHWs) expected to report that did. Recording accuracy is reported ÷ (expected × completeness): how fully units that do report record the cases or deaths they see.</dd>
+      <dt>Suggested focus</dt>
+      <dd>A simple rule: EMR exchange not live → roll it out; completeness under 70% → raise reporting completeness; recording accuracy under 70% → improve recording and data quality; otherwise maintain and verify through data quality audits.</dd>
+    </dl>
+  </details>
+</div>
+
+<script>
+window.MX = (function () {
+  const SYS = ['public', 'private', 'emr', 'community'];
+  const SHORT = {public: 'Public facilities', private: 'Private facilities', emr: 'EMR exchange', community: 'Community', reportable: 'All systems', nocare: 'No formal care', total: 'WHO estimate'};
+  const NUM = ['est', 'rep', 'gap', 'cap', 'cap_2021', 'cap_change', 'units_expected', 'units_reporting', 'completeness', 'accuracy'];
+  let src = null, byId = new Map(), kids = new Map(), names = new Map(), levels = new Map(), parents = new Map(), lgas = [];
+  let tsrc = null, tby = new Map();
+  const n = (v) => (v === null || v === undefined || v === '') ? null : +v;
+  function load() {
+    const g = dash.data('geo');
+    if (g.status !== 'ok' || !Array.isArray(g.data)) return false;
+    if (g.data !== src) {
+      src = g.data; byId = new Map(); kids = new Map(); names = new Map(); levels = new Map(); parents = new Map(); lgas = [];
+      for (const r of src) {
+        const o = Object.assign({}, r);
+        for (const k of NUM) o[k] = n(r[k]);
+        byId.set(r.row_id, o);
+        if (!names.has(r.geo_id)) {
+          names.set(r.geo_id, r.name); levels.set(r.geo_id, r.level); parents.set(r.geo_id, r.parent_id || '');
+          if (r.parent_id) { if (!kids.has(r.parent_id)) kids.set(r.parent_id, []); kids.get(r.parent_id).push(r.geo_id); }
+          if (r.level === 'District') lgas.push(r.geo_id);
+        }
+      }
+    }
+    return true;
+  }
+  function loadTrend() {
+    const t = dash.data('trend');
+    if (t.status !== 'ok' || !Array.isArray(t.data)) return false;
+    if (t.data !== tsrc) {
+      tsrc = t.data; tby = new Map();
+      for (const r of tsrc) {
+        const key = r.geo_id + '|' + r.metric;
+        if (!tby.has(key)) tby.set(key, []);
+        tby.get(key).push({year: +r.year, system: r.system, est: n(r.est), rep: n(r.rep), cap: n(r.cap)});
+      }
+    }
+    return true;
+  }
+  const P = () => {
+    const p = dash.params() || {};
+    return {state: p.state || '', lga: p.lga || '', metric: p.metric === 'deaths' ? 'deaths' : 'cases',
+      rank: p.rank || 'gap', sys: p.sys || 'all', topn: String(p.topn || '15'), scope: p.scope || 'children'};
+  };
+  const cur = () => { const p = P(); return p.lga || p.state || 'CX'; };
+  const rid = (g, s, m) => g + '_' + s + '_' + (m || P().metric)[0];
+  const row = (g, s, m) => byId.get(rid(g, s, m));
+  const f0 = d3.format(',');
+  const fs = (v) => {
+    const a = Math.abs(v), s = v < 0 ? '−' : '';
+    if (a >= 1e6) return s + (a / 1e6).toFixed(a >= 1e7 ? 1 : 2) + 'M';
+    if (a >= 1e4) return s + (a / 1e3).toFixed(a >= 1e5 ? 0 : 1) + 'k';
+    return s + f0(Math.round(a));
+  };
+  const pc = (v) => v === null || v === undefined || isNaN(v) ? '—' : v.toFixed(1) + '%';
+  const pts = (v) => v === null || v === undefined ? '—' : (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v).toFixed(1);
+  function mark(el, rowId, field) {
+    el.setAttribute('data-source', 'geo'); el.setAttribute('data-field', field); el.setAttribute('data-where', 'row_id=' + rowId);
+  }
+  function topSys(g) {
+    const rs = SYS.map((s) => row(g, s)).filter(Boolean);
+    return rs.sort((a, b) => b.gap - a.gap)[0];
+  }
+  function drill(gid) {
+    const lv = levels.get(gid);
+    if (lv === 'National') dash.setParams({state: '', lga: ''});
+    else if (lv === 'State') dash.setParams({state: gid, lga: ''});
+    else if (lv === 'District') dash.setParams({state: parents.get(gid), lga: gid});
+  }
+  function tip(el) {
+    let t = el.querySelector(':scope > .mx-tip');
+    if (!t) { t = document.createElement('div'); t.className = 'mx-tip'; el.appendChild(t); }
+    return {
+      show(lines, x, y) {
+        t.replaceChildren(...lines.map((l, i) => { const d = document.createElement('div'); d.className = i ? 'r' : 't'; d.textContent = l; return d; }));
+        t.style.opacity = 1;
+        const w = t.offsetWidth, h = t.offsetHeight, W = el.clientWidth;
+        let left = x + 12; if (left + w > W) left = Math.max(0, x - w - 12);
+        let top = y - h - 8; if (top < 0) top = y + 14;
+        t.style.left = left + 'px'; t.style.top = top + 'px';
+      },
+      hide() { t.style.opacity = 0; }
+    };
+  }
+  function status(id) { return dash.data(id).status; }
+  function placeholder(el, id) {
+    el.replaceChildren();
+    const s = status(id || 'geo');
+    if (s === 'error') { const d = document.createElement('div'); d.className = 'mx-empty'; d.textContent = 'Failed to load'; el.appendChild(d); }
+    else if (s === 'loading') { el.classList.add('dash-skeleton'); }
+  }
+  return {SYS, SHORT, load, loadTrend, P, cur, row, rid, f0, fs, pc, pts, mark, topSys, drill, tip, placeholder, status,
+    name: (g) => names.get(g), level: (g) => levels.get(g), parent: (g) => parents.get(g),
+    kids: (g) => kids.get(g) || [], lgas: () => lgas, trend: (g, m) => tby.get(g + '|' + m) || [],
+    states: () => (kids.get('CX') || []).slice().sort((a, b) => names.get(a).localeCompare(names.get(b)))};
+})();
+</script>
+
+<script>
+// Controls: listen, and keep static selects in step with the current filters
+document.querySelectorAll('[data-param]').forEach((sel) => {
+  sel.addEventListener('change', () => dash.setParams({[sel.dataset.param]: sel.value}));
+});
+dash.onData(() => {
+  const p = MX.P();
+  document.querySelectorAll('[data-param]').forEach((sel) => {
+    if (document.activeElement !== sel) sel.value = p[sel.dataset.param];
+  });
+  document.querySelectorAll('[data-ci]').forEach((sw) => { sw.style.background = dash.colors[+sw.dataset.ci]; });
+  document.querySelectorAll('#trend-lga-note').forEach((e) => { e.hidden = !p.lga; });
+  if (MX.load()) {
+    const g = MX.cur();
+    const hasKids = p.scope === 'lga' ? MX.lgas().length > 0 : MX.kids(g).length > 0;
+    document.querySelectorAll('#self-note').forEach((e) => { e.hidden = hasKids; });
+    document.querySelectorAll('#heat-empty').forEach((e) => { e.hidden = hasKids; });
+    document.querySelectorAll('#heat-box').forEach((e) => { e.hidden = !hasKids; });
+  }
+});
+
+dash.draw('sel_state', (sel) => {
+  const ok = MX.load();
+  const opts = [new Option('All Country X (national)', '')];
+  if (ok) for (const s of MX.states()) opts.push(new Option(MX.name(s), s));
+  sel.replaceChildren(...opts);
+  sel.value = MX.P().state;
+  sel.onchange = () => dash.setParams({state: sel.value, lga: ''});
+});
+dash.draw('sel_lga', (sel) => {
+  const ok = MX.load(), p = MX.P();
+  const lg = ok && p.state ? MX.kids(p.state).slice().sort((a, b) => MX.name(a).localeCompare(MX.name(b))) : [];
+  if (!p.state) { sel.replaceChildren(new Option('Select a state first', '')); sel.disabled = true; }
+  else if (!lg.length) { sel.replaceChildren(new Option('No district sample data for this state', '')); sel.disabled = true; }
+  else {
+    sel.replaceChildren(new Option('All districts in ' + MX.name(p.state), ''), ...lg.map((l) => new Option(MX.name(l), l)));
+    sel.disabled = false; sel.value = p.lga;
+  }
+  sel.onchange = () => dash.setParams({lga: sel.value});
+});
+dash.draw('crumb', (el) => {
+  el.replaceChildren();
+  if (!MX.load()) return;
+  const p = MX.P(), chain = ['CX'];
+  if (p.state) chain.push(p.state);
+  if (p.lga) chain.push(p.lga);
+  chain.forEach((g, i) => {
+    if (i) { const s = document.createElement('span'); s.className = 'sep'; s.textContent = '›'; el.appendChild(s); }
+    const b = document.createElement('button'); b.type = 'button'; b.textContent = MX.name(g);
+    if (i === chain.length - 1) b.disabled = true; else b.onclick = () => MX.drill(g);
+    el.appendChild(b);
+  });
+});
+</script>
+
+<script>
+// Words and headline numbers
+dash.draw('mword', (el) => { el.textContent = MX.P().metric; });
+dash.draw('gname', (el) => { el.textContent = MX.load() ? MX.name(MX.cur()) : '—'; });
+function kpi(name, sys, field, fmt) {
+  dash.draw(name, (el) => {
+    const r = MX.load() && MX.row(MX.cur(), sys);
+    if (!r) { el.textContent = '—'; return; }
+    el.classList.remove('dash-skeleton');
+    MX.mark(el, r.row_id, field); el.textContent = fmt(r[field]);
+  });
+}
+kpi('k_est', 'total', 'est', MX.f0);
+kpi('k_rep', 'total', 'rep', MX.f0);
+kpi('k_repcap', 'reportable', 'cap', MX.pc);
+kpi('k_cap', 'total', 'cap', MX.pc);
+kpi('l_cap', 'total', 'cap', MX.pc);
+dash.draw('k_chg', (el) => {
+  const r = MX.load() && MX.row(MX.cur(), 'total');
+  if (!r) { el.textContent = '—'; return; }
+  MX.mark(el, r.row_id, 'cap_change');
+  el.textContent = MX.pts(r.cap_change) + ' pts';
+  el.className = r.cap_change >= 0 ? 'mx-up' : 'mx-down';
+});
+dash.draw('l_chg', (el) => {
+  const r = MX.load() && MX.row(MX.cur(), 'total');
+  if (!r) { el.textContent = '—'; return; }
+  MX.mark(el, r.row_id, 'cap_change');
+  el.textContent = Math.abs(r.cap_change).toFixed(1) + ' points';
+});
+dash.draw('l_dir', (el) => {
+  const r = MX.load() && MX.row(MX.cur(), 'total');
+  el.textContent = !r ? '—' : r.cap_change >= 0 ? 'up' : 'down';
+});
+function topkpi(name, field, fmt) {
+  dash.draw(name, (el) => {
+    const r = MX.load() && MX.topSys(MX.cur());
+    if (!r) { el.textContent = '—'; return; }
+    MX.mark(el, r.row_id, field); el.textContent = fmt(r[field]);
+  });
+}
+topkpi('k_topsys', 'system_label', (v) => v);
+topkpi('l_sys', 'system_label', (v) => v);
+topkpi('k_topgap', 'gap', MX.f0);
+topkpi('l_gap', 'gap', MX.f0);
+topkpi('k_topcap', 'cap', MX.pc);
+</script>
+
+<script>
+// Waterfall: WHO estimate -> reported
+dash.draw('waterfall', (el) => {
+  if (!MX.load()) { MX.placeholder(el); return; }
+  el.classList.remove('dash-skeleton'); el.replaceChildren();
+  const g = MX.cur(), T = MX.row(g, 'total'), N = MX.row(g, 'nocare'), R = MX.row(g, 'reportable');
+  if (!T) return;
+  const m = MX.P().metric;
+  const gaps = MX.SYS.map((s) => MX.row(g, s)).filter(Boolean).sort((a, b) => b.gap - a.gap);
+  const items = [
+    {lab: 'WHO estimate', a: 0, b: T.est, v: T.est, k: 'tot', lvl: T.est},
+    {lab: 'Minus no formal care (not reportable)', a: T.est - N.est, b: T.est, v: -N.est, k: 'muted', lvl: T.est - N.est},
+    {lab: 'Expected through reporting systems', a: 0, b: R.est, v: R.est, k: 'sub', lvl: R.est}
+  ];
+  let c = R.est;
+  for (const r of gaps) { items.push({lab: 'Minus unreported: ' + r.system_label, a: c - r.gap, b: c, v: -r.gap, k: 'gap', lvl: c - r.gap}); c -= r.gap; }
+  items.push({lab: 'Routinely reported', a: 0, b: T.rep, v: T.rep, k: 'tot', lvl: T.rep});
+  const W = Math.max(280, el.clientWidth), rh = 42, H = items.length * rh;
+  const x = d3.scaleLinear([0, T.est], [0, W - 2]);
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`)
+    .attr('role', 'img').attr('aria-label', 'Waterfall from WHO estimate to routinely reported ' + m);
+  const col = (k) => k === 'tot' ? dash.colors[0] : k === 'sub' ? dash.colors[0] : k === 'muted' ? 'var(--cds-chart-muted)' : 'var(--cds-chart-status-critical)';
+  const tp = MX.tip(el);
+  items.forEach((it, i) => {
+    const y = i * rh, gr = svg.append('g');
+    const t = gr.append('text').attr('x', 0).attr('y', y + 13);
+    t.append('tspan').text(it.lab + '  ');
+    t.append('tspan').attr('class', 'fg').style('fill', 'var(--color-fg)').style('font-weight', 500)
+      .text((it.v < 0 ? '−' : '') + MX.fs(Math.abs(it.v)) + '  (' + (100 * Math.abs(it.v) / T.est).toFixed(1) + '% of estimate)');
+    gr.append('rect').attr('x', x(it.a)).attr('y', y + 19).attr('width', Math.max(1, x(it.b) - x(it.a))).attr('height', 15)
+      .attr('rx', 2).style('fill', col(it.k)).style('opacity', it.k === 'sub' ? 0.6 : 1);
+    if (i < items.length - 1) {
+      svg.append('line').attr('x1', x(it.lvl)).attr('x2', x(it.lvl)).attr('y1', y + 34).attr('y2', y + rh + 19)
+        .style('stroke', 'var(--cds-chart-reference)').style('stroke-dasharray', '2,2');
+    }
+    gr.append('rect').attr('x', 0).attr('y', y).attr('width', W).attr('height', rh).style('fill', 'transparent')
+      .on('pointermove', (ev) => {
+        const [px, py] = d3.pointer(ev, el);
+        tp.show([it.lab, (it.v < 0 ? '−' : '') + MX.f0(Math.abs(it.v)) + ' ' + m, (100 * Math.abs(it.v) / T.est).toFixed(1) + '% of WHO estimate'], px, py);
+      })
+      .on('pointerleave', () => tp.hide());
+  });
+});
+
+// Composition: expected vs reported, stacked by system
+dash.draw('compose', (el) => {
+  if (!MX.load()) { MX.placeholder(el); return; }
+  el.classList.remove('dash-skeleton'); el.replaceChildren();
+  const g = MX.cur(), T = MX.row(g, 'total'), N = MX.row(g, 'nocare');
+  if (!T) return;
+  const m = MX.P().metric, rs = MX.SYS.map((s) => MX.row(g, s));
+  const W = Math.max(280, el.clientWidth), bh = 28, H = 2 * (bh + 30) + 4;
+  const x = d3.scaleLinear([0, T.est], [0, W - 2]);
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`)
+    .attr('role', 'img').attr('aria-label', 'Expected and reported ' + m + ' by reporting system');
+  const tp = MX.tip(el);
+  const bars = [
+    {lab: 'Expected (WHO estimate): ' + MX.fs(T.est), segs: rs.map((r, i) => ({v: r.est, c: dash.colors[i], name: r.system_label, kind: 'expected'})).concat([{v: N.est, c: 'var(--cds-chart-muted)', name: 'No formal care (not reportable)', kind: 'expected'}])},
+    {lab: 'Routinely reported: ' + MX.fs(T.rep) + ' (' + MX.pc(T.cap) + ' of estimate)', segs: rs.map((r, i) => ({v: r.rep, c: dash.colors[i], name: r.system_label, kind: 'reported'})).concat([{v: T.est - T.rep, c: 'none', out: true, name: 'Not reported (incl. no formal care)', kind: ''}])}
+  ];
+  bars.forEach((b, bi) => {
+    const y0 = bi * (bh + 30);
+    svg.append('text').attr('x', 0).attr('y', y0 + 13).style('fill', 'var(--color-fg)').text(b.lab);
+    let acc = 0;
+    b.segs.forEach((s) => {
+      const x0 = x(acc), w = Math.max(0, x(acc + s.v) - x0); acc += s.v;
+      const r = svg.append('rect').attr('x', x0).attr('y', y0 + 20).attr('width', w).attr('height', bh);
+      if (s.out) r.style('fill', 'none').style('stroke', 'var(--cds-chart-status-critical)').style('stroke-dasharray', '4,3').style('stroke-width', 1.5);
+      else r.style('fill', s.c).style('stroke', 'var(--color-bg)').style('stroke-width', 1);
+      const share = 100 * s.v / T.est;
+      if (w > 46 && !s.out) svg.append('text').attr('x', x0 + 5).attr('y', y0 + 20 + bh / 2 + 4)
+        .style('fill', 'var(--color-bg)').style('pointer-events', 'none').text(share.toFixed(0) + '%');
+      r.on('pointermove', (ev) => {
+        const [px, py] = d3.pointer(ev, el);
+        tp.show([s.name, MX.f0(s.v) + ' ' + (s.kind ? s.kind + ' ' : '') + m, share.toFixed(1) + '% of WHO estimate'], px, py);
+      }).on('pointerleave', () => tp.hide()).style('pointer-events', 'all');
+    });
+  });
+});
+</script>
+
+<script>
+// System scorecard
+dash.draw('systbl', (tb) => {
+  tb.replaceChildren();
+  if (!MX.load()) return;
+  const g = MX.cur(), order = ['public', 'private', 'emr', 'community', 'reportable', 'nocare', 'total'];
+  for (const s of order) {
+    const r = MX.row(g, s); if (!r) continue;
+    const tr = document.createElement('tr'); tr.dataset.key = r.row_id;
+    if (s === 'reportable' || s === 'total') tr.className = 'sum';
+    if (s === 'nocare') tr.className = 'muted';
+    const td = (txt, cls) => { const d = document.createElement('td'); if (cls) d.className = cls; d.textContent = txt; tr.appendChild(d); return d; };
+    const nocare = s === 'nocare';
+    td(r.system_label, 'l');
+    td(MX.f0(r.est)); td(nocare ? '—' : MX.f0(r.rep)); td(nocare ? '—' : MX.f0(r.gap)); td(nocare ? '—' : MX.pc(r.cap));
+    const bc = td('', 'l');
+    if (!nocare) {
+      const sv = d3.select(bc).append('svg').attr('width', 90).attr('height', 10).attr('aria-hidden', 'true');
+      sv.append('rect').attr('width', 90).attr('height', 10).attr('rx', 2).style('fill', 'var(--cds-chart-muted)');
+      sv.append('rect').attr('width', Math.max(0, Math.min(90, 0.9 * r.cap))).attr('height', 10).attr('rx', 2)
+        .style('fill', s === 'total' || s === 'reportable' ? 'var(--color-fg)' : dash.colors[MX.SYS.indexOf(s)]);
+    }
+    const ch = td(nocare ? '—' : MX.pts(r.cap_change));
+    if (!nocare) ch.className = r.cap_change > 0 ? 'mx-up' : '';
+    td(r.units_expected == null ? '—' : MX.f0(r.units_expected));
+    td(r.units_reporting == null ? '—' : MX.f0(r.units_reporting));
+    td(r.completeness == null ? '—' : MX.pc(r.completeness));
+    td(r.accuracy == null ? '—' : MX.pc(r.accuracy));
+    const a = td('', 'l');
+    if (r.action) { const sp = document.createElement('span'); sp.className = 'mx-pill ' + (/Roll out|completeness/.test(r.action) ? 'bad' : /quality/.test(r.action) ? 'warn' : 'ok'); sp.textContent = r.action; a.appendChild(sp); }
+    tb.appendChild(tr);
+  }
+});
+</script>
+
+<script>
+// Trend lines
+dash.draw('trend', (el) => {
+  if (!MX.load() || !MX.loadTrend()) { MX.placeholder(el, MX.status('trend') === 'ok' ? 'geo' : 'trend'); return; }
+  el.classList.remove('dash-skeleton'); el.replaceChildren();
+  const p = MX.P(), g = p.lga ? p.state : MX.cur();
+  const rows = MX.trend(g, p.metric);
+  if (!rows.length) return;
+  const keys = MX.SYS.concat(['total']);
+  const series = keys.map((k, i) => ({k, i, pts: rows.filter((r) => r.system === k).sort((a, b) => a.year - b.year)}));
+  const years = [...new Set(rows.map((r) => r.year))].sort();
+  const W = Math.max(280, el.clientWidth), H = 280, mt = 10, mb = 26, ml = 40, mr = 52;
+  const x = d3.scaleLinear(d3.extent(years), [ml, W - mr]);
+  const ymax = Math.min(100, Math.ceil((d3.max(rows.filter((r) => keys.includes(r.system)), (r) => r.cap) + 5) / 10) * 10);
+  const y = d3.scaleLinear([0, ymax], [H - mb, mt]);
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`)
+    .attr('role', 'img').attr('aria-label', 'Percent of expected ' + p.metric + ' captured by system, ' + years[0] + ' to ' + years[years.length - 1]);
+  svg.append('g').selectAll('line').data(y.ticks(5)).join('line').attr('x1', ml).attr('x2', W - mr)
+    .attr('y1', (d) => y(d)).attr('y2', (d) => y(d)).style('stroke', 'var(--cds-chart-grid)');
+  svg.append('g').attr('class', 'axis').attr('transform', `translate(${ml},0)`).call(d3.axisLeft(y).ticks(5).tickFormat((d) => d + '%').tickSize(0).tickPadding(6)).call((s) => s.select('.domain').remove());
+  svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${H - mb})`).call(d3.axisBottom(x).tickValues(years).tickFormat(d3.format('d')).tickSizeOuter(0));
+  const line = d3.line().x((d) => x(d.year)).y((d) => y(d.cap));
+  const col = (s) => s.k === 'total' ? 'var(--color-fg)' : dash.colors[s.i];
+  series.forEach((s) => {
+    svg.append('path').datum(s.pts).attr('d', line).style('fill', 'none').style('stroke', col(s))
+      .style('stroke-width', s.k === 'total' ? 2 : 2.25).style('stroke-dasharray', s.k === 'total' ? '5,4' : null);
+    svg.append('g').selectAll('circle').data(s.pts).join('circle').attr('cx', (d) => x(d.year)).attr('cy', (d) => y(d.cap)).attr('r', 2.5).style('fill', col(s));
+  });
+  // end labels, de-collided
+  const ends = series.map((s) => ({s, v: s.pts[s.pts.length - 1].cap, y: y(s.pts[s.pts.length - 1].cap)})).sort((a, b) => a.y - b.y);
+  for (let i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 13) ends[i].y = ends[i - 1].y + 13;
+  ends.forEach((e) => svg.append('text').attr('x', W - mr + 6).attr('y', e.y + 4).style('fill', col(e.s)).style('font-weight', 500).text(e.v.toFixed(0) + '%'));
+  // hover
+  const tp = MX.tip(el);
+  const guide = svg.append('line').attr('y1', mt).attr('y2', H - mb).style('stroke', 'var(--cds-chart-reference)').style('opacity', 0);
+  const lab = {public: 'Public facilities', private: 'Private facilities', emr: 'EMR exchange', community: 'Community', total: 'All systems vs WHO estimate'};
+  svg.append('rect').attr('x', ml).attr('y', mt).attr('width', W - ml - mr).attr('height', H - mt - mb).style('fill', 'transparent')
+    .on('pointermove', (ev) => {
+      const [px, py] = d3.pointer(ev, el);
+      const yr = years.reduce((a, b) => Math.abs(x(b) - px) < Math.abs(x(a) - px) ? b : a);
+      guide.attr('x1', x(yr)).attr('x2', x(yr)).style('opacity', 1);
+      tp.show([MX.name(g) + ', ' + yr].concat(series.map((s) => { const d = s.pts.find((q) => q.year === yr); return lab[s.k] + ': ' + (d ? d.cap.toFixed(1) + '% (' + MX.fs(d.rep) + ' of ' + MX.fs(d.est) + ')' : '—'); })), px, py);
+    })
+    .on('pointerleave', () => { tp.hide(); guide.style('opacity', 0); });
+});
+</script>
+
+<script>
+// Gap ranking and heatmap
+window.MXR = function () {
+  const p = MX.P(), g = MX.cur();
+  let geos = p.scope === 'lga' ? MX.lgas() : MX.kids(g);
+  const self = !geos.length;
+  if (self) geos = [g];
+  const systems = p.sys === 'all' ? MX.SYS : [p.sys];
+  let rows = [];
+  for (const gg of geos) for (const s of systems) { const r = MX.row(gg, s); if (r) rows.push(r); }
+  const by = {
+    gap: (a, b) => b.gap - a.gap,
+    pct: (a, b) => a.cap - b.cap || b.gap - a.gap,
+    comp: (a, b) => (a.completeness ?? 999) - (b.completeness ?? 999) || b.gap - a.gap,
+    chg: (a, b) => a.cap_change - b.cap_change || b.gap - a.gap
+  }[p.rank] || ((a, b) => b.gap - a.gap);
+  rows.sort(by);
+  return {rows, geos, self};
+};
+dash.draw('rank', (tb) => {
+  tb.replaceChildren();
+  if (!MX.load()) return;
+  const p = MX.P(), {rows} = MXR();
+  const shown = p.topn === 'all' ? rows : rows.slice(0, +p.topn);
+  const g = MX.cur();
+  shown.forEach((r, i) => {
+    const tr = document.createElement('tr'); tr.dataset.key = r.row_id;
+    if (r.geo_id !== g) { tr.className = 'click'; tr.onclick = () => MX.drill(r.geo_id); tr.tabIndex = 0; tr.onkeydown = (e) => { if (e.key === 'Enter') MX.drill(r.geo_id); }; }
+    const td = (txt, cls) => { const d = document.createElement('td'); if (cls) d.className = cls; d.textContent = txt; tr.appendChild(d); return d; };
+    td(String(i + 1)); td(r.name, 'l'); td(r.state, 'l'); td(r.system_label, 'l');
+    td(MX.f0(r.est)); td(MX.f0(r.rep)); td(MX.f0(r.gap)); td(MX.pc(r.cap));
+    const ch = td(MX.pts(r.cap_change)); ch.className = r.cap_change > 0 ? 'mx-up' : r.cap_change < 0 ? 'mx-down' : '';
+    td(r.completeness == null ? '—' : MX.pc(r.completeness));
+    const a = td('', 'l');
+    if (r.action) { const sp = document.createElement('span'); sp.className = 'mx-pill ' + (/Roll out|completeness/.test(r.action) ? 'bad' : /quality/.test(r.action) ? 'warn' : 'ok'); sp.textContent = r.action; a.appendChild(sp); }
+    tb.appendChild(tr);
+  });
+});
+dash.draw('heat', (el) => {
+  if (!MX.load()) { MX.placeholder(el); return; }
+  el.classList.remove('dash-skeleton'); el.replaceChildren();
+  const p = MX.P(), {geos, self} = MXR();
+  if (self) return;
+  const cols = MX.SYS.concat(['reportable']);
+  const hdr = {public: 'Public', private: 'Private', emr: 'EMR', community: 'Community', reportable: 'All systems'};
+  const list = geos.map((gg) => ({g: gg, tot: MX.row(gg, 'reportable')})).filter((d) => d.tot).sort((a, b) => b.tot.gap - a.tot.gap).slice(0, 20);
+  const W = Math.max(300, el.clientWidth), rh = 26, top = 22;
+  const H = top + list.length * rh + 4;
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`)
+    .attr('role', 'img').attr('aria-label', 'Heatmap of percent captured for the 20 units with the largest gaps');
+  const lbl = (gg) => p.scope === 'lga' ? MX.name(gg) + ' (' + MX.name(MX.parent(gg)) + ')' : MX.name(gg);
+  const probe = svg.append('text').style('visibility', 'hidden');
+  let lw = 0; for (const d of list) { probe.text(lbl(d.g)); lw = Math.max(lw, probe.node().getComputedTextLength()); }
+  probe.text('00.0M'); const gw = probe.node().getComputedTextLength() + 14; probe.remove();
+  lw = Math.min(lw + 10, W * 0.38);
+  const cw = Math.max(36, (W - lw - gw) / cols.length);
+  const short = cw < 64;
+  cols.forEach((c, j) => svg.append('text').attr('x', lw + j * cw + cw / 2).attr('y', 14).attr('text-anchor', 'middle')
+    .text(short ? {public: 'Pub', private: 'Priv', emr: 'EMR', community: 'Comm', reportable: 'All'}[c] : hdr[c]));
+  svg.append('text').attr('x', W - 2).attr('y', 14).attr('text-anchor', 'end').text('Gap');
+  const tp = MX.tip(el), m = p.metric;
+  list.forEach((d, i) => {
+    const y = top + i * rh;
+    const row = svg.append('g').style('cursor', 'pointer').on('click', () => MX.drill(d.g));
+    let name = lbl(d.g);
+    const t = row.append('text').attr('x', 0).attr('y', y + rh / 2 + 4).style('fill', 'var(--color-fg)').text(name);
+    while (t.node().getComputedTextLength() > lw - 8 && name.length > 4) { name = name.slice(0, -2); t.text(name + '…'); }
+    cols.forEach((c, j) => {
+      const r = MX.row(d.g, c); if (!r) return;
+      const miss = Math.max(0, Math.min(1, 1 - r.cap / 100));
+      row.append('rect').attr('x', lw + j * cw + 1).attr('y', y + 1).attr('width', cw - 2).attr('height', rh - 2).attr('rx', 3)
+        .style('fill', 'var(--cds-chart-status-critical)').style('opacity', 0.08 + 0.82 * miss)
+        .on('pointermove', (ev) => { const [px, py] = d3.pointer(ev, el); tp.show([lbl(d.g) + ' · ' + r.system_label, MX.pc(r.cap) + ' captured', MX.f0(r.rep) + ' of ' + MX.f0(r.est) + ' ' + m + ' reported', MX.f0(r.gap) + ' unreported'], px, py); })
+        .on('pointerleave', () => tp.hide());
+      row.append('text').attr('x', lw + j * cw + cw / 2).attr('y', y + rh / 2 + 4).attr('text-anchor', 'middle')
+        .style('fill', miss > 0.55 ? 'var(--color-bg)' : 'var(--color-fg)').style('pointer-events', 'none').text(r.cap.toFixed(0) + '%');
+    });
+    row.append('text').attr('x', W - 2).attr('y', y + rh / 2 + 4).attr('text-anchor', 'end').style('fill', 'var(--color-fg)').text(MX.fs(d.tot.gap));
+  });
+});
+</script>
+
+<p class="mx-foot">Demo dashboard with synthetic data. Not real surveillance data or WHO figures.</p>
+</div>
+<script>dash.start();</script>
+</body>
+</html>
